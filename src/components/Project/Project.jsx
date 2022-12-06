@@ -1,12 +1,12 @@
 // Import React
 import React from "react";
 
-function Header() {
+function Project() {
     return (
     <div>
-        <h1>Hi</h1>
+        <h1>Project</h1>
     </div>
     )
 }
 
-export default Header;
+export default Project;
