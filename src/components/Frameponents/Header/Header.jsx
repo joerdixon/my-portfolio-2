@@ -3,11 +3,11 @@ import React from "react";
 import './Header.css'
 import Navigation from './Navigation/Navigation'
 
-function Header() {
+function Header(props) {
     return (
     <div className='header-container'>
         <h1 className='hero-title'>Joe Dixon</h1>
-        <Navigation />
+        <Navigation view={props.view} setView={props.setView} />
     </div>
     )
 }

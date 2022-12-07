@@ -7,7 +7,7 @@ import './styles.css'
 
 function App() {
 
-  const [view, setView] = useState("about-me")
+  const [view, setView] = useState("about")
 
   return (
     <div className="App">
