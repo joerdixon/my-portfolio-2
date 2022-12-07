@@ -16,8 +16,11 @@
 .project-container div {
     /* Deco */
     border: 3px solid white;
+    background-color: #111;
     /* Layout */
-    width: 40%;
+    width: 35%;
+    padding: 2vw;
+    margin: 1vw;
     /* Flex Settings */
     display: flex;
     justify-content: space-evenly;

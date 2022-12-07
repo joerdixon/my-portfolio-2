@@ -1,0 +1,25 @@
+.resume-container {
+    /* Layout */
+    height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.resume-container li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.tech-container {
+    /* Layout */
+    height: 70vh;
+    /* Flex Settings */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tech-container div {
+    width: 33%;
+}
