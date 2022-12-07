@@ -1,16 +1,18 @@
-import React from "react";
-import Header from "./components/Header/Header"
-import Footer from "./components/Footer/Footer"
-import Nav from "./components/Navigation/Navigation"
-import Project from "./components/Project/Project"
+import React, {useState} from "react";
+import Header from "./components/Frameponents/Header/Header"
+import Footer from "./components/Frameponents/Footer/Footer"
+import Page from "./components/Page/Page"
+import './styles.css'
 
 
 function App() {
+
+  const [view, setView] = useState("about-me")
+
   return (
     <div className="App">
-      <Header />
-      <Nav />
-      <Project />
+      <Header view={view} setView={setView} />
+      <Page view={view}/>
       <Footer />
     </div>
   );

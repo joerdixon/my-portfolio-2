@@ -1,0 +1,24 @@
+/* Root Variables */
+:root {
+    /* Colors */
+    --background-color: #222;
+    --main-type-color: #ddd;
+    --secondary-type-color: #bbb;
+    --pop-type-color: yellow;
+    /* Sizes */
+    --p-size: .8rem;
+    /* Fonts */
+    --main-font: sans-serif;
+}
+
+/* Page Styling */
+
+body {
+    /* Deco */
+    background-color: var(--background-color);
+    color: var(--main-type-color);
+    font-family: var(--main-font);
+    /* Layout */
+    margin: 0;
+    padding: 0;
+}

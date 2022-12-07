@@ -1,0 +1,13 @@
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-links {
+    /* Deco */
+    list-style-type: none;
+    /* Flex Settings */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
