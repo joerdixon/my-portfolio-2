@@ -5,25 +5,17 @@
 
 .project-container {
     /* Layout */
-    height: 80vh;
+    width: 90%;
+    height: 67vh;
+    margin: 0 auto;
+    padding: 3vw;
+    overflow: auto;
+    /* Deco */
+    background-color: #000;
+    border-radius: 20px;
     /* Flex Settings */
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center;
-}
-
-.project-container div {
-    /* Deco */
-    border: 3px solid white;
-    background-color: #111;
-    /* Layout */
-    width: 35%;
-    padding: 2vw;
-    margin: 1vw;
-    /* Flex Settings */
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
     align-items: center;
 }

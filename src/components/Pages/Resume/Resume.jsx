@@ -1,6 +1,6 @@
 import React from 'react';
 import './Resume.css'
-import resume from '../../../assets/niceheadshot.jpg'
+import resume from '../../../assets/fakeResume.pdf'
 
 function Resume(props) {
     return (

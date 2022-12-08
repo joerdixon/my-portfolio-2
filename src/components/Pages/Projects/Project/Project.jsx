@@ -1,56 +1,84 @@
 // Import React
 import React from "react";
-import './Project.css'
+import './Project.css';
+import loader from '../../../../assets/loader.svg'
+import mklogo from '../../../../assets/mklogo.png';
+import wizmoji from '../../../../assets/wizardemoji.png'
 
 const projects = [
     {
-        projectTitle: "mortalkingdoms.com",
-        projectImg: "#",
+        projectTitle: "mortalkingdoms",
+        projectImg: mklogo,
         projectDesc: "A wiki style website dedicated to my Dungeons and Dragons DM and his amazing worldbuilding.",
         liveLink: "https://joerdixon.github.io/the-mortal-kingdoms/",
-        repoLink: "#",
-        techUsed: "HTML, CSS"
     },
     {
         projectTitle: "Trade Wizard",
-        projectImg: "#",
+        projectImg: wizmoji,
         projectDesc: "A card trading application that allows users to search, add and remove cards to work out a deal.",
         liveLink: "https://sullisters.github.io/card-broker/",
-        repoLink: "#",
-        techUsed: "HTML, CSS, JS, BULMA"
     },
     {
         projectTitle: "Code Conflict: Battle for Fullstack",
-        projectImg: "#",
+        projectImg: loader,
         projectDesc: "A jrpg-style turn based battle game where you control web developers.",
         liveLink: "#",
-        repoLink: "#",
-        techUsed: "#"
     },
     {
         projectTitle: "Fatal Forge",
-        projectImg: "#",
+        projectImg: loader,
         projectDesc: "Coming soon!",
         liveLink: "#",
-        repoLink: "#",
-        techUsed: "#"
+    },
+    {
+        projectTitle: "Coming Soon",
+        projectImg: loader,
+        projectDesc: "Project Loading...",
+        liveLink: "#",
+    },
+    {
+        projectTitle: "Coming Soon",
+        projectImg: loader,
+        projectDesc: "Project Loading...",
+        liveLink: "#",
+    },
+    {
+        projectTitle: "Coming Soon",
+        projectImg: loader,
+        projectDesc: "Project Loading...",
+        liveLink: "#",
+    },
+    {
+        projectTitle: "Coming Soon",
+        projectImg: loader,
+        projectDesc: "Project Loading...",
+        liveLink: "#",
     },
 ]
 
 function Project() {
     const projectCards = projects.map((proj, index) => {
         return (
-        <div className="projectCard">
-            <h1><a target='_blank' href={proj.liveLink} >{proj.projectTitle}</a></h1>
-            <img src={proj.projectImg} alt="Project Preview"/>
-            <p>{proj.projectDesc}</p>
-            <p>{proj.techUsed}</p>
-            <p>{proj.repoLink}</p>
-        </div>
+            <a href={proj.liveLink} target='_blank' className="project-card">
+                <div className="project-images">
+                    <img className='project-icon' src={proj.projectImg} alt="Project Preview" />
+                </div>
+                <div className="project-desc">
+                    <h1><a>{proj.projectTitle}</a></h1>
+                    <p>{proj.projectDesc}</p>
+                </div>
+            </a>
         )
     })
 
-    return <div className='project-container'>{projectCards}</div>
+    return (
+        <div className='work-container'>
+            <div className='project-container'>
+            <h1 className='project-hero'>My Projects</h1>
+            {projectCards}
+            </div>
+        </div>
+    )
 }
 
 export default Project;

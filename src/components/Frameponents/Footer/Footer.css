@@ -1,9 +1,16 @@
 .footer-container {
+    height: 10vh;
     width: 80%;
     margin: 0 auto;
+    /* Flex Settings */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 .footer-links {
+    width: 100%;
     /* Deco */
     list-style-type: none;
     /* Flex Settings */

@@ -1,7 +1,7 @@
 .about-container {
     /* Layout */
-    height: 80vh;
-    width: 90%;
+    height: 65vh;
+    width: 50%;
     margin: 0 auto;
     /* Flex Settings */
     display: flex;
@@ -10,14 +10,14 @@
 }
 
 .img-container {
-    width: 50%;
+    width: 33%;
     /* Flex Settings */
     display: flex;
     justify-content: space-around;
 }
 
 .img-container img {
-    width: 50%;
+    width: 100%;
     border-radius: 100%;
     margin: 0 auto;
 }
@@ -34,6 +34,6 @@
 
 .bio-container p {
     margin: 5vh auto;
-    width: 50%;
+    width: 100%;
     text-align: center;
 }

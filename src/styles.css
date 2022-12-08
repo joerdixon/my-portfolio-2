@@ -1,7 +1,7 @@
 /* Root Variables */
 :root {
     /* Colors */
-    --background-color: #222;
+    --background-color: #111;
     --main-type-color: #ddd;
     --secondary-type-color: #bbb;
     --pop-type-color: yellow;
@@ -21,4 +21,28 @@ body {
     /* Layout */
     margin: 0;
     padding: 0;
+}
+
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+::-webkit-scrollbar {
+    width: .4vw;
+}
+::-webkit-scrollbar-track {
+    background: #444;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
 }
