@@ -37,7 +37,6 @@ function Contact() {
                     <input id='contact-name' className="contact-form" name="name" value={name} onChange={e => setName(e.target.value)} />
                     </div>
                     <div className='email-container'>
-
                     <label htmlFor="contact-email">Email</label>
                     <input id='contact-email' className="contact-form" name="email" type='email' value={email} onChange={e => setEmail(e.target.value)} />
                     </div>
