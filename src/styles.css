@@ -3,6 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Tailwind Component Classes */
+@layer components {
+    .footerlink {
+        padding: 1vw;   
+        width: 4.5rem;
+    }
+}
+
 /* Root Variables */
 :root {
     /* Colors */
@@ -14,25 +22,6 @@
     --p-size: .8rem;
     /* Fonts */
     --main-font: sans-serif;
-}
-
-/* Page Styling */
-
-body {
-    /* Deco */
-    background-color: var(--background-color);
-    color: var(--main-type-color);
-    font-family: var(--main-font);
-    /* Layout */
-    margin: 0;
-    padding: 0;
-}
-
-.App {
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
 }
 
 a {

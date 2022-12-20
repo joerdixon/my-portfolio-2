@@ -4,12 +4,25 @@ module.exports = {
   theme: {
     extend: {
       // Colors
-      'main-bg': '#222',
-      'alt-bg': '#444',
-      // Fonts
-      'main': 'sans-serif',
-      'alt': 'serif',
-      'display': 'Papyrus',
+      colors: {
+        // Background
+        'main-bg': '#222',
+        'alt-bg': '#444',
+        // Text
+        'main-text': '#eee',
+        'alt-text': 'bbb',
+        'highlight': 'yellow',
+        // Logo Colors
+        'li-blue': "#0A66C2",
+        'gh-grey': "#444",
+        'gm-red': '#C83A2D',
+      },
+      fontFamily: {
+        // Fonts
+        'main': 'sans-serif',
+        'alt': 'serif',
+        'display': 'Papyrus',
+      },
     },
   },
   plugins: [],

@@ -10,7 +10,7 @@ function App() {
   const [view, setView] = useState("about")
 
   return (
-    <div className="App">
+    <div className="App h-screen bg-black flex flex-col justify-between text-main-text">
       <Header view={view} setView={setView} />
       <Page view={view}/>
       <Footer />
