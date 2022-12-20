@@ -1,11 +1,11 @@
 // Import React
 import React from "react";
-import './Navigation.css'
+// import './Navigation.css'
 
 function Nav(props) {
     return (
-    <div className ='nav-container'>
-        <ul className ='nav-links'>
+    <div className ='nav-container w-1/2'>
+        <ul className ='nav-links flex justify-evenly w-full'>
             <li onClick={() => {props.setView("about")}}>About Me</li>
             <li onClick={() => {props.setView("projects")}}>Projects</li>
             <li onClick={() => {props.setView("resume")}}>Resume</li>
