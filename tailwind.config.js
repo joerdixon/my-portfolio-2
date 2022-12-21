@@ -19,7 +19,7 @@ module.exports = {
       },
       fontFamily: {
         // Fonts
-        'main': 'sans-serif',
+        'main': '"Inter Tight"',
         'alt': 'serif',
         'display': 'Papyrus',
       },
