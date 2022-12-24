@@ -2,6 +2,8 @@ import React from 'react';
 import './Resume.css'
 import resume from '../../../assets/resume.pdf'
 
+// Revamp skills and resume screen.
+
 function Resume(props) {
     return (
         <div className='resume-container'>

@@ -2,6 +2,9 @@ import React from 'react';
 import './About.css'
 import headshot from '../../../assets/niceheadshot.jpg'
 
+// TODO: Transplant Tailwind
+// TODO: Add animations on screen load, this is the landing page.
+
 function About(props) {
     return (
         <div className='about-container'>

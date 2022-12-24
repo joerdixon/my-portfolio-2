@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './Contact.css'
 
+// TODO: Re-evaluate having a contact page at all.
+
 function Contact() {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")

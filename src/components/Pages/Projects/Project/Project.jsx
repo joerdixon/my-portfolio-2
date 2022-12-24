@@ -5,6 +5,9 @@ import loader from '../../../../assets/loader.svg'
 import mklogo from '../../../../assets/mklogo.png';
 import wizmoji from '../../../../assets/wizardemoji.png'
 
+// TODO: Tailwind transplant
+// TODO: Correct project card proportions and add responsiveness.
+
 const projects = [
     {
         projectTitle: "mortalkingdoms",
