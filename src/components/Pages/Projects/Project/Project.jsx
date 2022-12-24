@@ -4,8 +4,10 @@ import './Project.css';
 import loader from '../../../../assets/loader.svg'
 import mklogo from '../../../../assets/mklogo.png';
 import wizmoji from '../../../../assets/wizardemoji.png'
+import gllogo from '../../../../assets/gridlocke1.png'
 
 // TODO: Tailwind transplant
+// TODO: Add hover effects and slide-in animation on scroll.
 // TODO: Correct project card proportions and add responsiveness.
 
 const projects = [
@@ -25,13 +27,13 @@ const projects = [
         projectTitle: "Code Conflict: Battle for Fullstack",
         projectImg: loader,
         projectDesc: "A jrpg-style turn based battle game where you control web developers.",
-        liveLink: "#",
+        liveLink: "https://code-conflict.herokuapp.com/",
     },
     {
-        projectTitle: "Fatal Forge",
-        projectImg: loader,
-        projectDesc: "Coming soon!",
-        liveLink: "#",
+        projectTitle: "Gridlocke",
+        projectImg: gllogo,
+        projectDesc: "A grid-based card game with lots of replayability and suprisingly deep strategy.",
+        liveLink: "https://gridlocke.net/",
     },
     {
         projectTitle: "Coming Soon",

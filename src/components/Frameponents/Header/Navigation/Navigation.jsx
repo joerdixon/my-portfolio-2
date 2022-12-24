@@ -2,6 +2,8 @@
 import React from "react";
 // import './Navigation.css'
 
+// TODO: Space out navbar from the top of the screen.p  
+
 function Nav(props) {
     return (
     <div className ='nav-container w-1/2'>
