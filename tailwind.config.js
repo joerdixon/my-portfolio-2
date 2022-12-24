@@ -23,7 +23,7 @@ module.exports = {
         'alt': 'serif',
         'display': 'Papyrus',
       },
-    },
+        },
   },
   plugins: [],
 }
