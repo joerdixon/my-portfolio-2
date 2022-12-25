@@ -37,9 +37,9 @@ function Resume(props) {
                     </ul>
                 </div>
             </div>
-                <div className='resume-download'>
-                    <a href={resume} download='Resume.pdf'>Download Resume</a>
-                </div>
+            <div className='resume-download'>
+                <a href={resume} download='Resume.pdf'>Download Resume</a>
+            </div>
         </div>
     )
 }

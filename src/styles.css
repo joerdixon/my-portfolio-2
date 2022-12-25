@@ -6,7 +6,7 @@
 /* Tailwind Component Classes */
 @layer components {
     .footerlink {
-        padding: 1vw;   
+        padding: 1vw;
         width: 4.5rem;
     }
 }
@@ -36,10 +36,12 @@ a {
 ::-webkit-scrollbar {
     width: .4vw;
 }
+
 ::-webkit-scrollbar-track {
     background: #444;
     border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #ddd;
     border-radius: 10px;

@@ -80,8 +80,8 @@ function Project() {
     return (
         <div className='work-container'>
             <div className='project-container'>
-            <h1 className='project-hero'>My Projects</h1>
-            {projectCards}
+                <h1 className='project-hero'>My Projects</h1>
+                {projectCards}
             </div>
         </div>
     )

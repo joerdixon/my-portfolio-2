@@ -3,10 +3,11 @@ import About from "../Pages/About/About"
 import Contact from "../Pages/Contact/Contact"
 import Projects from "../Pages/Projects/Projects"
 import Resume from "../Pages/Resume/Resume"
-import './Page.css'
+
+// This component is checking for the view state set by the nav bar and rendering the appropriate content.
 
 function Page(props) {
-    switch(props.view) {
+    switch (props.view) {
         case "about":
             return (
                 <About />

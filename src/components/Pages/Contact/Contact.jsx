@@ -35,12 +35,12 @@ function Contact() {
             <form className="contact-form">
                 <div className='name-email-container'>
                     <div className='name-container'>
-                    <label htmlFor="contact-name">Name</label>
-                    <input id='contact-name' className="contact-form" name="name" value={name} onChange={e => setName(e.target.value)} />
+                        <label htmlFor="contact-name">Name</label>
+                        <input id='contact-name' className="contact-form" name="name" value={name} onChange={e => setName(e.target.value)} />
                     </div>
                     <div className='email-container'>
-                    <label htmlFor="contact-email">Email</label>
-                    <input id='contact-email' className="contact-form" name="email" type='email' value={email} onChange={e => setEmail(e.target.value)} />
+                        <label htmlFor="contact-email">Email</label>
+                        <input id='contact-email' className="contact-form" name="email" type='email' value={email} onChange={e => setEmail(e.target.value)} />
                     </div>
                 </div>
                 <label htmlFor="contact-message">Message</label>
