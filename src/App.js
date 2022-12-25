@@ -5,6 +5,9 @@ import Page from "./components/Page/Page"
 import './styles.css'
 
 
+// TODO: Add section with the hardware I am using and the games I am playing.
+// TODO: Add lightmode
+
 function App() {
 
   const [view, setView] = useState("about")

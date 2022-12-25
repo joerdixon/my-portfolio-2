@@ -9,6 +9,7 @@ import gllogo from '../../../../assets/gridlocke1.png'
 // TODO: Tailwind transplant
 // TODO: Add hover effects and slide-in animation on scroll.
 // TODO: Correct project card proportions and add responsiveness.
+// TODO: Add my next best projects to flesh out project section.
 
 const projects = [
     {
