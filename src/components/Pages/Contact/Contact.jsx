@@ -1,5 +1,10 @@
 import React, { useState } from 'react'
-import './Contact.css'
+// Logo SVG's
+import ghsvg from '../../../assets/github.svg'
+import lisvg from '../../../assets/linkedin.svg'
+import lcsvg from '../../../assets/leetcode.svg'
+import gmsvg from '../../../assets/mail.svg'
+// import './Contact.css'
 
 // TODO: Re-evaluate having a contact page at all.
 
@@ -30,30 +35,40 @@ function Contact() {
     }
 
     return (
-        <div className="contact-container">
-            <h1>Contact me!</h1>
-            <form className="contact-form">
-                <div className='name-email-container'>
-                    <div className='name-container'>
-                        <label htmlFor="contact-name">Name</label>
-                        <input id='contact-name' className="contact-form" name="name" value={name} onChange={e => setName(e.target.value)} />
-                    </div>
-                    <div className='email-container'>
-                        <label htmlFor="contact-email">Email</label>
-                        <input id='contact-email' className="contact-form" name="email" type='email' value={email} onChange={e => setEmail(e.target.value)} />
-                    </div>
-                </div>
-                <label htmlFor="contact-message">Message</label>
-                <textarea id='contact-message' className="contact-form" name="message" value={message} onChange={e => setMessage(e.target.value)} />
-                <br />
-                <button className="contact-form" type="button" onClick={handleFormSubmit}>Send</button>
-            </form>
-            {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                </div>
-            )}
+        <div className='footer-container w-4/5 my-0 mx-auto flex justify-evenly items-center h-1/6'>
+            <ul className='footer-links w-full flex justify-evenly items-center h-2/3'>
+                {/* Linked In */}
+                <a className="transition-transform-colors hover:bg-li-blue hover:-translate-y-1 duration-500 rounded-full" href="https://www.linkedin.com/in/joerdixon/" target='_blank' name="Link to Joe's LinkedIn"><img className="footerlink" src={lisvg} alt="LinkedIn logo" /></a>
+                {/* GitHub */}
+                <a className="transition-transform-colors hover:bg-gh-grey hover:-translate-y-1 duration-500 rounded-full" href="https://github.com/joerdixon" target='_blank' name="Link to Joe's GitHub Profile"><img className="footerlink" src={ghsvg} alt="GitHub logo" /></a>
+                {/* Gmail */}
+                <a className="transition-transform-colors hover:bg-gm-red hover:-translate-y-1 duration-500 rounded-full" href="mailto:joseph35dixon@gmail.com" target='_blank' name="Link to create and send an email."><img className="footerlink" src={gmsvg} alt="Mail logo." /></a>
+            </ul>
         </div>
+        // <div className="contact-container">
+        //     <h1>Contact me!</h1>
+        //     <form className="contact-form">
+        //         <div className='name-email-container'>
+        //             <div className='name-container'>
+        //                 <label htmlFor="contact-name">Name</label>
+        //                 <input id='contact-name' className="contact-form" name="name" value={name} onChange={e => setName(e.target.value)} />
+        //             </div>
+        //             <div className='email-container'>
+        //                 <label htmlFor="contact-email">Email</label>
+        //                 <input id='contact-email' className="contact-form" name="email" type='email' value={email} onChange={e => setEmail(e.target.value)} />
+        //             </div>
+        //         </div>
+        //         <label htmlFor="contact-message">Message</label>
+        //         <textarea id='contact-message' className="contact-form" name="message" value={message} onChange={e => setMessage(e.target.value)} />
+        //         <br />
+        //         <button className="contact-form" type="button" onClick={handleFormSubmit}>Send</button>
+        //     </form>
+        //     {errorMessage && (
+        //         <div>
+        //             <p className="error-text">{errorMessage}</p>
+        //         </div>
+        //     )}
+        // </div>
     )
 }
 
