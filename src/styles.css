@@ -21,6 +21,22 @@
         /* Deco */
         text-align: left;
     }
+
+    .project-container {
+            /* Layout */
+    height: 100vh;
+    margin: 0 auto;
+    padding: 3vw;
+    overflow: auto;
+    /* Deco */
+    background-color: #000;
+    border-radius: 20px;
+    /* Flex Settings */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    }
 }
 
 /* Root Variables */
