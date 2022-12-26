@@ -9,6 +9,11 @@
         padding: 1vw;
         width: 4.5rem;
     }
+
+    .navlink {
+        width: 85%;
+        text-align: right;
+    }
 }
 
 /* Root Variables */

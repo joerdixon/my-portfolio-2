@@ -5,16 +5,16 @@ import React from "react";
 
 function Nav(props) {
     return (
-        <div className='w-1/2'>
-            <ul className='flex justify-evenly w-full'>
+        <div className='h-full'>
+            <ul className='flex flex-col justify-evenly w-full h-full'>
                 {/* About Me */}
-                <li onClick={() => { props.setView("about") }}>About Me</li>
+                <li className="navlink" onClick={() => { props.setView("about") }}>About Me</li>
                 {/* Projects */}
-                <li onClick={() => { props.setView("projects") }}>Projects</li>
+                <li className="navlink" onClick={() => { props.setView("projects") }}>Projects</li>
                 {/* Resume */}
-                <li onClick={() => { props.setView("resume") }}>Resume</li>
+                <li className="navlink" onClick={() => { props.setView("resume") }}>Resume</li>
                 {/* Contact */}
-                <li onClick={() => { props.setView("contact") }}>Contact</li>
+                <li className="navlink" onClick={() => { props.setView("contact") }}>Contact</li>
             </ul>
         </div>
     )

@@ -14,13 +14,11 @@ function App() {
   const [view, setView] = useState("about")
 
   return (
-    <div className="App h-screen w-4/5 mx-auto my-0 bg-main-bg flex flex-col justify-between text-main-text font-main">
+    <div className="App h-screen mx-auto my-0 bg-main-bg flex justify-between text-main-text font-main">
       {/* Header contains the navbar and a nameplate, this is where the view state is changed. */}
       <Header view={view} setView={setView} />
       {/* Page contains the conditionally rendered content based on view state.*/}
       <Page view={view} />
-      {/* Footer contains the contact links */}
-      <Footer />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import headshot from '../../../assets/niceheadshot.jpg'
 
 function About(props) {
     return (
-        <div className='h-2/3 flex justify-evenly items-center'>
+        <div className='h-2/3 flex justify-evenly items-center w-5/6'>
             <div className='w-1/4 flex justify-around'>
                 <img className='w-full rounded-full my-0 mx-auto' src={headshot} alt="Me!" />
             </div>

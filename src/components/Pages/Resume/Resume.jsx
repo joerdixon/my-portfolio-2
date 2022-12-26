@@ -6,7 +6,7 @@ import resume from '../../../assets/resume.pdf'
 
 function Resume(props) {
     return (
-        <div className='resume-container'>
+        <div className='resume-container w-5/6'>
             <div className='tech-container'>
                 <div classname='frontend-tech'>
                     <h2>Front End</h2>
