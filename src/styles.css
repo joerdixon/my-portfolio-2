@@ -84,6 +84,15 @@
     .project-icon {
         width: 50%;
     }
+
+    .skillsection {
+        border: 1px white solid;
+        border-radius: .3rem;
+    }
+
+    .skillsection h2 {
+        margin: 1rem;
+    }
 }
 
 /* Root Variables */

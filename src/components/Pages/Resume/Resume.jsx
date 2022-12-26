@@ -5,9 +5,9 @@ import resume from '../../../assets/resume.pdf'
 
 function Resume(props) {
     return (
-        <div className='resume-container w-5/6'>
-            <div className='tech-container'>
-                <div classname='frontend-tech'>
+        <div className='w-5/6'>
+            <div className='w-full flex justify-evenly flex-wrap'>
+                <div className='skillsection'>
                     <h2>Front End</h2>
                     <ul>
                         <li>HTML5</li>
@@ -17,7 +17,7 @@ function Resume(props) {
                         <li>Tailwind</li>
                     </ul>
                 </div>
-                <div className='backend-tech'>
+                <div className='skillsection'>
                     <h2>Back End</h2>
                     <ul>
                         <li>Node.js</li>
@@ -26,7 +26,7 @@ function Resume(props) {
                         <li>GraphQL</li>
                     </ul>
                 </div>
-                <div className='concepts'>
+                <div className='skillsection'>
                     <h2>Concepts</h2>
                     <ul>
                         <li>Object-Oriented Programming</li>
@@ -36,7 +36,7 @@ function Resume(props) {
                     </ul>
                 </div>
             </div>
-            <div className='resume-download'>
+            <div className=''>
                 <a href={resume} download='Resume.pdf'>Download Resume</a>
             </div>
         </div>
