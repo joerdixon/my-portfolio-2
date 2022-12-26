@@ -4,7 +4,7 @@ import Navigation from './Navigation/Navigation'
 
 function Header(props) {
     return (
-        <div className='flex justify-between p-5'>
+        <div className='flex justify-between p-10 w-2/3 mx-auto my-0'>
             {/* Nameplate on the left */}
             <h1 className=''>Joe Dixon</h1>
             {/* Navbar */}
