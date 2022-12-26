@@ -2,11 +2,12 @@ import React from 'react';
 import headshot from '../../../assets/niceheadshot.jpg'
 
 // TODO: Add animations on screen load, this is the landing page.
+// TODO: Add a "last updated" line at the bottom
 // TODO: Add a larger piece of writing
 
 function About(props) {
     return (
-        <div className='flex justify-evenly items-center w-5/6'>
+        <div className='flex flex-col justify-evenly items-center w-5/6'>
             <div className='w-1/4 flex justify-around'>
                 <img className='w-full rounded-full my-0 mx-auto' src={headshot} alt="Me!" />
             </div>
