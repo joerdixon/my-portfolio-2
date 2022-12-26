@@ -1,5 +1,4 @@
 import React from 'react';
-import './Resume.css'
 import resume from '../../../assets/resume.pdf'
 
 //TODO: Revamp skills and resume screen.

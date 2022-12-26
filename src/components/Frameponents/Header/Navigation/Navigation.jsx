@@ -6,7 +6,7 @@ import skillsvg from "../../../../assets/icons/skills.svg"
 import projectsvg from "../../../../assets/icons/projects.svg"
 import contactsvg from "../../../../assets/icons/contact.svg"
 
-// TODO: Space out navbar from the top of the screen.p  
+// TODO: Cool hover effects and active styles
 
 function Nav(props) {
     return (

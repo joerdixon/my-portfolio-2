@@ -5,11 +5,13 @@
 
 /* Tailwind Component Classes */
 @layer components {
+    /* Links in the footer (now contact section) */
     .footerlink {
         padding: 1vw;
         width: 4.5rem;
     }
 
+    /* Links in the sidebar */
     .navlink {
         /* Layout */
         width: 65%;
@@ -22,6 +24,7 @@
         text-align: left;
     }
 
+    /* The container that populates projects */
     .project-container {
             /* Layout */
     height: 100vh;
@@ -36,6 +39,50 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+    }
+
+    /* Project cards */
+    .project-hero {
+        width: 100%;
+    }
+    
+    .project-card {
+        width: 40%;
+        height: 25vh;
+        margin: 5vh 0;
+        /* Flex Settings */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* Deco */
+        text-align: center;
+        box-shadow: 7px 7px 12px black;
+        background-color: #111;
+    }
+    
+    .project-images {
+        /* Layout */
+        width: 40%;
+    }
+    
+    .project-desc {
+        /* Layout */
+        width: 50%;
+        /* Flex Settings */
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project-desc h1 {
+    font-size: 1.5rem;    
+    }
+    
+    .project-desc p {
+    font-size: .9rem;
+    }
+    
+    .project-icon {
+        width: 50%;
     }
 }
 

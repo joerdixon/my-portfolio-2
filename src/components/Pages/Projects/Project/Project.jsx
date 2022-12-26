@@ -1,6 +1,6 @@
 // Import React
 import React from "react";
-import './Project.css';
+
 import loader from '../../../../assets/icons/loader.svg'
 import mklogo from '../../../../assets/logos/mklogo.png';
 import wizmoji from '../../../../assets/logos/wizardemoji.png'
