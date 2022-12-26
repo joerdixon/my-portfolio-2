@@ -2,6 +2,7 @@ import React from 'react';
 import headshot from '../../../assets/niceheadshot.jpg'
 
 // TODO: Add animations on screen load, this is the landing page.
+// TODO: Add a larger piece of writing
 
 function About(props) {
     return (

@@ -19,7 +19,7 @@ function Nav(props) {
                 <img src={projectsvg} alt="briefcase icon" />
                 <p>Projects</p>
             </div>
-            <div className="navlink" onClick={() => { props.setView("resume") }}>
+            <div className="navlink" onClick={() => { props.setView("skills") }}>
                 <img src={skillsvg} alt="lightbulb icon" />
                 <p>Skills</p>
             </div>

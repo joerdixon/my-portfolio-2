@@ -3,7 +3,7 @@ import resume from '../../../assets/resume.pdf'
 
 //TODO: Revamp skills and resume screen.
 
-function Resume(props) {
+function Skills(props) {
     return (
         <div className='w-5/6'>
             <div className='w-full flex justify-evenly flex-wrap'>
@@ -43,4 +43,4 @@ function Resume(props) {
     )
 }
 
-export default Resume;
+export default Skills;

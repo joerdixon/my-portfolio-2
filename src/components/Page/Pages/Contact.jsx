@@ -5,6 +5,9 @@ import lisvg from '../../../assets/logos/linkedin.svg'
 import lcsvg from '../../../assets/logos/leetcode.svg'
 import gmsvg from '../../../assets/icons/mail.svg'
 
+// TODO: Add more links.
+// TODO: Reevealute the contact form.
+
 function Contact() {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")

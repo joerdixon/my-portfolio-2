@@ -6,7 +6,9 @@ import './styles.css'
 
 // TODO: Add section with the hardware I am using and the games I am playing.
 // TODO: Add lightmode
-// TODO: Tailwind refactor and subsequent folder reorg without css files.
+// TODO: Add animation on load
+// TODO: Add loading screen while images load.
+// TODO: Add spotify api for people to see what I am listening to.
 
 function App() {
 
