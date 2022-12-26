@@ -1,8 +1,8 @@
 import React from 'react';
-import About from "../Pages/About/About"
-import Contact from "../Pages/Contact/Contact"
-import Projects from "../Pages/Projects/Projects"
-import Resume from "../Pages/Resume/Resume"
+import About from "./Pages/About"
+import Contact from "./Pages/Contact"
+import Projects from "./Pages/Projects/Projects"
+import Resume from "./Pages/Resume"
 
 // This component is checking for the view state set by the nav bar and rendering the appropriate content.
 

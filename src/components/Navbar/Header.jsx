@@ -1,7 +1,7 @@
 // Import React
 import React from "react";
-import Navigation from './Navigation/Navigation'
-import headshot from '../../../assets/niceheadshot.jpg'
+import Navigation from './Navigation'
+import headshot from '../../assets/niceheadshot.jpg'
 
 function Header(props) {
     return (

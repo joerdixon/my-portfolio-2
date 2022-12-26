@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import Header from "./components/Frameponents/Header/Header"
-import Footer from "./components/Frameponents/Footer/Footer"
+import Header from "./components/Navbar/Header"
 import Page from "./components/Page/Page"
 import './styles.css'
 

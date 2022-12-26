@@ -1,10 +1,10 @@
 // Import React
 import React from "react";
 // SVG Icons
-import aboutsvg from "../../../../assets/icons/about.svg"
-import skillsvg from "../../../../assets/icons/skills.svg"
-import projectsvg from "../../../../assets/icons/projects.svg"
-import contactsvg from "../../../../assets/icons/contact.svg"
+import aboutsvg from "../../assets/icons/about.svg"
+import skillsvg from "../../assets/icons/skills.svg"
+import projectsvg from "../../assets/icons/projects.svg"
+import contactsvg from "../../assets/icons/contact.svg"
 
 // TODO: Cool hover effects and active styles
 
