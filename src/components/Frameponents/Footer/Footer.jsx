@@ -1,10 +1,10 @@
 // Import React
 import React from "react";
 // Logo SVG's
-import ghsvg from '../../../assets/github.svg'
-import lisvg from '../../../assets/linkedin.svg'
-import lcsvg from '../../../assets/leetcode.svg'
-import gmsvg from '../../../assets/mail.svg'
+import ghsvg from '../../../assets/logos/github.svg'
+import lisvg from '../../../assets/logos/linkedin.svg'
+import lcsvg from '../../../assets/logos/leetcode.svg'
+import gmsvg from '../../../assets/icons/mail.svg'
 
 function Footer() {
     // TODO: Figure out why links are shifting dimensions on hover.

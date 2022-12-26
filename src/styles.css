@@ -11,8 +11,15 @@
     }
 
     .navlink {
-        width: 85%;
-        text-align: right;
+        /* Layout */
+        width: 65%;
+        margin: 0 auto;
+        /* Flex Settings */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* Deco */
+        text-align: left;
     }
 }
 

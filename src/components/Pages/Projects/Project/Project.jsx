@@ -1,10 +1,10 @@
 // Import React
 import React from "react";
 import './Project.css';
-import loader from '../../../../assets/loader.svg'
-import mklogo from '../../../../assets/mklogo.png';
-import wizmoji from '../../../../assets/wizardemoji.png'
-import gllogo from '../../../../assets/gridlocke1.png'
+import loader from '../../../../assets/icons/loader.svg'
+import mklogo from '../../../../assets/logos/mklogo.png';
+import wizmoji from '../../../../assets/logos/wizardemoji.png'
+import gllogo from '../../../../assets/logos/gridlocke1.png'
 
 // TODO: Tailwind transplant
 // TODO: Add hover effects and slide-in animation on scroll.
