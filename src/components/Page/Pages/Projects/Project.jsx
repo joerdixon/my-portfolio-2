@@ -80,7 +80,6 @@ function Project() {
     return (
         <div className='work-container'>
             <div className='project-container'>
-                <h1 className='text-center w-full'>My Projects</h1>
                 {projectCards}
             </div>
         </div>

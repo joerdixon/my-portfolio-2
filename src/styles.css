@@ -136,8 +136,12 @@
     /* =============================== SITEWIDE =============================== */
 
     .sectionheading {
-        margin: 3rem;
-        font-size: xx-large;
+        margin-top: 0;
+        padding: .5rem;
+        padding-left: 1rem;
+        width: 100%;
+        border-bottom: 1px solid white;
+        font-size: x-large;
     }
 }
 
