@@ -6,6 +6,7 @@ import resume from '../../../assets/resume.pdf'
 function Skills(props) {
     return (
         <div className='w-5/6'>
+            <h2 className='sectionheading'>Skills</h2>
             <div className='w-full flex justify-evenly flex-wrap'>
                 <div className='skillsection'>
                     <h2>Front End</h2>
