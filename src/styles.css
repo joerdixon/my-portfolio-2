@@ -94,13 +94,35 @@
     /*================================ SKILLS ================================*/
     
     .skillsection {
-        border: 1px white solid;
+        /* Layout */
         padding: 2rem;
-        width: 300px;
+        width: 350px;
+        height: 400px;
+        overflow: auto;
+        /* Flex Settings */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        /* Deco */
+        border: 1px white solid;
     }
 
-    .skillsection h2 {
+    .ss-head {
+        /* Layout */
         margin: 1rem;
+        /* Deco */
+        font-size: larger;
+    }
+
+    .skill {
+        /* Layout */
+        width: 70%;
+        margin: 1rem;
+        /* Flex Settings */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     /*================================ CONTACT ================================*/
@@ -114,7 +136,8 @@
     /* =============================== SITEWIDE =============================== */
 
     .sectionheading {
-        
+        margin: 3rem;
+        font-size: xx-large;
     }
 }
 
