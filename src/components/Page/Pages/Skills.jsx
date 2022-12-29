@@ -16,6 +16,12 @@ import mysql from "../../../assets/skills/mysql.svg"
 import express from "../../../assets/skills/express.svg"
 import socket from "../../../assets/skills/socket.svg"
 import graphql from "../../../assets/skills/graphql.svg"
+import jest from "../../../assets/skills/jest.svg"
+import netlify from "../../../assets/skills/netlify.svg"
+import heroku from "../../../assets/skills/heroku.svg"
+import java from "../../../assets/skills/java.svg"
+import gitbash from "../../../assets/skills/git-bash.svg"
+import figma from "../../../assets/skills/figma.svg"
 
 
 function Skills(props) {
@@ -90,11 +96,11 @@ function Skills(props) {
                             <p className='skill-name'>GraphQL</p>
                         </div>
                         <div className='skill'>
-                            <img className='skill-icon' src="https://placeholder.pics/svg/40" alt="" />
+                            <img className='skill-icon' src={netlify} alt="Netlify Logo" />
                             <p className='skill-name'>Netlify</p>
                         </div>
                         <div className='skill'>
-                            <img className='skill-icon' src="https://placeholder.pics/svg/40" alt="" />
+                            <img className='skill-icon' src={heroku} alt="Heroku Logo" />
                             <p className='skill-name'>Heroku</p>
                         </div>
                     </div>
@@ -107,7 +113,7 @@ function Skills(props) {
                             <p className='skill-name'>Python</p>
                         </div>
                         <div className='skill'>
-                            <img className='skill-icon' src="https://placeholder.pics/svg/40" alt="" />
+                            <img className='skill-icon' src={java} alt="Java Logo" />
                             <p className='skill-name'>Java</p>
                         </div>
                         <div className='skill'>
