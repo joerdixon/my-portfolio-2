@@ -110,7 +110,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
-        justify-content: center;
+        justify-content: space-evenly;
         /* Deco */
         border-radius: .5rem;
     }
@@ -124,13 +124,18 @@
 
     .skill {
         /* Layout */
-        width: 30%;
+        width: 35%;
+        height: 13vh;
         margin: 1rem;
         /* Flex Settings */
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .skill-icon {
+        width: 40px;
     }
 
     /*================================ CONTACT ================================*/
