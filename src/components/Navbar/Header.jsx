@@ -10,9 +10,9 @@ import gmsvg from '../../assets/icons/mail.svg'
 
 function Header(props) {
     return (
-        <div className='flex mx-auto my-0 w-5/6 md:flex-col justify-between md:w-1/6 md:border-r pt-5 md:pt-10 md:pb-5'>
+        <div className='flex mx-auto my-0 w-5/6 h-16 md:h-auto md:flex-col justify-between md:w-1/6 md:border-r md:pt-10 md:pb-5'>
             {/* Nameplate*/}
-            <div className="md:flex justify-evenly items-center md:mb-10 md:w-full">
+            <div className="flex justify-evenly items-center md:mb-10 md:w-full">
                 <img className="rounded-full w-1/6 hidden md:block" src={headshot} alt="Joe Dixon" />
                 <h1 className='text-center text-xl font-semibold tracking-wide'>Joe Dixon</h1>
             </div>
