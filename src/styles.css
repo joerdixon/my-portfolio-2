@@ -75,7 +75,7 @@ a {
         padding: 3vw;
         overflow: auto;
         /* Deco */
-        background-color: var(--background-color);
+        background-color: var(--background-color    );
         border-radius: 20px;
         /* Flex Settings */
         display: flex;
