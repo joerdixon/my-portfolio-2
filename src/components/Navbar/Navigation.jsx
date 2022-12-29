@@ -11,19 +11,19 @@ import contactsvg from "../../assets/icons/contact.svg"
 function Nav(props) {
     return (
         <div className='flex flex-col justify-between h-1/3' >
-            <div className="navlink" onClick={() => { props.setView("about") }}>
+            <div className="navlink hover:navhover" onClick={() => { props.setView("about") }}>
                 <img src={aboutsvg} alt="about icon" />
                 <p>About Me</p>
             </div>
-            <div className="navlink" onClick={() => { props.setView("projects") }}>
+            <div className="navlink hover:navhover" onClick={() => { props.setView("projects") }}>
                 <img src={projectsvg} alt="briefcase icon" />
                 <p>Projects</p>
             </div>
-            <div className="navlink" onClick={() => { props.setView("skills") }}>
+            <div className="navlink hover:navhover" onClick={() => { props.setView("skills") }}>
                 <img src={skillsvg} alt="lightbulb icon" />
                 <p>Skills</p>
             </div>
-            <div className="navlink" onClick={() => { props.setView("contact") }}>
+            <div className="navlink hover:navhover" onClick={() => { props.setView("contact") }}>
                 <img src={contactsvg} alt="connect icon" />
                 <p>Contact</p>
             </div>

@@ -1,3 +1,26 @@
+/* Root Variables */
+:root {
+    /* Colors */
+    --background-color: #111;
+    --main-type-color: #ddd;
+    --secondary-type-color: #bbb;
+    --pop-type-color: #FFAAA5;
+    /* Sizes */
+    --p-size: .8rem;
+    /* Fonts */
+    --main-font: sans-serif;
+}
+
+body {
+    font-family: main;
+    background-color: #111;
+}
+
+a {
+    text-decoration: none;
+    color: #ddd;
+}
+
 /* Tailwind Import */
 @tailwind base;
 @tailwind components;
@@ -19,7 +42,17 @@
         align-items: center;
         /* Deco */
         text-align: left;
+        font-size: larger;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
     }
+
+    /* Add a cool hover effect for the nav links */
+
+    .navhover {
+        color: var(--pop-type-color);
+        transform: translateX(5px);
+      }
 
     /*================================ PAGES ================================*/
 
@@ -161,28 +194,6 @@
     }
 }
 
-/* Root Variables */
-:root {
-    /* Colors */
-    --background-color: #111;
-    --main-type-color: #ddd;
-    --secondary-type-color: #bbb;
-    --pop-type-color: yellow;
-    /* Sizes */
-    --p-size: .8rem;
-    /* Fonts */
-    --main-font: sans-serif;
-}
-
-body {
-    font-family: main;
-    background-color: #111;
-}
-
-a {
-    text-decoration: none;
-    color: #ddd;
-}
 
 /*================================ SCROLLBAR ================================*/
 
