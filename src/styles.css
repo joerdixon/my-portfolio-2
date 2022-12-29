@@ -47,12 +47,55 @@ a {
         transition: all .2s ease-in-out;
     }
 
+    /* MOBILE NAV */
+
+    /* Color/shape of burger icon bars */
+    .bm-burger-bars {
+        background-color: #fff;
+    }
+
+    /* Position and sizing of burger button */
+    .bm-burger-button {
+        position: fixed;
+        width: 36px;
+        height: 30px;
+        left: 36px;
+        top: 36px;
+    }
+
+    .mobile-menu {
+        background-color: #111;
+        justify-content: space-between;
+        overflow-y: auto;
+    }
+
+    .mobile-link {
+        /* Layout */
+        width: 65%;
+        margin: 0 auto;
+        height: 15vh;
+        /* Flex Settings */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* Deco */
+        text-align: left;
+        font-size: larger;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+    }
+
+    .mobile-social {
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+
     /* Add a cool hover effect for the nav links */
 
     .navhover {
         color: var(--pop-type-color);
         transform: translateX(5px);
-      }
+    }
 
     .resume-hover {
         background-color: salmon;
@@ -75,7 +118,7 @@ a {
         padding: 3vw;
         overflow: auto;
         /* Deco */
-        background-color: var(--background-color    );
+        background-color: var(--background-color);
         border-radius: 20px;
         /* Flex Settings */
         display: flex;
@@ -131,7 +174,7 @@ a {
         width: 125px;
     }
 
-    
+
     /*================================ SKILLS ================================*/
 
     .skill-container {
@@ -141,7 +184,7 @@ a {
         align-items: center;
         justify-content: space-between;
     }
-    
+
     .skillsection {
         /* Layout */
         width: 90%;
