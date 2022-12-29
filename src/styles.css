@@ -227,6 +227,20 @@ a {
         /* Layout */
         width: 90%;
         height: 75vh;
+        margin-bottom: 3vh;
+        /* Flex Settings */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        /* Deco */
+        border-radius: .5rem;
+    }
+
+    .skillsection-md {
+        /* Layout */
+        width: 90%;
+        height: 75vh;
         overflow-y: auto;
         /* Flex Settings */
         display: flex;
