@@ -7,8 +7,8 @@ import headshot from '../../../assets/niceheadshot.jpg'
 
 function About(props) {
     return (
-        <div className='flex flex-col justify-top items-center w-5/6'>
-            <h2 className='sectionheading'>About Me</h2>
+        <div className='flex flex-col justify-top items-center md:w-5/6'>
+            <h2 className='sectionheading md:sectionheading-md'>About Me</h2>
             <div className='w-1/4 flex justify-around mt-10'>
                 <img className='w-full rounded-full my-0 mx-auto' src={headshot} alt="Joe Dixon" />
             </div>

@@ -189,13 +189,21 @@ a {
 
     /* =============================== SITEWIDE =============================== */
 
-    .sectionheading {
+    .sectionheading-md {
         margin-top: 0;
         padding: .5rem;
         padding-left: 2rem;
         width: 100%;
         border-bottom: 1px solid white;
         font-size: x-large;
+    }
+
+    .sectionheading {
+        background-color: #222;
+        width: 100%;
+        font-size: xx-large;
+        text-align: center;
+        padding: 5px;
     }
 }
 

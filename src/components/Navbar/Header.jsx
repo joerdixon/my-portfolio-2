@@ -10,16 +10,16 @@ import gmsvg from '../../assets/icons/mail.svg'
 
 function Header(props) {
     return (
-        <div className='flex w-full md:flex-col justify-between md:w-1/6 md:border-r pt-10 pb-5'>
+        <div className='flex mx-auto my-0 w-5/6 md:flex-col justify-between md:w-1/6 md:border-r pt-5 md:pt-10 md:pb-5'>
             {/* Nameplate*/}
-            <div className="flex justify-evenly items-center mb-10 w-full">
+            <div className="md:flex justify-evenly items-center md:mb-10 md:w-full">
                 <img className="rounded-full w-1/6 hidden md:block" src={headshot} alt="Joe Dixon" />
                 <h1 className='text-center text-xl font-semibold tracking-wide'>Joe Dixon</h1>
             </div>
             {/* Navbar */}
             <Navigation view={props.view} setView={props.setView} />
             {/* Resume */}
-            <a className="bg-highlight text-black p-3 font-bold rounded w-2/3 mx-auto my-0 text-center mt-20 hidden hover:resume md:visible" href={resume} download="joes-resume">Download Resume</a>
+            <a className="bg-highlight text-black p-3 font-bold rounded w-2/3 mx-auto my-0 text-center mt-20 hidden hover:resume md:block" href={resume} download="joes-resume">Download Resume</a>
             {/* Contact Links */}
             <ul className='footer-links hidden w-full md:flex justify-evenly items-center'>
                 {/* Linked In */}

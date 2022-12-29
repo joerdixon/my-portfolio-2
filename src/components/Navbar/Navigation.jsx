@@ -13,7 +13,7 @@ import hamburger from '../../assets/icons/hamburger.png'
 function Nav(props) {
     return (
        <>
-        <div className=' h-1/3 hidden md:flex flex-col justify-between' >
+        <div className=' h-1/3 hidden md:flex flex-col justify-between w-full' >
             <div className="navlink hover:navhover" onClick={() => { props.setView("about") }}>
                 <img src={aboutsvg} alt="about icon" />
                 <p>About Me</p>
@@ -31,8 +31,8 @@ function Nav(props) {
                 <p>Contact</p>
             </div>
         </div>
-        <div className="flex space-evenly md:hidden">
-            <img className="min-w-[40px]" src={hamburger} alt="Hamburger menu" />
+        <div className="md:hidden mb-10">
+            <img className="min-w-[20px] max-w-[30px] sm:max-w[40px]" src={hamburger} alt="Hamburger menu" />
         </div>
        </> 
     )
