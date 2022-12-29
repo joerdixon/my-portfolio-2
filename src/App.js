@@ -11,6 +11,11 @@ import './styles.css'
 // TODO: Add spotify api for people to see what I am listening to.
 // TODO: Add "More" section with the hardware I use, spotify thing, last updated ticker, and buy me a coffee link.
 
+// TODO: Credits to be added to the more section.
+// https://worldvectorlogo.com/
+// Futurama Bender icon by Icons8
+
+
 function App() {
 
   const [view, setView] = useState("about")

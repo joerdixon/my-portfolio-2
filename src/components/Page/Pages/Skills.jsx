@@ -111,6 +111,7 @@ function Skills(props) {
                     </div>
                 </div>
                 <div className='skill-container'>
+                    {/* Additional Skills */}
                     <h2 className='ss-head'>Plus</h2>
                     <div className='skillsection'>
                         <div className='skill'>
