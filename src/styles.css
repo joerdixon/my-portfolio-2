@@ -32,7 +32,7 @@
     /* The container that populates projects */
     .project-container {
         /* Layout */
-        height: 100vh;
+        height: 94vh;
         margin: 0 auto;
         padding: 3vw;
         overflow: auto;
@@ -57,7 +57,7 @@
         margin: 5vh 0;
         /* Flex Settings */
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         /* Deco */
         text-align: center;
@@ -74,21 +74,23 @@
     .project-desc {
         /* Layout */
         width: 50%;
+        height: 60%;
         /* Flex Settings */
         display: flex;
+        justify-content: space-between;
         flex-direction: column;
     }
 
     .project-desc h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .project-desc p {
-        font-size: .9rem;
+        font-size: 1.2rem;
     }
 
     .project-icon {
-        width: 50%;
+        width: 125px;
     }
 
     

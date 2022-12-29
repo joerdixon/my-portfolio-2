@@ -25,7 +25,7 @@ const projects = [
         liveLink: "https://sullisters.github.io/Trade-Wizard/",
     },
     {
-        projectTitle: "Code Conflict: Battle for Fullstack",
+        projectTitle: "Code Conflict",
         projectImg: loader,
         projectDesc: "A jrpg-style turn based battle game where you control web developers.",
         liveLink: "https://code-conflict.herokuapp.com/",
@@ -66,11 +66,9 @@ function Project() {
     const projectCards = projects.map((proj, index) => {
         return (
             <a href={proj.liveLink} target='_blank' className="project-card">
-                <div className="project-images">
-                    <img className='project-icon' src={proj.projectImg} alt="Project Preview" />
-                </div>
+                <img className='project-icon' src={proj.projectImg} alt="Project Preview" />
                 <div className="project-desc">
-                    <h1><a>{proj.projectTitle}</a></h1>
+                    <h1 className="">{proj.projectTitle}</h1>
                     <p>{proj.projectDesc}</p>
                 </div>
             </a>
