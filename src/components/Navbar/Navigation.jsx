@@ -85,7 +85,7 @@ function Nav(props) {
                 </div>
             </div>
             {/* Mobile Nav */}
-            {/* TODO:  Close menu on button click.*/}
+            {/* TODO:  Close menu on nav button click.*/}
             <div className="md:hidden mb-10">
                 {/* <img className="min-w-[20px] max-w-[30px] sm:max-w[40px]" src={hamburger} alt="Hamburger menu" /> */}
                 <Menu styles={styles} width={'100vw'} right>

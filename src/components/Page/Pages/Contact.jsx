@@ -35,7 +35,7 @@ function Contact() {
     }
 
     return (
-        <div className='footer-container w-5/6 my-0 mx-auto flex justify-evenly items-center'>
+        <div className='footer-container w-5/6 h-2/3 my-0 mx-auto flex flex-col md:flex-row justify-evenly items-center'>
                         <h2 className='sectionheading'>Contact</h2>
             <ul className='footer-links w-full flex justify-evenly items-center h-2/3'>
                 {/* Linked In */}
