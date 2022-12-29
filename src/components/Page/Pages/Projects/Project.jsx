@@ -9,8 +9,15 @@ import gllogo from '../../../../assets/logos/gridlocke1.png'
 // TODO: Add hover effects and slide-in animation on scroll.
 // TODO: Correct project card proportions and add responsiveness.
 // TODO: Add my next best projects to flesh out project section.
+// TODO: Add better favicons for other projects
 
 const projects = [
+    {
+        projectTitle: "Gridlocke",
+        projectImg: gllogo,
+        projectDesc: "A grid-based card game with lots of replayability and suprisingly deep strategy.",
+        liveLink: "https://gridlocke.net/",
+    },
     {
         projectTitle: "mortalkingdoms",
         projectImg: mklogo,
@@ -30,16 +37,10 @@ const projects = [
         liveLink: "https://code-conflict.herokuapp.com/",
     },
     {
-        projectTitle: "Gridlocke",
-        projectImg: gllogo,
-        projectDesc: "A grid-based card game with lots of replayability and suprisingly deep strategy.",
-        liveLink: "https://gridlocke.net/",
-    },
-    {
-        projectTitle: "Coming Soon",
+        projectTitle: "Portfolio v1",
         projectImg: loader,
-        projectDesc: "Project Loading...",
-        liveLink: "#",
+        projectDesc: "My old portfolio, made with exclusivly HTML and CSS",
+        liveLink: "https://joerdixon.github.io/my-portfolio/",
     },
     {
         projectTitle: "Coming Soon",
