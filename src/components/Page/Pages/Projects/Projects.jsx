@@ -1,6 +1,8 @@
 import React from 'react';
 import Project from './Project'
 
+// TODO: BUG: Small aspect change on this page only
+
 function Projects() {
     return (
         <div className='project-page w-5/6'>

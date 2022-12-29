@@ -11,7 +11,7 @@ module.exports = {
         // Text
         'main-text': '#eee',
         'alt-text': 'bbb',
-        'highlight': 'yellow',
+        'highlight': 'orange-red',
         // Logo Colors
         'li-blue': "#0A66C2",
         'gh-grey': "#444",
