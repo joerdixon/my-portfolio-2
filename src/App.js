@@ -9,6 +9,7 @@ import './styles.css'
 // TODO: Add animation on load
 // TODO: Add loading screen while images load.
 // TODO: Add spotify api for people to see what I am listening to.
+// TODO: Add "More" section with the hardware I use, spotify thing, last updated ticker, and buy me a coffee link.
 
 function App() {
 

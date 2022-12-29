@@ -92,35 +92,43 @@
 
     
     /*================================ SKILLS ================================*/
-    
-    .skillsection {
-        /* Layout */
-        padding: 2rem;
-        width: 350px;
-        height: 400px;
-        overflow: auto;
-        /* Flex Settings */
+
+    .skill-container {
+        width: 33%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: space-between;
+    }
+    
+    .skillsection {
+        /* Layout */
+        width: 90%;
+        height: 75vh;
+        overflow-y: auto;
+        /* Flex Settings */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
         /* Deco */
-        border: 1px white solid;
+        border-radius: .5rem;
     }
 
     .ss-head {
         /* Layout */
-        margin: 1rem;
+        margin: 2rem;
         /* Deco */
-        font-size: larger;
+        font-size: xx-large;
     }
 
     .skill {
         /* Layout */
-        width: 70%;
+        width: 30%;
         margin: 1rem;
         /* Flex Settings */
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }

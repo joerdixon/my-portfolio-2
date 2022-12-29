@@ -3,6 +3,10 @@ import React from "react";
 import Navigation from './Navigation'
 import headshot from '../../assets/niceheadshot.jpg'
 
+// TODO: Add resume download.
+
+// TODO: Add contact links.
+
 function Header(props) {
     return (
         <div className='flex flex-col justify-top w-1/6 border-r'>
