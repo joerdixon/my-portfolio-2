@@ -117,15 +117,15 @@ function Skills(props) {
                             <p className='skill-name'>Java</p>
                         </div>
                         <div className='skill'>
-                            <img className='skill-icon' src="https://placeholder.pics/svg/40" alt="" />
+                            <img className='skill-icon' src={gitbash} alt="Git Bash Logo" />
                             <p className='skill-name'>Git</p>
                         </div>
                         <div className='skill'>
-                            <img className='skill-icon' src="https://placeholder.pics/svg/40" alt="" />
+                            <img className='skill-icon' src={jest} alt="Jest Logo" />
                             <p className='skill-name'>Jest</p>
                         </div>
                         <div className='skill'>
-                            <img className='skill-icon' src="https://placeholder.pics/svg/40" alt="" />
+                            <img className='skill-icon' src={figma} alt="Figma Logo" />
                             <p className='skill-name'>Figma</p>
                         </div>
                         <div className='skill'>
