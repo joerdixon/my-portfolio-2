@@ -54,6 +54,11 @@ a {
         transform: translateX(5px);
       }
 
+    .resume-hover {
+        background-color: salmon;
+        color: var(--background-color)
+    }
+
     /*================================ PAGES ================================*/
 
 
@@ -70,7 +75,7 @@ a {
         padding: 3vw;
         overflow: auto;
         /* Deco */
-        background-color: #000;
+        background-color: var(--background-color);
         border-radius: 20px;
         /* Flex Settings */
         display: flex;

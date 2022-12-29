@@ -7,6 +7,7 @@ import projectsvg from "../../assets/icons/projects.svg"
 import contactsvg from "../../assets/icons/contact.svg"
 
 // TODO: Cool hover effects and active styles
+// TODO: Add hover effect for resume button
 
 function Nav(props) {
     return (

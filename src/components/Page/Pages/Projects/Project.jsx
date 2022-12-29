@@ -6,7 +6,6 @@ import mklogo from '../../../../assets/logos/mklogo.png';
 import wizmoji from '../../../../assets/logos/wizardemoji.png'
 import gllogo from '../../../../assets/logos/gridlocke1.png'
 
-// TODO: Tailwind transplant
 // TODO: Add hover effects and slide-in animation on scroll.
 // TODO: Correct project card proportions and add responsiveness.
 // TODO: Add my next best projects to flesh out project section.
@@ -65,7 +64,7 @@ const projects = [
 function Project() {
     const projectCards = projects.map((proj, index) => {
         return (
-            <a href={proj.liveLink} target='_blank' className="project-card">
+            <a href={proj.liveLink} target='_blank' rel='noreferrer' className="project-card">
                 <img className='project-icon' src={proj.projectImg} alt="Project Preview" />
                 <div className="project-desc">
                     <h1 className="">{proj.projectTitle}</h1>

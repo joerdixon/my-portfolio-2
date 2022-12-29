@@ -19,15 +19,15 @@ function Header(props) {
             {/* Navbar */}
             <Navigation view={props.view} setView={props.setView} />
             {/* Resume */}
-            <a className="bg-highlight text-black p-3 font-bold rounded w-2/3 mx-auto my-0 text-center mt-20" href={resume} download="joes-resume">Download Resume</a>
+            <a className="bg-highlight text-black p-3 font-bold rounded w-2/3 mx-auto my-0 text-center mt-20 hover:resume-hover" href={resume} download="joes-resume">Download Resume</a>
             {/* Contact Links */}
             <ul className='footer-links w-full flex justify-evenly items-center'>
                 {/* Linked In */}
-                <a className="transition-transform-colors hover:bg-li-blue hover:-translate-y-1 duration-500 rounded-full" href="https://www.linkedin.com/in/joerdixon/" target='_blank' name="Link to Joe's LinkedIn"><img className="contactlink" src={lisvg} alt="LinkedIn logo" /></a>
+                <a className="transition-transform-colors hover:bg-li-blue hover:-translate-y-1 duration-500 rounded-full" href="https://www.linkedin.com/in/joerdixon/" target='_blank' rel="noreferrer" name="Link to Joe's LinkedIn"><img className="contactlink" src={lisvg} alt="LinkedIn logo" /></a>
                 {/* GitHub */}
-                <a className="transition-transform-colors hover:bg-gh-grey hover:-translate-y-1 duration-500 rounded-full" href="https://github.com/joerdixon" target='_blank' name="Link to Joe's GitHub Profile"><img className="contactlink" src={ghsvg} alt="GitHub logo" /></a>
+                <a className="transition-transform-colors hover:bg-gh-grey hover:-translate-y-1 duration-500 rounded-full" href="https://github.com/joerdixon" target='_blank' rel="noreferrer" name="Link to Joe's GitHub Profile"><img className="contactlink" src={ghsvg} alt="GitHub logo" /></a>
                 {/* Gmail */}
-                <a className="transition-transform-colors hover:bg-gm-red hover:-translate-y-1 duration-500 rounded-full" href="mailto:joseph35dixon@gmail.com" target='_blank' name="Link to create and send an email."><img className="contactlink" src={gmsvg} alt="Mail logo." /></a>
+                <a className="transition-transform-colors hover:bg-gm-red hover:-translate-y-1 duration-500 rounded-full" href="mailto:joseph35dixon@gmail.com" target='_blank' rel="noreferrer" name="Link to create and send an email."><img className="contactlink" src={gmsvg} alt="Mail logo." /></a>
             </ul>   
         </div>
     )
