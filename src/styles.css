@@ -61,7 +61,7 @@ a {
     /* Color/shape of burger icon bars */
     .bm-burger-bars {
         background: #fff;
-  }
+    }
 
     /* Color/shape of burger icon bars on hover*/
     .bm-burger-bars-hover {
@@ -101,7 +101,7 @@ a {
 
     .mobile-social {
         margin: 0 auto;
-        margin-top: 150px;
+        margin-top: 100px;
     }
 
     /* Add a cool hover effect for the nav links */
@@ -130,6 +130,21 @@ a {
         height: 94vh;
         margin: 0 auto;
         padding: 3vw;
+        /* Deco */
+        background-color: var(--background-color);
+        border-radius: 20px;
+        /* Flex Settings */
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .project-container-md {
+        /* Layout */
+        height: 94vh;
+        margin: 0 auto;
+        padding: 3vw;
         overflow: auto;
         /* Deco */
         background-color: var(--background-color);
@@ -147,8 +162,15 @@ a {
     }
 
     .project-card {
+        text-align: right;
+        width: 80%;
+        padding: 20px;
+        border-bottom: 3px solid grey;
+    }
+
+    .project-card-md {
         width: 40%;
-        height: 25vh;
+        height: 30vh;
         margin: 5vh 0;
         /* Flex Settings */
         display: flex;
@@ -166,7 +188,7 @@ a {
         width: 40%;
     }
 
-    .project-desc {
+    .project-desc-md {
         /* Layout */
         width: 50%;
         height: 60%;
@@ -175,6 +197,8 @@ a {
         justify-content: space-between;
         flex-direction: column;
     }
+
+    .project-desc {}
 
     .project-desc h1 {
         font-size: 2rem;

@@ -66,7 +66,6 @@ function Nav(props) {
 
     return (
         <>
-
             <div className=' h-1/3 hidden md:flex flex-col justify-between w-full' >
                 <div className="navlink hover:navhover" onClick={() => { props.setView("about") }}>
                     <img src={aboutsvg} alt="about icon" />
@@ -108,7 +107,7 @@ function Nav(props) {
                             <p>Contact</p>
                         </div>
                     </div>
-                    <div>
+                    <div className="w-full">
                     <ul className='mobile-social flex justify-evenly items-center h-1/3'>
                         {/* Linked In */}
                         <a className="transition-transform-colors inline-block hover:bg-li-blue hover:-translate-y-1 duration-500 rounded-full" href="https://www.linkedin.com/in/joerdixon/" target='_blank' name="Link to Joe's LinkedIn"><img className="contactlink w-14" src={lisvg} alt="LinkedIn logo" /></a>

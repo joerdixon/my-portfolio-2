@@ -19,7 +19,7 @@ const projects = [
         liveLink: "https://gridlocke.net/",
     },
     {
-        projectTitle: "mortalkingdoms",
+        projectTitle: "Mortal Kingdoms",
         projectImg: mklogo,
         projectDesc: "A wiki style website dedicated to my Dungeons and Dragons DM and his amazing worldbuilding.",
         liveLink: "https://joerdixon.github.io/the-mortal-kingdoms/",
@@ -65,9 +65,9 @@ const projects = [
 function Project() {
     const projectCards = projects.map((proj, index) => {
         return (
-            <a href={proj.liveLink} target='_blank' rel='noreferrer' className="project-card">
+            <a href={proj.liveLink} target='_blank' rel='noreferrer' className="project-card md:project-card-md">
                 <img className='project-icon' src={proj.projectImg} alt="Project Preview" />
-                <div className="project-desc">
+                <div className="project-desc md:project-desc-md">
                     <h1 className="">{proj.projectTitle}</h1>
                     <p>{proj.projectDesc}</p>
                 </div>
@@ -76,7 +76,7 @@ function Project() {
     })
 
     return (
-        <div className='work-container'>
+        <div className=''>
             <div className='project-container'>
                 {projectCards}
             </div>
