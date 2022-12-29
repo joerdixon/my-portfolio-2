@@ -22,7 +22,7 @@ const projects = [
         projectTitle: "Trade Wizard",
         projectImg: wizmoji,
         projectDesc: "A card trading application that allows users to search, add and remove cards to work out a deal.",
-        liveLink: "https://sullisters.github.io/card-broker/",
+        liveLink: "https://sullisters.github.io/Trade-Wizard/",
     },
     {
         projectTitle: "Code Conflict: Battle for Fullstack",

@@ -8,14 +8,9 @@ import lisvg from '../../assets/logos/linkedin.svg'
 import ghsvg from '../../assets/logos/github.svg'
 import gmsvg from '../../assets/icons/mail.svg'
 
-
-// TODO: Add resume download.
-
-// TODO: Add contact links.
-
 function Header(props) {
     return (
-        <div className='flex flex-col justify-between w-1/6 border-r pt-5 pb-5'>
+        <div className='flex flex-col justify-between w-1/6 border-r pt-10 pb-5'>
             {/* Nameplate*/}
             <div className="flex justify-evenly items-center mb-10">
                 <img className="rounded-full w-1/6" src={headshot} alt="Joe Dixon" />

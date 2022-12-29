@@ -63,6 +63,7 @@
         text-align: center;
         box-shadow: 7px 7px 12px black;
         background-color: #111;
+        border-radius: .5rem;
     }
 
     .project-images {
@@ -154,7 +155,7 @@
         padding-left: 2rem;
         width: 100%;
         border-bottom: 1px solid white;
-        font-size: xx-large;
+        font-size: x-large;
     }
 }
 
