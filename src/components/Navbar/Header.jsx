@@ -8,6 +8,7 @@ import lisvg from '../../assets/logos/linkedin.svg'
 import ghsvg from '../../assets/logos/github.svg'
 import gmsvg from '../../assets/icons/mail.svg'
 
+// The header component (sidebar) contains links and information that are avaliable sitewide.  
 function Header(props) {
     return (
         <div className='flex mx-auto my-0 w-5/6 h-16 md:h-auto md:flex-col justify-between md:w-1/6 md:border-r md:pt-10 md:pb-5'>
@@ -18,8 +19,9 @@ function Header(props) {
             </div>
             {/* Navbar */}
             <Navigation view={props.view} setView={props.setView} />
-            {/* Resume */}
+            {/* Resume Download */}
             <a className="bg-highlight text-black p-3 font-bold rounded w-2/3 mx-auto my-0 text-center mt-20 hidden hover:resume md:block" href={resume} download="joes-resume">Download Resume</a>
+            {/* TODO: Add theme picker here. */}
             {/* Contact Links */}
             <ul className='footer-links hidden w-full md:flex justify-evenly items-center'>
                 {/* Linked In */}

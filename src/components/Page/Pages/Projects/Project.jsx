@@ -12,6 +12,8 @@ import gllogo from '../../../../assets/logos/gridlocke1.png'
 // TODO: Add my next best projects to flesh out project section.
 // TODO: Add better favicons for other projects
 
+
+// The projects array contains project objects which are then each mapped onto a component which is added to the page.
 const projects = [
     {
         projectTitle: "Gridlocke",
@@ -64,6 +66,7 @@ const projects = [
 ]
 
 function Project() {
+    // For each project, map its properties onto html and add it to projectCards array.
     const projectCards = projects.map((proj, index) => {
         return (
             <a href={proj.liveLink} target='_blank' rel='noreferrer' className="project-card md:project-card-md">
@@ -76,6 +79,7 @@ function Project() {
         )
     })
 
+    // We will return a component which contains this array of project cards.
     return (
         <div className=''>
             <div className='project-container md:project-container-md'>

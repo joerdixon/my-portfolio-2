@@ -8,7 +8,6 @@ import aboutsvg from "../../assets/icons/about.svg"
 import skillsvg from "../../assets/icons/skills.svg"
 import projectsvg from "../../assets/icons/projects.svg"
 import contactsvg from "../../assets/icons/contact.svg"
-import hamburger from '../../assets/icons/hamburger.png'
 import ghsvg from '../../assets/logos/github.svg'
 import lisvg from '../../assets/logos/linkedin.svg'
 import gmsvg from '../../assets/icons/mail.svg'
@@ -88,7 +87,6 @@ function Nav(props) {
       {/* Mobile Nav */}
       {/* TODO:  Close menu on nav button click.*/}
       <div className="md:hidden mb-10">
-        {/* <img className="min-w-[20px] max-w-[30px] sm:max-w[40px]" src={hamburger} alt="Hamburger menu" /> */}
         <Menu styles={styles} width={'100vw'} right>
           <div className='h-1/2 flex flex-col justify-between w-full mt-10' >
             <div className="mobile-link hover:navhover" onClick={() => { props.setView("about") }} >

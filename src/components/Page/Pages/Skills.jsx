@@ -150,7 +150,6 @@ function Skills(props) {
                         </div>
                     </div>
                 </div>
-                {/* Tools */}
             </div>
         </div>
     )
