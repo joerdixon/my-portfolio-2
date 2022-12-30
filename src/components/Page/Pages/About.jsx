@@ -3,7 +3,7 @@ import headshot from '../../../assets/niceheadshot.jpg'
 
 // TODO: Add animations on screen load, this is the landing page.
 // TODO: Add a "last updated" line at the bottom
-// TODO: Add a larger piece of writing
+// TODO: ! Add a larger piece of writing
 
 // The About section contains general information about who I am as a person, my goals, major milestones and interests.
 function About(props) {

@@ -5,7 +5,7 @@ import Projects from "./Pages/Projects/Projects"
 import Skills from "./Pages/Skills"
 
 // This component is checking for the view state set by the nav bar and rendering the appropriate content.
-// TODO: Add more/extra page for fun non-professional stuff.
+// TODO: ! Add more/extra page for fun non-professional stuff.
 
 function Page(props) {
     switch (props.view) {

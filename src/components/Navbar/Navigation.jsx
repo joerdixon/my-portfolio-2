@@ -85,7 +85,7 @@ function Nav(props) {
         </div>
       </div>
       {/* Mobile Nav */}
-      {/* TODO:  Close menu on nav button click.*/}
+      {/* TODO: !  Close menu on nav button click.*/}
       <div className="md:hidden mb-10">
         <Menu styles={styles} width={'100vw'} right>
           <div className='h-1/2 flex flex-col justify-between w-full mt-10' >
