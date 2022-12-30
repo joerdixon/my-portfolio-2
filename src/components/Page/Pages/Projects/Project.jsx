@@ -7,6 +7,7 @@ import wizmoji from '../../../../assets/logos/wizardemoji.png'
 import gllogo from '../../../../assets/logos/gridlocke1.png'
 
 // TODO: Add hover effects and slide-in animation on scroll.
+// TODO: Add the following to the project cards: Tech Stack, Dev Phase (Building, Scaling, Live)
 // TODO: Correct project card proportions and add responsiveness.
 // TODO: Add my next best projects to flesh out project section.
 // TODO: Add better favicons for other projects
@@ -77,7 +78,7 @@ function Project() {
 
     return (
         <div className=''>
-            <div className='project-container'>
+            <div className='project-container md:project-container-md'>
                 {projectCards}
             </div>
         </div>

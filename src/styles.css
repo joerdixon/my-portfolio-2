@@ -142,10 +142,10 @@ a {
 
     .project-container-md {
         /* Layout */
-        height: 94vh;
+        height: 92vh;
         margin: 0 auto;
         padding: 3vw;
-        overflow: auto;
+        overflow-y: auto;
         /* Deco */
         background-color: var(--background-color);
         border-radius: 20px;
