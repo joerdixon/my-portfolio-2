@@ -27,8 +27,10 @@ import gitbash from "../../../assets/skills/git-bash.svg"
 import figma from "../../../assets/skills/figma.svg"
 
 // TODO: Fix Icon Sizing
+// TODO: Add hover effects that reveals tech name.
 
 
+// The Skills section defines which technologies I am proficient in.
 function Skills(props) {
     return (
         <div className='md:w-5/6 flex flex-col justify-top items-center'>

@@ -8,6 +8,8 @@ import gmsvg from '../../../assets/icons/mail.svg'
 // TODO: Add more links.
 // TODO: Reevealute the contact form.
 
+// The Contact section is the one-stop page for my personal presence on the internet. 
+// There are more obscure links here in addition to the ones in the footer.
 function Contact() {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
