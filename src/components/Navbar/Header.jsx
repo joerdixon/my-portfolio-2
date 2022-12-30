@@ -28,7 +28,7 @@ function Header(props) {
                 <a className="transition-transform-colors hover:bg-gh-grey hover:-translate-y-1 duration-500 rounded-full" href="https://github.com/joerdixon" target='_blank' rel="noreferrer" name="Link to Joe's GitHub Profile"><img className="contactlink" src={ghsvg} alt="GitHub logo" /></a>
                 {/* Gmail */}
                 <a className="transition-transform-colors hover:bg-gm-red hover:-translate-y-1 duration-500 rounded-full" href="mailto:joseph35dixon@gmail.com" target='_blank' rel="noreferrer" name="Link to create and send an email."><img className="contactlink" src={gmsvg} alt="Mail logo." /></a>
-            </ul>   
+            </ul>
         </div>
     )
 }

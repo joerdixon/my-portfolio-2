@@ -36,7 +36,7 @@ function Contact() {
 
     return (
         <div className='footer-container w-5/6 h-2/3 my-0 mx-auto flex flex-col md:flex-row justify-evenly items-center'>
-                        <h2 className='sectionheading'>Contact</h2>
+            <h2 className='sectionheading'>Contact</h2>
             <ul className='footer-links w-full flex justify-evenly items-center h-2/3'>
                 {/* Linked In */}
                 <a className="transition-transform-colors hover:bg-li-blue hover:-translate-y-1 duration-500 rounded-full" href="https://www.linkedin.com/in/joerdixon/" target='_blank' name="Link to Joe's LinkedIn"><img className="contactlink" src={lisvg} alt="LinkedIn logo" /></a>
