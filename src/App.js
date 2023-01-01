@@ -10,6 +10,7 @@ import './styles.css'
 // TODO: Add spotify api for people to see what I am listening to.
 // TODO: ! Add "More" section with the hardware I use, spotify thing, last updated ticker, and buy me a coffee link.
 // TODO: ! Super annoying micro-scroll on page side.
+// TODO: Add subtle particle effect to the background
 
 // TODO: Credits to be added to the more section.
 // https://worldvectorlogo.com/
