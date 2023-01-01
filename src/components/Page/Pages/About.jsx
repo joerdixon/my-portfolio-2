@@ -10,11 +10,24 @@ function About(props) {
     return (
         <div className='flex flex-col justify-top items-center md:w-5/6'>
             <h2 className='sectionheading md:sectionheading-md'>About Me</h2>
-            <div className='w-2/3 md:w-1/4 flex justify-around mt-10'>
-                <img className='w-full rounded-full my-0 mx-auto' src={headshot} alt="Joe Dixon" />
-            </div>
-            <div className='w-1/2 mt-20'>
-                <p className='m-3 text-center text-2xl w-full'>Welcome to my portfolio!<br></br><br></br>My name is Joe and I am a web enthusiest currently working towards becoming a Full Stack Web Developer. Since I was young, I've always loved computers and the internet so I'm trying to make it my job! I live in Seattle, WA.</p>
+            <div className='flex flex-col justify-between items-center overflow-auto'>
+                <div className='flex justify-evenly items-center'>
+                    <div className='flex flex-col'>
+                        <h1>Joe Dixon</h1>
+                        <h2>Web Developer</h2>
+                    </div>
+                    <div className='w-2/3 md:w-1/4 flex justify-around mt-10'>
+                        <img className='w-full rounded-full my-0 mx-auto' src={headshot} alt="Joe Dixon" />
+                    </div>
+                </div>
+                <div className='w-1/2 mt-20'>
+                    <p className='m-3 text-center text-2xl w-full'>Hello! My name is Joe and I am a Full-Stack Web Developer who loves to create beautiful and functional websites. My love for the internet started with my first computer and only grew from that point onward. <br /><br />
+
+                        I’ve recently graduated from University of Washington’s Full Stack Bootcamp and have strong proficiency in both modern front-end and modern back-end technologies. Seeing the web grow and change over the years has inspired me to make my own contribution! I am passionate about creating amazing UX and accessible websites and hope to leave the internet more inclusive than I found it. <br /><br />
+
+                        Thanks for checking me out and I hope you enjoy the rest of my portfolio!
+                    </p>
+                </div>
             </div>
         </div>
     )
