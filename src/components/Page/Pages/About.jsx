@@ -11,17 +11,17 @@ function About(props) {
         <div className='flex flex-col justify-top items-center md:w-5/6'>
             <h2 className='sectionheading md:sectionheading-md'>About Me</h2>
             <div className='flex flex-col justify-between items-center overflow-auto'>
-                <div className='flex justify-evenly items-center'>
-                    <div className='flex flex-col'>
-                        <h1>Joe Dixon</h1>
-                        <h2>Web Developer</h2>
+                <div className='flex justify-evenly items-center mt-14'>
+                    <div className='flex flex-col justify-evenly items-start h-full'>
+                        <h1 className='text-6xl'>Joe Dixon</h1>
+                        <h2 className='text-3xl'>Full Stack Web Dev</h2>
                     </div>
-                    <div className='w-2/3 md:w-1/4 flex justify-around mt-10'>
+                    <div className='w-2/3 md:w-1/4 flex justify-around'>
                         <img className='w-full rounded-full my-0 mx-auto' src={headshot} alt="Joe Dixon" />
                     </div>
                 </div>
                 <div className='w-1/2 mt-20'>
-                    <p className='m-3 text-center text-2xl w-full'>Hello! My name is Joe and I am a Full-Stack Web Developer who loves to create beautiful and functional websites. My love for the internet started with my first computer and only grew from that point onward. <br /><br />
+                    <p className='m-3 text-center text-2xl w-full'>Hello! My name is Joe and I am a Full Stack Web Developer who loves to create beautiful and functional websites. My love for the internet started with my first computer and only grew from that point onward. <br /><br />
 
                         I’ve recently graduated from University of Washington’s Full Stack Bootcamp and have strong proficiency in both modern front-end and modern back-end technologies. Seeing the web grow and change over the years has inspired me to make my own contribution! I am passionate about creating amazing UX and accessible websites and hope to leave the internet more inclusive than I found it. <br /><br />
 

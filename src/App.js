@@ -11,6 +11,7 @@ import './styles.css'
 // TODO: ! Add "More" section with the hardware I use, spotify thing, last updated ticker, and buy me a coffee link.
 // TODO: ! Super annoying micro-scroll on page side.
 // TODO: Add subtle particle effect to the background
+// TODO: Add icons to the section headings.
 
 // TODO: Credits to be added to the more section.
 // https://worldvectorlogo.com/
