@@ -1,5 +1,5 @@
 // Import React
-import React, { useState } from "react";
+import React from "react";
 import Navigation from './Navigation'
 import headshot from '../../assets/niceheadshot.jpg'
 import resume from '../../assets/resume.pdf'
@@ -12,7 +12,7 @@ import gmsvg from '../../assets/icons/mail.svg'
 function Header(props) {
 
     return (
-        <div className='flex mx-auto my-0 w-5/6 h-16 md:h-auto md:flex-col justify-between md:w-1/6 md:border-r md:pt-10 md:pb-5'>
+        <div className='flex mx-auto my-0 w-5/6 h-16 md:h-auto md:flex-col justify-between md:w-1/6 md:header-border md:p-5 md:pt-10'>
             {/* Nameplate*/}
             <div className="flex justify-evenly items-center md:mb-10 md:w-full">
                 <img className="rounded-full w-1/6 hidden md:block" src={headshot} alt="Joe Dixon" />

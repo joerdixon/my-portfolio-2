@@ -23,6 +23,9 @@ module.exports = {
         'alt': 'serif',
         'display': 'Papyrus',
       },
+      borderColor: {
+        'main-border': '#555',
+      }
         },
   },
   plugins: [],
