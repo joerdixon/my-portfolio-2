@@ -106,9 +106,8 @@ function Nav({ view, setView }) {
         </div>
       </div>
       {/* Mobile Nav */}
-      {/* TODO: !  Close menu on nav button click.*/}
       <div className="md:hidden mb-10">
-        <Menu styles={styles} width={'100vw'} right isOpen={menuOpen} onStateChange={({menuOpen}) => handleStateChange(menuOpen)}>
+        <Menu styles={styles} width={'100vw'} right isOpen={menuOpen} onStateChange={({ menuOpen }) => handleStateChange(menuOpen)}>
           <div className='h-1/2 flex flex-col justify-between w-full mt-10' >
             <div className="mobile-link" onClick={() => { handleMobileNav("about") }}>
               <img src={aboutsvg} alt="about icon" />
