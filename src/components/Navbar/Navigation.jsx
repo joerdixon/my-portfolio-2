@@ -1,6 +1,6 @@
 // Import React
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 // Burger Menu
 import { slide as Menu } from 'react-burger-menu'
 // SVG Icons
@@ -61,25 +61,46 @@ var styles = {
   }
 }
 
-function Nav(props) {
+function Nav({ view, setView }) {
+  // Keeps track of whether or not the menu is open (mobile only)
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleStateChange = (state) => {
+    setMenuOpen(state);
+  }
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  }
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen)
+  }
+
+  // Whenever a nav link is clicked
+  const handleMobileNav = async (location) => {
+    closeMenu()
+    await setView(location);
+    console.log(location)
+  }
 
   return (
     <>
       {/* Desktop Nav */}
       <div className=' h-1/3 hidden md:flex flex-col justify-between w-full' >
-        <div className="navlink hover:navhover" onClick={() => { props.setView("about") }}>
+        <div className="navlink hover:navhover" onClick={() => { handleMobileNav("about") }}>
           <img src={aboutsvg} alt="about icon" />
           <p>About Me</p>
         </div>
-        <div className="navlink hover:navhover" onClick={() => { props.setView("projects") }}>
+        <div className="navlink hover:navhover" onClick={() => { handleMobileNav("projects") }}>
           <img src={projectsvg} alt="briefcase icon" />
           <p>Projects</p>
         </div>
-        <div className="navlink hover:navhover" onClick={() => { props.setView("skills") }}>
+        <div className="navlink hover:navhover" onClick={() => { handleMobileNav("skills") }}>
           <img src={skillsvg} alt="lightbulb icon" />
           <p>Skills</p>
         </div>
-        <div className="navlink hover:navhover" onClick={() => { props.setView("contact") }}>
+        <div className="navlink hover:navhover" onClick={() => { handleMobileNav("contact") }}>
           <img src={contactsvg} alt="connect icon" />
           <p>Contact</p>
         </div>
@@ -87,21 +108,21 @@ function Nav(props) {
       {/* Mobile Nav */}
       {/* TODO: !  Close menu on nav button click.*/}
       <div className="md:hidden mb-10">
-        <Menu styles={styles} width={'100vw'} right>
+        <Menu styles={styles} width={'100vw'} right isOpen={menuOpen} onStateChange={({menuOpen}) => handleStateChange(menuOpen)}>
           <div className='h-1/2 flex flex-col justify-between w-full mt-10' >
-            <div className="mobile-link hover:navhover" onClick={() => { props.setView("about") }} >
+            <div className="mobile-link" onClick={() => { handleMobileNav("about") }}>
               <img src={aboutsvg} alt="about icon" />
               <p>About Me</p>
             </div>
-            <div className="mobile-link hover:navhover" onClick={() => { props.setView("projects") }}>
+            <div className="mobile-link" onClick={() => { handleMobileNav("projects") }}>
               <img src={projectsvg} alt="briefcase icon" />
               <p>Projects</p>
             </div>
-            <div className="mobile-link hover:navhover" onClick={() => { props.setView("skills") }}>
+            <div className="mobile-link" onClick={() => { handleMobileNav("skills") }}>
               <img src={skillsvg} alt="lightbulb icon" />
               <p>Skills</p>
             </div>
-            <div className="mobile-link hover:navhover" onClick={() => { props.setView("contact") }}>
+            <div className="mobile-link" onClick={() => { handleMobileNav("contact") }}>
               <img src={contactsvg} alt="connect icon" />
               <p>Contact</p>
             </div>
