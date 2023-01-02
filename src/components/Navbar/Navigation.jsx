@@ -1,6 +1,6 @@
 // Import React
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 // Burger Menu
 import { slide as Menu } from 'react-burger-menu'
 // SVG Icons
@@ -25,7 +25,7 @@ var styles = {
     top: '20px'
   },
   bmBurgerBars: {
-    background: '#fff'
+    background: '#fff',
   },
   bmBurgerBarsHover: {
     background: '#a90000'
@@ -62,19 +62,18 @@ var styles = {
 }
 
 function Nav({ view, setView }) {
+
   // Keeps track of whether or not the menu is open (mobile only)
   const [menuOpen, setMenuOpen] = useState(false);
 
+  // Keeps the isOpen state of the menu synced with menuOpen state.
   const handleStateChange = (state) => {
     setMenuOpen(state);
   }
 
+  // Closes the menu, changing the state and triggering isOpen to change..
   const closeMenu = () => {
     setMenuOpen(false);
-  }
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen)
   }
 
   // Whenever a nav link is clicked
@@ -108,7 +107,7 @@ function Nav({ view, setView }) {
       {/* Mobile Nav */}
       <div className="md:hidden mb-10">
         <Menu styles={styles} width={'100vw'} right isOpen={menuOpen} onStateChange={({ menuOpen }) => handleStateChange(menuOpen)}>
-          <div className='h-1/2 flex flex-col justify-between w-full mt-10' >
+          <div className='h-1/2 flex flex-col justify-between w-full' >
             <div className="mobile-link" onClick={() => { handleMobileNav("about") }}>
               <img src={aboutsvg} alt="about icon" />
               <p>About Me</p>
