@@ -1,5 +1,6 @@
 import React from 'react';
 // SVG Import
+import skills from '../../../assets/icons/skills.svg'
 // Front End
 import js from '../../../assets/skills/javascript.svg'
 import css from "../../../assets/skills/css.svg"
@@ -26,6 +27,7 @@ import java from "../../../assets/skills/java.svg"
 import gitbash from "../../../assets/skills/git-bash.svg"
 import figma from "../../../assets/skills/figma.svg"
 
+
 // TODO: Fix Icon Sizing
 // TODO: Add hover effects that reveals tech name.
 
@@ -34,7 +36,10 @@ import figma from "../../../assets/skills/figma.svg"
 function Skills(props) {
     return (
         <div className='md:w-5/6 flex flex-col justify-top items-center'>
-            <h2 className='sectionheading md:sectionheading-md'>Skills</h2>
+            <div className='sectionheading md:sectionheading-md'>
+                <img src={skills} alt="User icon on a book" className='hidden md:block md:heading-icon' />
+                <h2>Skills</h2>
+            </div>
             <div className='w-full h-full flex justify-evenly flex-wrap'>
                 <div className='skill-container'>
                     {/* Front End Skills */}

@@ -4,6 +4,7 @@ import ghsvg from '../../../assets/logos/github.svg'
 import lisvg from '../../../assets/logos/linkedin.svg'
 import lcsvg from '../../../assets/logos/leetcode.svg'
 import gmsvg from '../../../assets/icons/mail.svg'
+import contact from '../../../assets/icons/contact.svg'
 
 // TODO: Add more links.
 // TODO: Reevealute the contact form.
@@ -38,7 +39,10 @@ function Contact() {
 
     return (
         <div className='w-5/6'>
-            <h2 className='sectionheading md:sectionheading-md'>Contact</h2>
+            <div className='sectionheading md:sectionheading-md'>
+                <img src={contact} alt="User icon on a book" className='hidden md:block md:heading-icon' />
+                <h2>Contact</h2>
+            </div>
         </div>
         // <div className="contact-container">
         //     <h1>Contact me!</h1>

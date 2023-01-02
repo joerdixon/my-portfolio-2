@@ -1,5 +1,7 @@
 import React from 'react';
 import headshot from '../../../assets/niceheadshot.jpg'
+// SVG ICONS
+import aboutme from '../../../assets/icons/about.svg'
 
 // TODO: Add animations on screen load, this is the landing page.
 // TODO: Add a "last updated" line at the bottom
@@ -10,11 +12,14 @@ import headshot from '../../../assets/niceheadshot.jpg'
 function About(props) {
     return (
         <div className='flex flex-col justify-top items-center md:w-5/6'>
-            <h2 className='sectionheading md:sectionheading-md'>About Me</h2>
+            <div className='sectionheading md:sectionheading-md'>
+                <img src={aboutme} alt="User icon on a book" className='hidden md:block md:heading-icon' />
+                <h2>About Me</h2>
+            </div>
             <div className='flex flex-col justify-between items-center overflow-auto'>
                 <div className='flex flex-col-reverse md:flex-row justify-evenly items-center mt-20'>
                     <div className='flex flex-col justify-evenly items-start h-full'>
-                    {/* TODO: Add gradient and animation like v1 */}
+                        {/* TODO: Add gradient and animation like v1 */}
                         <h1 className='text-6xl'>Joe Dixon</h1>
                         <h2 className='text-3xl'>Full Stack Web Dev</h2>
                     </div>
