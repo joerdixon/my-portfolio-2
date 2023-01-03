@@ -15,22 +15,19 @@ function Contact() {
                 <h2>Contact</h2>
             </div>
             {/* Main Contact Content Container */}
-            <div className='flex flex-col justify-evenly h-2/3'>
-                <div className='text-center'>
+            <div className='flex flex-col justify-evenly'>
+                <div className='text-center mt-14'>
                     Check out one of these:
                 </div>
                 {/* Populates all of my contact links */}
-                <div>
+                <div className='m-10'>
                     <Links />
                 </div>
-                <div className='text-center flex flex-col'>
-                    <p>Or contact me directly:</p>
-                    <p><a className='block' href='mailto:joseph35dixon@gmail.com' target='_blank' rel="noreferrer">joseph35dixon@gmail.com</a></p>
-                    <p><a className='block' href='tel:2063029221'>206-302-9221</a></p>
-                    <p>(Please text before you call)</p>
-                </div>
-                <div>
-
+                <div className='text-center flex flex-col justify-evenly'>
+                    <p className='m-4'>Or contact me directly:</p>
+                    <p className='m-4'><a className='block' href='mailto:joseph35dixon@gmail.com' target='_blank' rel="noreferrer">joseph35dixon@gmail.com</a></p>
+                    <p className='m-4'><a className='block' href='tel:2063029221'>206-302-9221</a></p>
+                    <p className='m-4'>(Please text before you call)</p>
                 </div>
             </div>
         </div>
