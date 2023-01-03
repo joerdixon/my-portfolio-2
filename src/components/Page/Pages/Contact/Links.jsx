@@ -21,17 +21,12 @@ const links = [
         url: "https://leetcode.com/joseph35dixon/",
         icon: lcsvg
     },
-    {
-        name: "E-mail",
-        url: "mailto:joseph35dixon@gmail.com",
-        icon: gmsvg
-    },
 ]
 
 function Links() {
     const linkCards = links.map((link, index) => {
         return (
-            <a href={link.name} target='_blank' rel="noreferrer">
+            <a href={link.url} target='_blank' rel="noreferrer">
                 <div>
                     <img src={link.icon} alt={link.name} />
                     <p>{link.name}</p>
@@ -39,9 +34,9 @@ function Links() {
             </a>
         )
     })
-
     return (
-        <div>
+
+        <div className='flex justify-evenly w-3/4 mx-auto my-0'>
             {linkCards}
         </div>
     );
