@@ -1,10 +1,6 @@
 import React, { useState } from 'react'
-// Logo SVG's
-import ghsvg from '../../../assets/logos/github.svg'
-import lisvg from '../../../assets/logos/linkedin.svg'
-import lcsvg from '../../../assets/logos/leetcode.svg'
-import gmsvg from '../../../assets/icons/mail.svg'
-import contact from '../../../assets/icons/contact.svg'
+import Links from './Links'
+import contact from '../../../../assets/icons/contact.svg'
 
 // TODO: Add more links.
 
@@ -20,6 +16,10 @@ function Contact() {
             </div>
             <div>
                 Find me at any of these!
+            </div>
+            {/* Populates all of my contact links */}
+            <div>
+                <Links />
             </div>
         </div>
     )
