@@ -112,7 +112,7 @@ function Nav({ view, setView }) {
               <img src={aboutsvg} alt="about icon" />
               <p>About Me</p>
             </div>
-            <div className="mobile-link" onClick={() => { handleMobileNav("projects") }}>
+            <div className="mobile-link" onClick={() => {  handleMobileNav("projects") }}>
               <img src={projectsvg} alt="briefcase icon" />
               <p>Projects</p>
             </div>

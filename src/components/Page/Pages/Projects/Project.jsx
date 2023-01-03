@@ -36,13 +36,13 @@ const projects = [
     {
         projectTitle: "Code Conflict",
         projectImg: loader,
-        projectDesc: "A jrpg-style turn based battle game where you control web developers.",
+        projectDesc: "A rpg-style turn based battle game where you control web developers.",
         liveLink: "https://code-conflict.herokuapp.com/",
     },
     {
         projectTitle: "Portfolio v1",
         projectImg: loader,
-        projectDesc: "My old portfolio, made with exclusivly HTML and CSS",
+        projectDesc: "My old portfolio, made exclusively with HTML and CSS",
         liveLink: "https://joerdixon.github.io/my-portfolio/",
     },
     {
@@ -69,7 +69,7 @@ function Project() {
     // For each project, map its properties onto html and add it to projectCards array.
     const projectCards = projects.map((proj, index) => {
         return (
-            <a href={proj.liveLink} target='_blank' rel='noreferrer' className="project-card md:project-card-md">
+            <a href={proj.liveLink} target='_blank' rel='noreferrer' className="project-card md:project-card-md md:hover:project-card-hover">
                 <img className='project-icon' src={proj.projectImg} alt="Project Preview" />
                 <div className="project-desc md:project-desc-md">
                     <h1 className="">{proj.projectTitle}</h1>
