@@ -15,7 +15,7 @@ function Contact() {
                 <h2>Contact</h2>
             </div>
             {/* Main Contact Content Container */}
-            <div className='flex flex-col justify-evenly'>
+            <div className='flex flex-col justify-evenly text-2xl'>
                 <div className='text-center mt-14'>
                     Check out one of these:
                 </div>

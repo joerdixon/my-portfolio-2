@@ -3,7 +3,8 @@ import React from 'react'
 import ghsvg from '../../../../assets/logos/github.svg'
 import lisvg from '../../../../assets/logos/linkedin.svg'
 import lcsvg from '../../../../assets/logos/leetcode.svg'
-import gmsvg from '../../../../assets/icons/mail.svg'
+
+// TODO: 
 
 const links = [
     {
@@ -27,8 +28,8 @@ function Links() {
     const linkCards = links.map((link, index) => {
         return (
             <a href={link.url} target='_blank' rel="noreferrer">
-                <div>
-                    <img src={link.icon} alt={link.name} />
+                <div className='flex flex-col items-center justify-between h-24'>
+                    <img className='w-12' src={link.icon} alt={link.name} />
                     <p>{link.name}</p>
                 </div>
             </a>
