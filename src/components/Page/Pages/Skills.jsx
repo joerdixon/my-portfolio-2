@@ -38,14 +38,14 @@ function Skills(props) {
     return (
         <div className='md:w-5/6 flex flex-col justify-top items-center'>
             <div className='sectionheading md:sectionheading-md'>
-                <img src={skills} alt="User icon on a book" className='hidden md:block md:heading-icon animate-slideX' />
-                <h2 className='animate-slideX2'>Skills</h2>
+                <img src={skills} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
+                <h2 className='md:animate-slideX2'>Skills</h2>
             </div>
             <div className='w-full h-full flex justify-evenly flex-wrap'>
                 <div className='skill-container'>
                     {/* Front End Skills */}
-                    <h2 className='ss-head  animate-slideX2'>Front End</h2>
-                    <div className='skillsection  animate-slideX3'>
+                    <h2 className='ss-head  md:animate-slideX2'>Front End</h2>
+                    <div className='skillsection  md:animate-slideX3'>
                         <div className='skill'>
                             <img className='skill-icon' src={html} alt="HTML5 Logo" />
                             <p className='skill-name'>HTML</p>
@@ -82,8 +82,8 @@ function Skills(props) {
                 </div>
                 <div className='skill-container'>
                     {/* Back End Skills */}
-                    <h2 className='ss-head  animate-slideX2'>Back End</h2>
-                    <div className='skillsection  animate-slideX3'>
+                    <h2 className='ss-head  md:animate-slideX2'>Back End</h2>
+                    <div className='skillsection  md:animate-slideX3'>
                         <div className='skill'>
                             <img className='skill-icon' src={express} alt="Express.js Logo" />
                             <p className='skill-name'>Express.js</p>
@@ -120,8 +120,8 @@ function Skills(props) {
                 </div>
                 <div className='skill-container'>
                     {/* Additional Skills */}
-                    <h2 className='ss-head  animate-slideX2'>Plus</h2>
-                    <div className='skillsection  animate-slideX3'>
+                    <h2 className='ss-head  md:animate-slideX2'>Plus</h2>
+                    <div className='skillsection  md:animate-slideX3'>
                         <div className='skill'>
                             <img className='skill-icon' src={python} alt="Python Logo" />
                             <p className='skill-name'>Python</p>
