@@ -10,7 +10,7 @@ module.exports = {
         'alt-bg': '#444',
         // Text
         'main-text': '#eee',
-        'alt-text': 'bbb',
+        'alt-text': '#bbb',
         'highlight': '#FFAAA5',
         // Logo Colors
         'li-blue': "#0A66C2",

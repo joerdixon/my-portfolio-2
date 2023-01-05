@@ -12,6 +12,7 @@ import './styles.css'
 // TODO: ! Super annoying micro-scroll on page side.
 // TODO: Add subtle particle effect to the background
 // TODO: Add icons to the section headings.
+// TODO: Revisit typography.
   
 // TODO: Credits to be added to the more section.
 // https://worldvectorlogo.com/

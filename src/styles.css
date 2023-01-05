@@ -1,7 +1,14 @@
 /* Root Variables */
 :root {
     /* Colors */
-    --background-color: #111;
+    /* Background */
+    --main-bg: #111;
+    --alt-bg: #444;
+    /* Text */
+    --main-text: #eee;
+    --alt-text: #bbb;
+    --highlight: #FFAAA5;
+    /* Other */
     --border-color: #555;
     --main-type-color: #ddd;
     --secondary-type-color: #bbb;
@@ -9,7 +16,7 @@
     /* Sizes */
     --p-size: .8rem;
     /* Fonts */
-    --main-font: sans-serif;
+    --main-font: "Inter Tight";
 }
 
 body {
