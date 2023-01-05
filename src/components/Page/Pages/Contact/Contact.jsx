@@ -11,8 +11,8 @@ function Contact() {
     return (
         <div className='md:w-5/6'>
             <div className='sectionheading md:sectionheading-md'>
-                <img src={contact} alt="User icon on a book" className='hidden md:block md:heading-icon' />
-                <h2>Contact</h2>
+                <img src={contact} alt="User icon on a book" className='hidden md:block md:heading-icon animate-slideX' />
+                <h2 className='animate-slideX'>Contact</h2>
             </div>
             {/* Main Contact Content Container */}
             <div className='flex flex-col justify-evenly text-2xl'>

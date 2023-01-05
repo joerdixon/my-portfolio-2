@@ -13,7 +13,7 @@ import './styles.css'
 // TODO: Add subtle particle effect to the background
 // TODO: Add icons to the section headings.
 // TODO: Revisit typography.
-  
+
 // TODO: Credits to be added to the more section.
 // https://worldvectorlogo.com/
 // Futurama Bender icon by Icons8

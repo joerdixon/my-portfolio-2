@@ -14,8 +14,8 @@ function About(props) {
     return (
         <div className='flex flex-col justify-top items-center md:w-5/6'>
             <div className='sectionheading md:sectionheading-md'>
-                <img src={aboutme} alt="User icon on a book" className='hidden md:block md:heading-icon' />
-                <h2>About Me</h2>
+                <img src={aboutme} alt="User icon on a book" className='hidden md:block md:heading-icon animate-slideX' />
+                <h2 className='animate-slideX'>About Me</h2>
             </div>
             <div className='flex flex-col justify-between items-center overflow-auto'>
                 <div className='flex flex-col-reverse md:flex-row justify-evenly items-center mt-20'>

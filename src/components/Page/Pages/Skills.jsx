@@ -38,8 +38,8 @@ function Skills(props) {
     return (
         <div className='md:w-5/6 flex flex-col justify-top items-center'>
             <div className='sectionheading md:sectionheading-md'>
-                <img src={skills} alt="User icon on a book" className='hidden md:block md:heading-icon' />
-                <h2>Skills</h2>
+                <img src={skills} alt="User icon on a book" className='hidden md:block md:heading-icon animate-slideX' />
+                <h2 className='animate-slideX'>Skills</h2>
             </div>
             <div className='w-full h-full flex justify-evenly flex-wrap'>
                 <div className='skill-container'>

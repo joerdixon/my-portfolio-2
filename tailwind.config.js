@@ -25,8 +25,26 @@ module.exports = {
       },
       borderColor: {
         'main-border': '#555',
+      },
+      animation: {
+        'slideX': 'slideX 1s ease-out',
+      },
+      keyframes: {
+        slideX: {
+          '0%': {
+            transform: 'translateX(200%)',
+            opacity: '0%'
+          },
+          '45%': {
+            opacity: '0%'
+          },
+          '100%': {
+            transform: 'translateX(0%)',
+            opacity: '100%'
+          }
+        }
       }
-        },
+    },
   },
   plugins: [],
 }
