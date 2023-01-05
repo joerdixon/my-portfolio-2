@@ -13,7 +13,6 @@ import lisvg from '../../assets/logos/linkedin.svg'
 import gmsvg from '../../assets/icons/mail.svg'
 
 // TODO: Better hover effects and active styles
-// TODO: Add hover effect for resume button
 
 // Burger Menu Styling
 var styles = {

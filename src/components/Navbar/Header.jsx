@@ -8,6 +8,8 @@ import lisvg from '../../assets/logos/linkedin.svg'
 import ghsvg from '../../assets/logos/github.svg'
 import gmsvg from '../../assets/icons/mail.svg'
 
+// TODO: Add animations on load for header elements.
+
 // The header component (sidebar) contains links and information that are avaliable sitewide.  
 function Header(props) {
 
@@ -15,12 +17,14 @@ function Header(props) {
         <div className='flex mx-auto my-0 w-5/6 h-16 md:h-auto md:flex-col justify-between md:w-1/6 md:header-border md:p-5 md:pt-10'>
             {/* Nameplate*/}
             <div className="flex justify-evenly items-center md:mb-10 md:w-full">
+                {/* Add status ping to picture */}
                 <img className="rounded-full w-1/6 hidden md:block" src={headshot} alt="Joe Dixon" />
                 <h1 className='text-center text-xl font-semibold tracking-wide'>Joe Dixon</h1>
             </div>
             {/* Navbar */}
             <Navigation view={props.view} setView={props.setView}/>
             {/* Resume Download */}
+            {/* TODO: Add hover effect for resume download */}
             <a className="bg-highlight text-black p-3 font-bold rounded w-2/3 mx-auto my-0 text-center mt-20 hidden hover:resume md:block" href={resume} download="joes-resume">Download Resume</a>
             {/* TODO: Add theme picker here. */}
             {/* Contact Links */}

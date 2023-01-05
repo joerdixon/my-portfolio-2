@@ -3,9 +3,7 @@ import headshot from '../../../assets/niceheadshot.jpg'
 // SVG ICONS
 import aboutme from '../../../assets/icons/about.svg'
 
-// TODO: Add animations on screen load, this is the landing page.
 // TODO: Add a "last updated" line at the bottom
-// TODO: ! Add a larger piece of writing
 // TODO: Add picture of Bella (either here or in "More")
 // TODO: Improve about me layout
 // TODO: Itemize and customize entrance animations.
@@ -21,7 +19,7 @@ function About(props) {
             <div className='flex flex-col justify-between items-center overflow-y-auto overflow-x-hidden'>
                 <div className='flex flex-col-reverse md:flex-row justify-evenly items-center mt-20'>
                     <div className='flex flex-col justify-evenly items-start h-full'>
-                        {/* TODO: Add gradient and animation like v1 */}
+                        {/* TODO: Add gradient */}
                         <h1 className='text-6xl md:animate-slideX2'>Joe Dixon</h1>
                         <h2 className='text-3xl  md:animate-slideX3'>Full Stack Web Dev</h2>
                     </div>

@@ -4,7 +4,8 @@ import ghsvg from '../../../../assets/logos/github.svg'
 import lisvg from '../../../../assets/logos/linkedin.svg'
 import lcsvg from '../../../../assets/logos/leetcode.svg'
 
-// TODO: 
+// TODO: Add discord
+// TODO: Add slack.
 
 const links = [
     {

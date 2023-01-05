@@ -6,7 +6,7 @@ import mklogo from '../../../../assets/logos/mklogo.png';
 import wizmoji from '../../../../assets/logos/wizardemoji.png'
 import gllogo from '../../../../assets/logos/gridlocke1.png'
 
-// TODO: Add hover effects and slide-in animation on scroll.
+// TODO: Add slide-in animation on scroll.
 // TODO: ! Add the following to the project cards: Tech Stack, Dev Phase (Building, Scaling, Live), GitHub Repo
 // TODO: Correct project card proportions and add responsiveness.
 // TODO: ! Add my next best projects to flesh out project section.
