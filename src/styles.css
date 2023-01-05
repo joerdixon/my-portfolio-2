@@ -160,6 +160,7 @@ a {
         margin: 0 auto;
         padding: 3vw;
         overflow-y: auto;
+        overflow-x: hidden;
         /* Deco */
         background-color: var(--background-color);
         border-radius: 20px;

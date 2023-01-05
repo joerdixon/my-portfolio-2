@@ -28,6 +28,8 @@ module.exports = {
       },
       animation: {
         'slideX': 'slideX .5s ease-out',
+        'slideX2': 'slideX .8s ease-out',
+        'slideX3': 'slideX 1s ease-out',
       },
       keyframes: {
         slideX: {

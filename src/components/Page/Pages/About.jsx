@@ -16,22 +16,22 @@ function About(props) {
         <div className='flex flex-col justify-top items-center md:w-5/6'>
             <div className='sectionheading md:sectionheading-md'>
                 <img src={aboutme} alt="User icon on a book" className='hidden md:block md:heading-icon animate-slideX' />
-                <h2 className='animate-slideX'>About Me</h2>
+                <h2 className='animate-slideX2'>About Me</h2>
             </div>
-            <div className='flex flex-col justify-between items-center overflow-auto animate-slideX'>
+            <div className='flex flex-col justify-between items-center overflow-y-auto overflow-x-hidden'>
                 <div className='flex flex-col-reverse md:flex-row justify-evenly items-center mt-20'>
                     <div className='flex flex-col justify-evenly items-start h-full'>
                         {/* TODO: Add gradient and animation like v1 */}
-                        <h1 className='text-6xl'>Joe Dixon</h1>
-                        <h2 className='text-3xl'>Full Stack Web Dev</h2>
+                        <h1 className='text-6xl animate-slideX2'>Joe Dixon</h1>
+                        <h2 className='text-3xl  animate-slideX3'>Full Stack Web Dev</h2>
                     </div>
-                    <div className='w-2/3 md:w-1/4 flex justify-around'>
+                    <div className='w-2/3 md:w-1/4 flex justify-around animate-slideX3'>
                         {/* TODO: Add hover effect on headshot. */}
                         <img className='w-full rounded-full my-0 mx-auto' src={headshot} alt="Joe Dixon" />
                     </div>
                 </div>
                 {/* TODO: Add highlighting and emphasis to certain words. */}
-                <div className='w-1/2 mt-20 mb-20'>
+                <div className='w-1/2 mt-20 mb-20 animate-slideX3'>
                     <p className='text-left text-lg md:text-2xl w-full'>Hello! My name is Joe and I am a Full Stack Web Developer who loves to create beautiful and functional websites. My love for the internet started with my first computer and only grew from that point onward. <br /><br />
 
                         I’ve recently graduated from University of Washington’s Full Stack Bootcamp and have strong proficiency in both modern front-end and modern back-end technologies. Seeing the web grow and change over the years has inspired me to make my own contribution! I am passionate about creating amazing UX and accessible websites and hope to leave the internet more inclusive than I found it. <br /><br />
