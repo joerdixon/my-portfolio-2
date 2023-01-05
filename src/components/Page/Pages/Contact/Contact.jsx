@@ -9,7 +9,7 @@ import contact from '../../../../assets/icons/contact.svg'
 
 function Contact() {
     return (
-        <div className='md:w-5/6'>
+        <div className='md:w-5/6 overflow-x-hidden'>
             <div className='sectionheading md:sectionheading-md'>
                 <img src={contact} alt="User icon on a book" className='hidden md:block md:heading-icon animate-slideX' />
                 <h2 className='animate-slideX2'>Contact</h2>
