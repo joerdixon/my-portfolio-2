@@ -20,13 +20,13 @@ function Header(props) {
             <div className="flex justify-evenly items-center md:mb-10 md:w-full">
                 {/* Add status ping to picture */}
                 <img className="rounded-full w-1/6 hidden md:block" src={headshot} alt="Joe Dixon" />
-                <h1 className='text-center text-xl font-semibold tracking-wide'>Joe Dixon</h1>
+                <h1 className='text-center text-xl font-semibold tracking-wide ml-4'>Joe Dixon</h1>
             </div>
             {/* Navbar */}
             <Navigation view={props.view} setView={props.setView}/>
             {/* Resume Download */}
             {/* TODO: Add hover effect for resume download */}
-            <a className="bg-highlight text-black p-3 font-bold rounded w-2/3 mx-auto my-0 text-center mt-20 hidden hover:resume md:block" href={resume} download="joes-resume">Download Resume</a>
+            <a className="bg-highlight text-black p-3 font-bold rounded w-2/3 mx-auto my-0 text-center mt-20 hidden transition-all duration-500 hover:resume-hover md:block" href={resume} download="joes-resume">Download Resume</a>
             {/* TODO: Add theme picker here. */}
             {/* Contact Links */}
             <ul className='footer-links hidden w-full md:flex justify-evenly items-center'>

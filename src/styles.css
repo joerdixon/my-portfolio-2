@@ -8,6 +8,7 @@
     --main-text: #eee;
     --alt-text: #bbb;
     --highlight: #FFAAA5;
+    --highlight-hover: salmon;
     /* Other */
     --border-color: #555;
     --main-type-color: #ddd;
@@ -42,7 +43,7 @@ a {
     /* Links in the sidebar */
     .navlink {
         /* Layout */
-        width: 65%;
+        width: 80%;
         margin: 0 auto;
         /* Flex Settings */
         display: flex;
@@ -50,9 +51,24 @@ a {
         align-items: center;
         /* Deco */
         text-align: left;
-        font-size: larger;
+        font-size: large;
         cursor: pointer;
         transition: all .2s ease-in-out;
+    }
+
+    .nav-icon {
+        /* Layout */
+        margin-right: 35px;
+    }
+
+    .navhover {
+        color: var(--pop-type-color);
+        transform: translateX(5px);
+    }
+
+    .resume-hover {
+        background-color: var(--highlight-hover);
+        color: var(--background-color)
     }
 
     /* Having trouble getting custom border in tailwind so this class is the quick fix */
@@ -116,18 +132,6 @@ a {
     .mobile-social {
         margin: 0 auto;
         margin-top: 100px;
-    }
-
-    /* Add a cool hover effect for the nav links */
-
-    .navhover {
-        color: var(--pop-type-color);
-        transform: translateX(5px);
-    }
-
-    .resume-hover {
-        background-color: salmon;
-        color: var(--background-color)
     }
 
     /*================================ PAGES ================================*/

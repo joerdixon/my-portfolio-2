@@ -87,19 +87,19 @@ function Nav({ view, setView }) {
       {/* Desktop Nav */}
       <div className=' h-1/3 hidden md:flex flex-col justify-between w-full' >
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("about") }}>
-          <img src={aboutsvg} alt="about icon" />
+          <img className="nav-icon" src={aboutsvg} alt="about icon" />
           <p>About Me</p>
         </div>
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("projects") }}>
-          <img src={projectsvg} alt="briefcase icon" />
+          <img className="nav-icon" src={projectsvg} alt="briefcase icon" />
           <p>Projects</p>
         </div>
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("skills") }}>
-          <img src={skillsvg} alt="lightbulb icon" />
+          <img className="nav-icon" src={skillsvg} alt="lightbulb icon" />
           <p>Skills</p>
         </div>
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("contact") }}>
-          <img src={contactsvg} alt="connect icon" />
+          <img className="nav-icon" src={contactsvg} alt="connect icon" />
           <p>Contact</p>
         </div>
       </div>
