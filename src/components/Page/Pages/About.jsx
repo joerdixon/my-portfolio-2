@@ -11,7 +11,7 @@ import aboutme from '../../../assets/icons/about.svg'
 // The About section contains general information about who I am as a person, my goals, major milestones and interests.
 function About(props) {
     return (
-        <div className='flex flex-col justify-top items-center md:w-5/6'>
+        <div className='flex flex-col justify-top items-center md:w-auto'>
             <div className='sectionheading md:sectionheading-md'>
                 <img src={aboutme} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>About Me</h2>

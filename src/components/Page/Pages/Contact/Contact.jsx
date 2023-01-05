@@ -9,14 +9,14 @@ import contact from '../../../../assets/icons/contact.svg'
 
 function Contact() {
     return (
-        <div className='md:w-5/6 overflow-x-hidden'>
+        <div className='md:w-full overflow-x-hidden'>
             <div className='sectionheading md:sectionheading-md'>
                 <img src={contact} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>Contact</h2>
             </div>
             {/* Main Contact Content Container */}
-            <div className='flex flex-col justify-evenly text-2xl'>
-                <div className='text-center mt-14 md:md:animate-slideX2'>
+            <div className='w-full flex flex-col justify-evenly text-2xl'>
+                <div className='text-center mt-14 md:animate-slideX2'>
                     Check out one of these:
                 </div>
                 {/* Populates all of my contact links */}

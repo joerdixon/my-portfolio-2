@@ -36,7 +36,7 @@ import figma from "../../../assets/skills/figma.svg"
 // The Skills section defines which technologies I am proficient in.
 function Skills(props) {
     return (
-        <div className='md:w-5/6 flex flex-col justify-top items-center'>
+        <div className='md:w-auto flex flex-col justify-top items-center'>
             <div className='sectionheading md:sectionheading-md'>
                 <img src={skills} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>Skills</h2>

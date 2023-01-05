@@ -15,7 +15,7 @@ function Header(props) {
 
     return (
         // TODO: Reformat header to a consistent size (w-52 is close).
-        <div className='flex mx-auto my-0 w-5/6 h-16 md:h-auto md:flex-col justify-between md:w-1/6 md:header-border md:p-5 md:pt-10'>
+        <div className='flex my-0 w-5/6 h-16 md:h-auto md:flex-col justify-between md:w-64 md:min-w-[16rem] md:header-border md:p-5 md:pt-10'>
             {/* Nameplate*/}
             <div className="flex justify-evenly items-center md:mb-10 md:w-full">
                 {/* Add status ping to picture */}
