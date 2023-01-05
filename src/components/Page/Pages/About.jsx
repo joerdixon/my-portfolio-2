@@ -8,6 +8,7 @@ import aboutme from '../../../assets/icons/about.svg'
 // TODO: ! Add a larger piece of writing
 // TODO: Add picture of Bella (either here or in "More")
 // TODO: Improve about me layout
+// TODO: Itemize and customize entrance animations.
 
 // The About section contains general information about who I am as a person, my goals, major milestones and interests.
 function About(props) {
@@ -17,7 +18,7 @@ function About(props) {
                 <img src={aboutme} alt="User icon on a book" className='hidden md:block md:heading-icon animate-slideX' />
                 <h2 className='animate-slideX'>About Me</h2>
             </div>
-            <div className='flex flex-col justify-between items-center overflow-auto'>
+            <div className='flex flex-col justify-between items-center overflow-auto animate-slideX'>
                 <div className='flex flex-col-reverse md:flex-row justify-evenly items-center mt-20'>
                     <div className='flex flex-col justify-evenly items-start h-full'>
                         {/* TODO: Add gradient and animation like v1 */}

@@ -41,7 +41,7 @@ function Skills(props) {
                 <img src={skills} alt="User icon on a book" className='hidden md:block md:heading-icon animate-slideX' />
                 <h2 className='animate-slideX'>Skills</h2>
             </div>
-            <div className='w-full h-full flex justify-evenly flex-wrap'>
+            <div className='w-full h-full flex justify-evenly flex-wrap animate-slideX'>
                 <div className='skill-container'>
                     {/* Front End Skills */}
                     <h2 className='ss-head'>Front End</h2>

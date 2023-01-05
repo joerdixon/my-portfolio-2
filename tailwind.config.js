@@ -27,7 +27,7 @@ module.exports = {
         'main-border': '#555',
       },
       animation: {
-        'slideX': 'slideX 1s ease-out',
+        'slideX': 'slideX .5s ease-out',
       },
       keyframes: {
         slideX: {
