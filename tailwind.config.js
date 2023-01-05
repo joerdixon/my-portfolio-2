@@ -26,15 +26,16 @@ module.exports = {
       borderColor: {
         'main-border': '#555',
       },
+      // Test these being a touch faster.
       animation: {
-        'slideX': 'slideX .5s ease-out',
-        'slideX2': 'slideX .8s ease-out',
-        'slideX3': 'slideX 1s ease-out',
+        'slideX': 'slideX .3s ease-out',
+        'slideX2': 'slideX .5s ease-out',
+        'slideX3': 'slideX .7s ease-out',
       },
       keyframes: {
         slideX: {
           '0%': {
-            transform: 'translateX(200%)',
+            transform: 'translateX(80%)',
             opacity: '0%'
           },
           '45%': {

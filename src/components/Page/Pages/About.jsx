@@ -21,7 +21,7 @@ function About(props) {
                     <div className='flex flex-col justify-evenly items-start h-full'>
                         {/* TODO: Add gradient */}
                         <h1 className='text-6xl md:animate-slideX2'>Joe Dixon</h1>
-                        <h2 className='text-3xl  md:animate-slideX3'>Full Stack Web Dev</h2>
+                        <h2 className='text-3xl  md:animate-slideX3'>Full Stack Web Developer</h2>
                     </div>
                     <div className='w-2/3 md:w-1/4 flex justify-around md:animate-slideX3'>
                         {/* TODO: Add hover effect on headshot. */}
