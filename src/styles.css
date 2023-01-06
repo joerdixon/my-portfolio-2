@@ -3,7 +3,7 @@
     /* Colors */
     /* Background */
     --main-bg: #111;
-    --alt-bg: #444;
+    --alt-bg: #2627273a;
     /* Text */
     --main-text: #eee;
     --alt-text: #bbb;
@@ -67,6 +67,13 @@ a {
         margin-right: 35px;
     }
 
+    .contactlink {
+        padding: 10px;
+        width: 55px;
+    }
+
+    /* NAVIGATION HOVER EFFECTS */
+
     .navhover {
         color: var(--pop-type-color);
         transform: translateX(5px);
@@ -76,6 +83,7 @@ a {
         background-color: var(--highlight-hover);
         color: var(--background-color)
     }
+
 
     /* Having trouble getting custom border in tailwind so this class is the quick fix */
 
@@ -141,6 +149,8 @@ a {
         margin-top: 100px;
     }
 
+
+
     /*================================ PAGES ================================*/
 
 
@@ -192,7 +202,7 @@ a {
         width: 80%;
         padding: 20px;
         box-shadow: 7px 7px 12px black;
-        background-color: #111;
+        background-color: var(--alt-bg);
         margin: 1.5rem 0;
     }
 
@@ -207,7 +217,7 @@ a {
         /* Deco */
         text-align: center;
         box-shadow: 7px 7px 12px black;
-        background-color: #111;
+        background-color: var(--alt-bg);
         border-radius: .5rem;
         /* Transitions */
         transition: all .2s ease-in-out;
@@ -232,8 +242,6 @@ a {
         justify-content: space-between;
         flex-direction: column;
     }
-
-    .project-desc {}
 
     .project-desc h1 {
         font-size: 2rem;
@@ -315,11 +323,7 @@ a {
 
     /*================================ CONTACT ================================*/
 
-    /* Links in the footer (now contact section) */
-    .contactlink {
-        padding: 10px;
-        width: 55px;
-    }
+
 
     /* =============================== SITEWIDE =============================== */
 
@@ -335,7 +339,7 @@ a {
     }
 
     .sectionheading {
-        background-color: #2627273a;
+        background-color: var(--alt-bg);
         width: 100%;
         font-size: xx-large;
         text-align: center;
