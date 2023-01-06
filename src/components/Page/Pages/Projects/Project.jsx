@@ -72,7 +72,7 @@ function Project() {
             <a href={proj.liveLink} target='_blank' rel='noreferrer' className="project-card md:project-card-md md:hover:project-card-hover md:animate-slideX3">
                 <img className='project-icon' src={proj.projectImg} alt="Project Preview" />
                 <div className="project-desc md:project-desc-md">
-                    <h1 className="">{proj.projectTitle}</h1>
+                    <h1 className="font-heading">{proj.projectTitle}</h1>
                     <p>{proj.projectDesc}</p>
                 </div>
             </a>

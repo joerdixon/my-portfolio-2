@@ -20,7 +20,7 @@ function Header(props) {
             <div className="flex justify-evenly items-center md:mb-10 md:w-full">
                 {/* Add status ping to picture */}
                 <img className="rounded-full w-1/6 hidden md:block" src={headshot} alt="Joe Dixon" />
-                <h1 className='text-center text-xl font-semibold tracking-wide ml-4'>Joe Dixon</h1>
+                <h1 className='text-center text-xl font-display font-semibold tracking-wide ml-4'>Joe Dixon</h1>
             </div>
             {/* Navbar */}
             <Navigation view={props.view} setView={props.setView}/>

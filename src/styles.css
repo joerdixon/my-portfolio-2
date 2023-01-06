@@ -17,11 +17,12 @@
     /* Sizes */
     --p-size: .8rem;
     /* Fonts */
-    --main-font: "Inter Tight";
+    --display-font: "Syne";
+    --heading-font: "Inter Tight";
+    --main-font: "Karla";
 }
 
 body {
-    font-family: main;
     background-color: #111;
 }
 
@@ -52,8 +53,13 @@ a {
         /* Deco */
         text-align: left;
         font-size: large;
+        font-family: var(--heading-font);
         cursor: pointer;
         transition: all .2s ease-in-out;
+    }
+
+    .navlabel {
+        font-family: var(--heading-font);
     }
 
     .nav-icon {
@@ -287,6 +293,7 @@ a {
         overflow-x: hidden;
         /* Deco */
         font-size: xx-large;
+        font-family: var(--heading-font);
     }
 
     .skill {
@@ -323,6 +330,7 @@ a {
         font-size: x-large;
         text-align: left;
         display: flex;
+        font-family: var(--heading-font);
     }
 
     .sectionheading {

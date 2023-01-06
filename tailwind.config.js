@@ -19,9 +19,9 @@ module.exports = {
       },
       fontFamily: {
         // Fonts
-        'main': '"Inter Tight"',
-        'alt': 'serif',
-        'display': 'Papyrus',
+        'main': '"Karla"',
+        'heading': '"Inter Tight"',
+        'display': '"Syne"',
       },
       borderColor: {
         'main-border': '#555',

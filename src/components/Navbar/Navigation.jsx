@@ -88,7 +88,7 @@ function Nav({ view, setView }) {
       <div className=' h-1/3 hidden md:flex flex-col justify-between w-full' >
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("about") }}>
           <img className="nav-icon" src={aboutsvg} alt="about icon" />
-          <p>About Me</p>
+          <p classname='navlabel'>About Me</p>
         </div>
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("projects") }}>
           <img className="nav-icon" src={projectsvg} alt="briefcase icon" />

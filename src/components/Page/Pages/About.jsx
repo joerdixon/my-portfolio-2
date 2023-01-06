@@ -20,8 +20,8 @@ function About(props) {
                 <div className='flex flex-col-reverse md:flex-row justify-evenly items-center mt-20'>
                     <div className='flex flex-col justify-evenly items-center md:items-start h-full'>
                         {/* TODO: Add gradient */}
-                        <h1 className='text-6xl m-10 md:m-0 md:animate-slideX2'>Joe Dixon</h1>
-                        <h2 className='text-3xl  md:animate-slideX3'>Full Stack Web Developer</h2>
+                        <h1 className='text-6xl font-display m-10 md:m-0 md:animate-slideX2'>Joe Dixon</h1>
+                        <h2 className='text-3xl font-heading md:animate-slideX3'>Full Stack Web Developer</h2>
                     </div>
                     <div className='w-2/3 md:w-1/4 flex justify-around md:animate-slideX3'>
                         {/* TODO: Add hover effect on headshot. */}
@@ -30,7 +30,7 @@ function About(props) {
                 </div>
                 {/* TODO: Add highlighting and emphasis to certain words. */}
                 <div className='w-2/3 mt-20 mb-20 md:animate-slideX3'>
-                    <p className='text-left text-lg md:text-2xl w-full'>Hello! My name is Joe and I am a Full Stack Web Developer who loves to create beautiful and functional websites. My love for the internet started with my first computer and only grew from that point onward. <br /><br />
+                    <p className='text-left text-lg md:text-2xl w-full font-main'>Hello! My name is Joe and I am a Full Stack Web Developer who loves to create beautiful and functional websites. My love for the internet started with my first computer and only grew from that point onward. <br /><br />
 
                         I’ve recently graduated from University of Washington’s Full Stack Bootcamp and have strong proficiency in both modern front-end and modern back-end technologies. Seeing the web grow and change over the years has inspired me to make my own contribution! I am passionate about creating amazing UX and accessible websites and hope to leave the internet more inclusive than I found it. <br /><br />
 
