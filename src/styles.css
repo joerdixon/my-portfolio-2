@@ -112,7 +112,7 @@ a {
 
     /* Color/shape of close button cross */
     .bm-cross {
-        background: #bdc3c7;
+        background: #fff;
     }
 
     .mobile-menu {
@@ -131,6 +131,7 @@ a {
         /* Deco */
         text-align: left;
         font-size: larger;
+        font-family: var(--heading-font);
         cursor: pointer;
         transition: all .2s ease-in-out;
     }
@@ -316,8 +317,8 @@ a {
 
     /* Links in the footer (now contact section) */
     .contactlink {
-        padding: 1vw;
-        width: 4.5rem;
+        padding: 10px;
+        width: 55px;
     }
 
     /* =============================== SITEWIDE =============================== */
@@ -339,6 +340,7 @@ a {
         font-size: xx-large;
         text-align: center;
         padding: 5px;
+        font-family: var(--heading-font);
     }
 
     .heading-icon {

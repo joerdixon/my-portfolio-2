@@ -26,7 +26,7 @@ function Header(props) {
             <Navigation view={props.view} setView={props.setView}/>
             {/* Resume Download */}
             {/* TODO: Add hover effect for resume download */}
-            <a className="bg-highlight text-black p-3 font-bold rounded w-2/3 mx-auto my-0 text-center mt-20 hidden transition-all duration-500 hover:resume-hover md:block" href={resume} download="joes-resume">Download Resume</a>
+            <a className="bg-highlight text-black p-3 font-bold text-sm rounded w-2/3 mx-auto my-0 text-center mt-20 hidden transition-all duration-500 hover:resume-hover md:block" href={resume} download="joes-resume">Download Resume</a>
             {/* TODO: Add theme picker here. */}
             {/* Contact Links */}
             <ul className='footer-links hidden w-full md:flex justify-evenly items-center'>
