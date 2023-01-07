@@ -8,9 +8,9 @@ import './styles.css'
 // TODO: Add loading screen while images load.
 // TODO: Add spotify api for people to see what I am listening to.
 // TODO: ! Add "More" section with the hardware I use, spotify thing, last updated ticker, and buy me a coffee link.
-// TODO: ! Super annoying micro-scroll on page side.
+// TODO: ! Super annoying micro-scroll on page side (only on one monitor?).
 // TODO: Add subtle particle effect to the background
-// TODO: Revisit typography.
+// TODO: Revisit typography again to make sure it looks right, better yet, ask claire or someone else.
 
 // TODO: Credits to be added to the more section.
 // https://worldvectorlogo.com/
