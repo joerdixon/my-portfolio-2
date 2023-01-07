@@ -27,7 +27,6 @@ function Contact() {
                     <p className='m-4'>Or contact me directly:</p>
                     <p className='m-4'><a className='block' href='mailto:joseph35dixon@gmail.com' target='_blank' rel="noreferrer">joseph35dixon@gmail.com</a></p>
                     <p className='m-4'><a className='block' href='tel:2063029221'>206-302-9221</a></p>
-                    <p className='m-4'>(Please text before you call)</p>
                 </div>
             </div>
         </div>

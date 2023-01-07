@@ -3,6 +3,7 @@ import React from 'react'
 import ghsvg from '../../../../assets/logos/github.svg'
 import lisvg from '../../../../assets/logos/linkedin.svg'
 import lcsvg from '../../../../assets/logos/leetcode.svg'
+import sosvg from '../../../../assets/logos/stackoverflow.svg'
 
 // TODO: Add discord
 // TODO: Add slack.
@@ -22,6 +23,11 @@ const links = [
         name: "LeetCode",
         url: "https://leetcode.com/joseph35dixon/",
         icon: lcsvg
+    },
+    {
+        name: "Stack Overflow",
+        url: "https://stackoverflow.com/users/20949661/joe-dixon",
+        icon: sosvg
     },
 ]
 
