@@ -1,6 +1,6 @@
 // Import React
 import React from "react";
-
+// Icons/Logos
 import loader from '../../../../assets/icons/loader.svg'
 import mklogo from '../../../../assets/logos/mklogo.png';
 import wizmoji from '../../../../assets/logos/wizardemoji.png'
@@ -11,6 +11,7 @@ import gllogo from '../../../../assets/logos/gridlocke1.png'
 // TODO: Correct project card proportions and add responsiveness.
 // TODO: ! Add my next best projects to flesh out project section.
 // TODO: Add better favicons for other projects
+// TODO: Fix card responsivness.
 
 
 // The projects array contains project objects which are then each mapped onto a component which is added to the page.
