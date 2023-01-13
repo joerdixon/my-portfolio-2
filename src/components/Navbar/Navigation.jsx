@@ -11,6 +11,7 @@ import contactsvg from "../../assets/icons/contact.svg"
 import ghsvg from '../../assets/logos/github.svg'
 import lisvg from '../../assets/logos/linkedin.svg'
 import gmsvg from '../../assets/icons/mail.svg'
+import moresvg from '../../assets/icons/star.svg'
 
 // TODO: Better hover effects and active styles
 
@@ -103,7 +104,7 @@ function Nav({ view, setView }) {
           <p>Contact</p>
         </div>
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("more") }}>
-          <img className="nav-icon" src={contactsvg} alt="connect icon" />
+          <img className="nav-icon w-8" src={moresvg} alt="connect icon" />
           <p>More</p>
         </div>
       </div>
@@ -128,7 +129,7 @@ function Nav({ view, setView }) {
               <p>Contact</p>
             </div>
             <div className="mobile-link" onClick={() => { handleMobileNav("more") }}>
-              <img src={contactsvg} alt="connect icon" />
+              <img className="w-8" src={moresvg} alt="connect icon" />
               <p>More</p>
             </div>
           </div>
