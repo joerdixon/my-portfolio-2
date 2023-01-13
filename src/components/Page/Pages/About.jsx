@@ -3,8 +3,6 @@ import headshot from '../../../assets/niceheadshot.jpg'
 // SVG ICONS
 import aboutme from '../../../assets/icons/about.svg'
 
-// TODO: Add a "last updated" line at the bottom
-// TODO: Add picture of Bella (either here or in "More")
 // TODO: Improve about me layout
 // TODO: Itemize and customize entrance animations.
 

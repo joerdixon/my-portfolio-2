@@ -1,6 +1,20 @@
 import React from 'react';
 import more from '../../../assets/icons/star.svg'
 
+// Things to put in more:
+// Current Games
+// Spotify API card
+// Favorite color
+// Picture of Bella
+// List of some of my favorite websites
+// Some cool animation with three to show off.
+// Last updated timestamp
+// Buy me a coffee link.
+
+// TODO: Credits to be added to the more section.
+// https://worldvectorlogo.com/
+// Futurama Bender icon by Icons8
+
 function More() {
     return (
         <div className='flex flex-col justify-top items-center md:w-auto'>
@@ -9,8 +23,6 @@ function More() {
                 <h2 className='md:animate-slideX2'>More</h2>
             </div>
             <div className='flex flex-col justify-between items-center overflow-y-auto overflow-x-hidden'>
-                <div className='flex flex-col-reverse md:flex-row justify-evenly items-center mt-20'>
-                </div>
                 {/* TODO: Add highlighting and emphasis to certain words. */}
                 <div className='w-2/3 mt-20 mb-20 md:animate-slideX3'>
                     <p className='text-left text-lg md:text-2xl w-full font-main'>Hello! My name is Joe and I am a Full Stack Web Developer who loves to create beautiful and functional websites. My love for the internet started with my first computer and only grew from that point onward. <br /><br />
