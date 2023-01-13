@@ -5,6 +5,7 @@ import aboutme from '../../../assets/icons/about.svg'
 
 // TODO: Improve about me layout
 // TODO: Itemize and customize entrance animations.
+// TODO: Add longer piece and bella photo
 
 // The About section contains general information about who I am as a person, my goals, major milestones and interests.
 function About(props) {

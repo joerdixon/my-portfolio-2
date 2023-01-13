@@ -24,23 +24,19 @@ function More() {
             </div>
             <div className='w-full flex flex-col justify-evenly overflow-y-auto'>
                 <div className='more-section-l'>
-                    <h1 className='more-heading'>Heading</h1>
+                    <h1 className='more-heading'>Recent Games</h1>
                     <p>Content</p>
                 </div>
                 <div className='more-section-r'>
-                    <h1 className='more-heading'>Heading</h1>
+                    <h1 className='more-heading'>What I'm Listening To</h1>
                     <p>Content</p>
                 </div>
                 <div className='more-section-l'>
-                    <h1 className='more-heading'>Heading</h1>
+                    <h1 className='more-heading'>My Other Favorite Websites</h1>
                     <p>Content</p>
                 </div>
                 <div className='more-section-r'>
-                    <h1 className='more-heading'>Heading</h1>
-                    <p>Content</p>
-                </div>
-                <div className='more-section-l'>
-                    <h1 className='more-heading'>Heading</h1>
+                    <h1 className='more-heading'>Last Updated</h1>
                     <p>Content</p>
                 </div>
             </div>
