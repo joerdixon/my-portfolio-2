@@ -328,7 +328,7 @@ a {
     .more-section-r {
         /* Layout */
         width: 100%;
-        height: 200px;
+        text-align: right;
         /* Flex Settings */
         display: flex;
         flex-direction: column;
@@ -337,15 +337,19 @@ a {
     .more-section-l {
         /* Layout */
         width: 100%;
-        height: 200px;
+        text-align: left;
         /* Flex Settings */
         display: flex;
         flex-direction: column;
     }
 
+    .more-section {
+        width: 100%;
+        
+    }
+
     .more-heading {
         /* Layout */
-        margin: 30px;
         /* Decoration */
         font-size: 6rem;
         font-family: var(--heading-font);

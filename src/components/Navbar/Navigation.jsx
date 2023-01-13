@@ -89,7 +89,7 @@ function Nav({ view, setView }) {
       <div className=' h-1/3 hidden md:flex flex-col justify-between w-full' >
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("about") }}>
           <img className="nav-icon" src={aboutsvg} alt="about icon" />
-          <p classname='navlabel'>About Me</p>
+          <p className='navlabel'>About Me</p>
         </div>
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("projects") }}>
           <img className="nav-icon" src={projectsvg} alt="briefcase icon" />
@@ -104,7 +104,7 @@ function Nav({ view, setView }) {
           <p>Contact</p>
         </div>
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("more") }}>
-          <img className="nav-icon w-8" src={moresvg} alt="connect icon" />
+          <img className="nav-icon w-8" src={moresvg} alt="star icon" />
           <p>More</p>
         </div>
       </div>
@@ -129,7 +129,7 @@ function Nav({ view, setView }) {
               <p>Contact</p>
             </div>
             <div className="mobile-link" onClick={() => { handleMobileNav("more") }}>
-              <img className="w-8" src={moresvg} alt="connect icon" />
+              <img className="w-8" src={moresvg} alt="star icon" />
               <p>More</p>
             </div>
           </div>

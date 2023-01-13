@@ -22,22 +22,37 @@ function More() {
                 <img src={more} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>More</h2>
             </div>
-            <div className='w-full flex flex-col justify-evenly overflow-y-auto'>
+            <div className='w-full flex flex-col justify-evenly overflow-y-auto p-32'>
                 <div className='more-section-l'>
                     <h1 className='more-heading'>Recent Games</h1>
-                    <p>Content</p>
+                    <p>I love to play video games in my free time.</p>
+                    <p>Here are some of the game's I have been playing recently:</p>
+                    {/* Games List */}
+                    <ul>
+                        <li>The Legend of Zelda: Skyward Sword HD</li>
+                        <li>Age of Empires II: DE</li>
+                        <li>Overwatch 2 (Winston, DVA, Bastion, Mercy)</li>
+                        <li>System Shock 2</li>
+                        <li>Mario Odyssey (Trying to get all moons)</li>
+                    </ul>
                 </div>
                 <div className='more-section-r'>
                     <h1 className='more-heading'>What I'm Listening To</h1>
-                    <p>Content</p>
+                    <p>Spotify API goes here.</p>
                 </div>
                 <div className='more-section-l'>
-                    <h1 className='more-heading'>My Other Favorite Websites</h1>
-                    <p>Content</p>
+                    <h1 className='more-heading'>Cool Websites</h1>
+                    <p>I find awesome websites all the time.</p>
+                    <p>Here's a list of some of them:</p>
+                    <ul>
+                        <li><a href="https://bruno-simon.com/" target='_blank' rel='noreferrer'>bruno-simon.com</a> - Coolest portfolio I've ever seen. (Try it on mobile!)</li>
+                        <li><a href="https://blobmixer.14islands.com/" target='_blank' rel='noreferrer'>blobmixer</a> - Great study for three.js</li>
+                        <li><a href="https://mrdoob.com/" target='_blank' rel='noreferrer'>mr. doob</a> - Variety of cool apps with a variety of technologies.  </li>
+                    </ul>
                 </div>
                 <div className='more-section-r'>
                     <h1 className='more-heading'>Last Updated</h1>
-                    <p>Content</p>
+                    <p>January 13th, 2023</p>
                 </div>
             </div>
         </div>
