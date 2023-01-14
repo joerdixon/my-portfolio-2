@@ -36,15 +36,15 @@ function Links() {
         return (
             <a href={link.url} target='_blank' rel="noreferrer">
                 <div className='flex flex-col items-center justify-between h-24'>
-                    <img className='w-12' src={link.icon} alt={link.name} />
-                    <p>{link.name}</p>
+                    <img className='w-20' src={link.icon} alt={link.name} />
+                    <p className='text-sm'>{link.name}</p>
                 </div>
             </a>
         )
     })
     return (
 
-        <div className='flex justify-evenly w-3/4 mx-auto my-0'>
+        <div className='flex flex-wrap justify-evenly w-3/4 mx-auto my-0'>
             {linkCards}
         </div>
     );
