@@ -34,7 +34,7 @@ const links = [
 function Links() {
     const linkCards = links.map((link, index) => {
         return (
-            <a href={link.url} target='_blank' rel="noreferrer">
+            <a className='m-12' href={link.url} target='_blank' rel="noreferrer">
                 <div className='flex flex-col items-center justify-between h-24'>
                     <img className='w-20' src={link.icon} alt={link.name} />
                     <p className='text-sm'>{link.name}</p>
