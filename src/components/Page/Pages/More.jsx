@@ -22,10 +22,10 @@ function More() {
                 <img src={more} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>More</h2>
             </div>
-            <div className='w-full flex flex-col justify-evenly overflow-y-auto p-32'>
-                <div className='more-section-l'>
-                    <h1 className='more-heading'>Recent Games</h1>
-                    <p>I love to play video games in my free time.</p>
+            <div className='w-full flex flex-col justify-evenly overflow-y-auto md:pr-32 md:pl-32 md:pt-52 pt-12 pl-12 pr-12 text-center'>
+                <div className='more-section md:more-section-l'>    
+                    <h1 className='md:more-heading-md more-heading'>Recent Games</h1>
+                    <p>I like to play video games when I'm not working.</p>
                     <p>Here are some of the game's I have been playing recently:</p>
                     {/* Games List */}
                     <ul>
@@ -33,15 +33,15 @@ function More() {
                         <li>Age of Empires II: DE</li>
                         <li>Overwatch 2 (Winston, DVA, Bastion, Mercy)</li>
                         <li>System Shock 2</li>
-                        <li>Mario Odyssey (Trying to get all moons)</li>
+                        <li>Super Mario Odyssey (Trying to get all moons)</li>
                     </ul>
                 </div>
-                <div className='more-section-r'>
-                    <h1 className='more-heading'>What I'm Listening To</h1>
+                <div className='more-section md:more-section-r'>
+                    <h1 className='md:more-heading-md more-heading'>What I'm Listening To</h1>
                     <p>Spotify API goes here.</p>
                 </div>
-                <div className='more-section-l'>
-                    <h1 className='more-heading'>Cool Websites</h1>
+                <div className='more-section md:more-section-l'>
+                    <h1 className='md:more-heading-md more-heading'>Cool Websites</h1>
                     <p>I find awesome websites all the time.</p>
                     <p>Here's a list of some of them:</p>
                     <ul>
@@ -50,12 +50,12 @@ function More() {
                         <li><a href="https://mrdoob.com/" target='_blank' rel='noreferrer'>mr. doob</a> - Variety of cool apps with a variety of technologies.  </li>
                     </ul>
                 </div>
-                <div className='more-section-r'>
-                    <h1 className='more-heading'>Last Updated</h1>
+                <div className='more-section md:more-section-r'>
+                    <h1 className='md:more-heading-md more-heading'>Last Updated</h1>
                     <p>January 13th, 2023</p>
                 </div>
             </div>
-        </div>
+        </div>  
     )
 };
 

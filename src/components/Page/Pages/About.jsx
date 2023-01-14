@@ -19,6 +19,7 @@ function About(props) {
                 <div className='flex flex-col-reverse md:flex-row justify-evenly items-center mt-20'>
                     <div className='flex flex-col justify-evenly items-center md:items-start h-full'>
                         {/* TODO: Add gradient */}
+                        {/* TODO: Looks derpy on mobile */}
                         <h1 className='text-6xl font-display m-10 md:m-0 md:animate-slideX2'>Joe Dixon</h1>
                         <h2 className='text-3xl font-heading md:animate-slideX3'>Full Stack Web Developer</h2>
                     </div>

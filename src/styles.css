@@ -329,6 +329,7 @@ a {
         /* Layout */
         width: 100%;
         text-align: right;
+        padding-top: 50px;
         /* Flex Settings */
         display: flex;
         flex-direction: column;
@@ -338,6 +339,7 @@ a {
         /* Layout */
         width: 100%;
         text-align: left;
+        padding-top: 50px;
         /* Flex Settings */
         display: flex;
         flex-direction: column;
@@ -345,15 +347,20 @@ a {
 
     .more-section {
         width: 100%;
-        
+    }
+
+    .more-heading-md {
+        /* Layout */
+        /* Decoration */
+        font-size: 5rem;
+        font-family: var(--heading-font);
     }
 
     .more-heading {
-        /* Layout */
+        padding: 10px;
+        font-size: 2rem;
         /* Decoration */
-        font-size: 6rem;
         font-family: var(--heading-font);
-
     }
 
     /* =============================== SITEWIDE =============================== */
