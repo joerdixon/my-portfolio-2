@@ -21,7 +21,7 @@ function About(props) {
                         {/* TODO: Add gradient */}
                         {/* TODO: Looks derpy on mobile */}
                         <h1 className='md:text-6xl text-5xl font-display m-10 md:m-0 md:animate-slideX2'>Joe Dixon</h1>
-                        <h2 className='text-3xl font-heading md:animate-slideX3'>Full Stack Web Developer</h2>
+                        <h2 className='md:text-3xl text-2xl font-heading md:animate-slideX3'>Full Stack Web Developer</h2>
                     </div>
                     <div className='w-2/3 md:w-1/4 flex justify-around md:animate-slideX3'>
                         {/* TODO: Add hover effect on headshot. */}
@@ -36,6 +36,8 @@ function About(props) {
 
                         Thanks for checking me out and I hope you enjoy the rest of my portfolio!
                     </p>
+                    <br />
+                    <p className='italic'>Last Updated: 1/14/2023</p>
                 </div>
             </div>
         </div>

@@ -22,7 +22,7 @@ function More() {
                 <img src={more} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>More</h2>
             </div>
-            <div className='w-full flex flex-col justify-evenly overflow-y-auto md:pr-32 md:pl-32 md:pt-96 pt-12 pl-12 pr-12 text-center'>
+            <div className='w-full flex flex-col justify-evenly overflow-y-auto md:pr-32 md:pl-32 md:pt-96 pt-12 pl-12 pr-12'>
                 <div className='more-section md:more-section-l'>    
                     <h1 className='md:more-heading-md more-heading'>Recent Games</h1>
                     <p>I like to play video games when I'm not working.</p>
@@ -51,8 +51,11 @@ function More() {
                     </ul>
                 </div>
                 <div className='more-section md:more-section-r'>
-                    <h1 className='md:more-heading-md more-heading'>Last Updated</h1>
-                    <p>January 13th, 2023</p>
+                    <h1 className='md:more-heading-md more-heading'>Credits</h1>
+                    <ul>
+                        <li>SVG Logos - <a href='https://worldvectorlogo.com/' target='_blank' rel='noreferrer'>https://worldvectorlogo.com/</a></li>
+                        <li>SVG Icons - <a href='https://icons8.com/' target='_blank' rel='noreferrer'>https://icons8.com/</a></li>
+                    </ul>
                 </div>
             </div>
         </div>  
