@@ -29,6 +29,11 @@ const links = [
         url: "https://stackoverflow.com/users/20949661/joe-dixon",
         icon: sosvg
     },
+    {
+        name: "Discord",
+        url: "https://stackoverflow.com/users/20949661/joe-dixon",
+        icon: sosvg
+    },
 ]
 
 function Links() {
@@ -44,7 +49,7 @@ function Links() {
     })
     return (
 
-        <div className='flex flex-wrap justify-evenly w-3/4 mx-auto my-0'>
+        <div className='flex flex-wrap justify-evenly w-full md:w-3/4 mx-auto my-0'>
             {linkCards}
         </div>
     );

@@ -14,6 +14,7 @@ function Contact() {
                 <img src={contact} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>Contact</h2>
             </div>
+            <h1 className='text-center mt-12 text-5xl font-heading'>Get in touch</h1>
             {/* Main Contact Content Container */}
             <div className='w-full h-[800px] flex flex-col justify-evenly text-2xl'>
                 {/* Populates all of my contact links */}
