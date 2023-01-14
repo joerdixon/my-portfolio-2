@@ -22,7 +22,7 @@ function More() {
                 <img src={more} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>More</h2>
             </div>
-            <div className='w-full flex flex-col justify-evenly overflow-y-auto md:pr-32 md:pl-32 md:pt-52 pt-12 pl-12 pr-12 text-center'>
+            <div className='w-full flex flex-col justify-evenly overflow-y-auto md:pr-32 md:pl-32 md:pt-96 pt-12 pl-12 pr-12 text-center'>
                 <div className='more-section md:more-section-l'>    
                     <h1 className='md:more-heading-md more-heading'>Recent Games</h1>
                     <p>I like to play video games when I'm not working.</p>
