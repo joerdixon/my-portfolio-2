@@ -4,6 +4,7 @@ import ghsvg from '../../../../assets/logos/github.svg'
 import lisvg from '../../../../assets/logos/linkedin.svg'
 import lcsvg from '../../../../assets/logos/leetcode.svg'
 import sosvg from '../../../../assets/logos/stackoverflow.svg'
+import dcsvg from '../../../../assets/logos/discord.svg'
 
 // TODO: Add discord
 // TODO: Add slack.
@@ -29,27 +30,23 @@ const links = [
         url: "https://stackoverflow.com/users/20949661/joe-dixon",
         icon: sosvg
     },
-    {
-        name: "Discord",
-        url: "https://stackoverflow.com/users/20949661/joe-dixon",
-        icon: sosvg
-    },
 ]
 
 function Links() {
     const linkCards = links.map((link, index) => {
+        // TODO: Link hovers
         return (
-            <a className='m-12' href={link.url} target='_blank' rel="noreferrer">
-                <div className='flex flex-col items-center justify-between h-24'>
-                    <img className='w-20' src={link.icon} alt={link.name} />
-                    <p className='text-sm'>{link.name}</p>
+            <a className='w-[375px] border m-4' href={link.url} target='_blank' rel="noreferrer">
+                <div className='flex items-center justify-between p-4'>
+                    <img className='w-6' src={link.icon} alt={link.name} />
+                    <p className='text-lg'>{link.name}</p>
                 </div>
             </a>
         )
     })
     return (
 
-        <div className='flex flex-wrap justify-evenly w-full md:w-3/4 mx-auto my-0'>
+        <div className='flex flex-col justify-center items-center overflow-x-hidden'>
             {linkCards}
         </div>
     );

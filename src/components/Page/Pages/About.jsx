@@ -30,11 +30,11 @@ function About(props) {
                 {/* TODO: Add highlighting and emphasis to certain words. */}
                 <div className='w-2/3 mt-20 mb-20 md:animate-slideX3'>
                     <p className='text-left text-lg md:text-2xl w-full font-main'>
-                    Hello! My name is Joe and I am a Full Stack Web Developer who loves to create beautiful and functional websites. My love for the internet and electronics started with my first computer and only grew from that point onward.
+                    <span className='text-3xl text-highlight'>Hello!</span> My name is Joe and I am a <span className='text-2xl text-highlight italic'>Full Stack Web Developer</span> who loves to create beautiful and functional websites. My love for the internet and electronics started with my first computer and only grew from that point onward.
                     <br /><br />
                     Seeing the web grow and change over the years has inspired me to make my own contribution! I am passionate about creating amazing UX and accessible websites and hope to leave the internet more inclusive than I found it.
                     <br /><br />
-                    I want to bring my interests further into the internet age by creating useful websites for fans of those hobbies. I already made a trade calculator for Magic the Gathering and a wiki for my DnD campaign setting. These are the types of websites I like to work on in my spare time but I also have a fascination for business and marketing that I like to excercise when building up someone elses brand.
+                    I want to bring my interests further into the internet age by creating useful websites for fans of those hobbies. I already made a <a className='text-highlight underline' href='https://sullisters.github.io/Trade-Wizard/' target='_blank' rel='noreferrer'>trade calculator for Magic the Gathering</a> and a <a className='text-highlight underline' href='https://joerdixon.github.io/the-mortal-kingdoms/' target='_blank' rel='noreferrer'>wiki for my D&D campaign setting</a>. These are the types of websites I like to work on in my spare time but I also have a fascination for business and marketing that I like to exercise when building up someone else's brand.
                     <br /><br />
                     Thanks for checking me out and I hope you enjoy the rest of my portfolio!
                     </p>

@@ -10,22 +10,26 @@ import contact from '../../../../assets/icons/contact.svg'
 function Contact() {
     return (
         <div className='md:w-full flex flex-col overflow-x-hidden'>
+            {/* Section Heading */}
             <div className='sectionheading md:sectionheading-md'>
                 <img src={contact} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>Contact</h2>
             </div>
-            <h1 className='text-center mt-12 text-5xl font-heading'>Get in touch</h1>
-            {/* Main Contact Content Container */}
-            <div className='w-full h-[800px] flex flex-col justify-evenly text-2xl'>
+            {/* Page Content */}
+            <div className='flex flex-col items-center overflow-hidden'>
+            <h1 className='text-center mt-12 text-8xl font-heading w-full md:animate-slideX4'>Get in touch</h1>
+            <div className='w-full h-[800px] flex flex-col justify-evenly items-center text-2xl overflow-x-hidden'>
                 {/* Populates all of my contact links */}
-                <div className='text-center flex flex-col justify-evenly  md:animate-slideX3'>  
-                    <p className='m-4'><a className='block' href='mailto:joseph35dixon@gmail.com' target='_blank' rel="noreferrer">joseph35dixon@gmail.com</a></p>
-                    <p className='m-4'>Seattle, WA</p>
+                <div className='text-left flex flex-col justify-top md:animate-slideX2 overflow-x-hidden'>  
+                    <p className='m-4'>email: <a className='' href='mailto:joseph35dixon@gmail.com' target='_blank' rel="noreferrer">joseph35dixon@gmail.com</a></p>
+                    <p className='m-4'>discord: joerdixon#2022</p>
+                    <p className='m-4'>location: Seattle, WA</p>
                     <p></p>
                 </div>
-                <div className='m-10  md:animate-slideX2'>
+                <div className='md:animate-slideX3 overflow-x-hidden'>
                     <Links />
                 </div>
+            </div>
             </div>
         </div>
     )
