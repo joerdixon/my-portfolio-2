@@ -18,9 +18,9 @@ function About(props) {
             <div className='flex flex-col justify-between items-center overflow-y-auto overflow-x-hidden'>
                 <div className='flex flex-col-reverse md:flex-row justify-evenly items-center mt-20'>
                     <div className='flex flex-col justify-evenly items-center md:items-start h-full'>
-                        <h1 className='md:text-6xl text-5xl font-display m-10 md:m-0 md:animate-slideX2'>Joe Dixon</h1>
+                        <h1 className='md:text-6xl text-5xl font-display m-10 md:m-0 md:animate-slideXL2'>Joe Dixon</h1>
                         {/* TODO: Gradient Here */}
-                        <h2 className='md:text-3xl text-2xl font-heading md:animate-slideX3'>Full Stack Web Developer</h2>
+                        <h2 className='md:text-3xl text-2xl font-heading md:animate-slideXL3'>Full Stack Web Developer</h2>
                     </div>
                     <div className='w-2/3 md:w-1/4 flex justify-around md:animate-slideX3'>
                         {/* TODO: Add hover effect on headshot. */}
@@ -28,7 +28,7 @@ function About(props) {
                     </div>
                 </div>
                 {/* TODO: Add highlighting and emphasis to certain words. */}
-                <div className='w-2/3 mt-20 mb-20 md:animate-slideX3'>
+                <div className='w-2/3 mt-20 mb-20 md:animate-slideX4'>
                     <p className='text-left text-lg md:text-2xl w-full font-main'>
                     <span className='text-3xl text-highlight'>Hello!</span> My name is Joe and I am a <span className='text-2xl text-highlight italic'>Full Stack Web Developer</span> who loves to create beautiful and functional websites. My love for the internet and electronics started with my first computer and only grew from that point onward.
                     <br /><br />
