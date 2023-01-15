@@ -18,9 +18,8 @@ function About(props) {
             <div className='flex flex-col justify-between items-center overflow-y-auto overflow-x-hidden'>
                 <div className='flex flex-col-reverse md:flex-row justify-evenly items-center mt-20'>
                     <div className='flex flex-col justify-evenly items-center md:items-start h-full'>
-                        {/* TODO: Add gradient */}
-                        {/* TODO: Looks derpy on mobile */}
                         <h1 className='md:text-6xl text-5xl font-display m-10 md:m-0 md:animate-slideX2'>Joe Dixon</h1>
+                        {/* TODO: Gradient Here */}
                         <h2 className='md:text-3xl text-2xl font-heading md:animate-slideX3'>Full Stack Web Developer</h2>
                     </div>
                     <div className='w-2/3 md:w-1/4 flex justify-around md:animate-slideX3'>
@@ -30,13 +29,18 @@ function About(props) {
                 </div>
                 {/* TODO: Add highlighting and emphasis to certain words. */}
                 <div className='w-2/3 mt-20 mb-20 md:animate-slideX3'>
-                    <p className='text-left text-lg md:text-2xl w-full font-main'>Hello! My name is Joe and I am a Full Stack Web Developer who loves to create beautiful and functional websites. My love for the internet started with my first computer and only grew from that point onward. <br /><br />
-
-                        I’ve recently graduated from University of Washington’s Full Stack Bootcamp and have strong proficiency in both modern front-end and modern back-end technologies. Seeing the web grow and change over the years has inspired me to make my own contribution! I am passionate about creating amazing UX and accessible websites and hope to leave the internet more inclusive than I found it. <br /><br />
-
-                        Thanks for checking me out and I hope you enjoy the rest of my portfolio!
+                    <p className='text-left text-lg md:text-2xl w-full font-main'>
+                    Hello! My name is Joe and I am a Full Stack Web Developer who loves to create beautiful and functional websites. My love for the internet and electronics started with my first computer and only grew from that point onward.
+                    <br /><br />
+                    Seeing the web grow and change over the years has inspired me to make my own contribution! I am passionate about creating amazing UX and accessible websites and hope to leave the internet more inclusive than I found it.
+                    <br /><br />
+                    I want to bring my interests further into the internet age by creating useful websites for fans of those hobbies. I already made a trade calculator for Magic the Gathering and a wiki for my DnD campaign setting. These are the types of websites I like to work on in my spare time but I also have a fascination for business and marketing that I like to excercise when building up someone elses brand.
+                    <br /><br />
+                    Thanks for checking me out and I hope you enjoy the rest of my portfolio!
                     </p>
                     <br />
+                    <br />
+                    {/* Last Updated Section */}
                     <p className='italic'>Last Updated: 1/14/2023</p>
                 </div>
             </div>

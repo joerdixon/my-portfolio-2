@@ -31,6 +31,8 @@ module.exports = {
         'slideX': 'slideX .3s ease-out',
         'slideX2': 'slideX .5s ease-out',
         'slideX3': 'slideX .7s ease-out',
+        'slideX4': 'slideX .9s ease-out',
+        'slideX5': 'slideX 1.1s ease-out',
       },
       keyframes: {
         slideX: {
