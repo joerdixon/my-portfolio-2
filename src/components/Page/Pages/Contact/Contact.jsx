@@ -17,8 +17,8 @@ function Contact() {
             </div>
             {/* Page Content */}
             <div className='flex flex-col items-center overflow-hidden'>
-            <h1 className='text-center mt-12 text-6xl font-heading md:animate-slideXL'>Get in touch</h1>
-            <div className='w-full h-[800px] flex flex-col justify-evenly items-center text-2xl overflow-x-hidden'>
+            <h1 className='text-center mt-12 sm:text-6xl text-5xl font-heading md:animate-slideXL'>Get in touch</h1>
+            <div className='w-full h-[800px] flex flex-col justify-evenly items-center sm:text-2xl text-xl overflow-x-hidden'>
                 {/* Populates all of my contact links */}
                 <div className='text-left flex flex-col justify-top md:animate-slideX2 overflow-x-hidden'>  
                     <p className='m-4'>email: <a className='' href='mailto:joseph35dixon@gmail.com' target='_blank' rel="noreferrer">joseph35dixon@gmail.com</a></p>

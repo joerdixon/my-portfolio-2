@@ -36,7 +36,7 @@ function Links() {
     const linkCards = links.map((link, index) => {
         // TODO: Link hovers
         return (
-            <a className='w-[375px] border m-4' href={link.url} target='_blank' rel="noreferrer">
+            <a className='sm:w-[375px] w-[200px] border m-4' href={link.url} target='_blank' rel="noreferrer">
                 <div className='flex items-center justify-between p-4'>
                     <img className='w-6' src={link.icon} alt={link.name} />
                     <p className='text-lg'>{link.name}</p>
