@@ -27,30 +27,32 @@ function More() {
                     <h1 className='md:more-heading-md more-heading'>Recent Games</h1>
                     <p>I like to play video games when I'm not working.</p>
                     <p>Here are some of the game's I have been playing recently:</p>
+                    <br />
                     {/* Games List */}
                     <ul>
                         <li>The Legend of Zelda: Skyward Sword HD</li>
                         <li>Age of Empires II: DE</li>
-                        <li>Overwatch 2 (Winston, DVA, Bastion, Mercy)</li>
+                        <li>Overwatch 2 (Winston, Mercy, DVA, Bastion)</li>
                         <li>System Shock 2</li>
-                        <li>Super Mario Odyssey (Trying to get all moons)</li>
+                        <li>Super Mario Odyssey (going for all the moons)</li>
                     </ul>
                 </div>
-                <div className='more-section md:more-section-r'>
+                {/* <div className='more-section md:more-section-r'>
                     <h1 className='md:more-heading-md more-heading'>What I'm Listening To</h1>
                     <p>Spotify API goes here.</p>
-                </div>
-                <div className='more-section md:more-section-l'>
+                </div> */}
+                <div className='more-section md:more-section-r'>
                     <h1 className='md:more-heading-md more-heading'>Cool Websites</h1>
                     <p>I find awesome websites all the time.</p>
                     <p>Here's a list of some of them:</p>
+                    <br />
                     <ul>
                         <li><a href="https://bruno-simon.com/" target='_blank' rel='noreferrer'>bruno-simon.com</a> - Coolest portfolio I've ever seen. (Try it on mobile!)</li>
                         <li><a href="https://blobmixer.14islands.com/" target='_blank' rel='noreferrer'>blobmixer</a> - Great study for three.js</li>
                         <li><a href="https://mrdoob.com/" target='_blank' rel='noreferrer'>mr. doob</a> - Variety of cool apps with a variety of technologies.  </li>
                     </ul>
                 </div>
-                <div className='more-section md:more-section-r'>
+                <div className='more-section md:more-section-l'>
                     <h1 className='md:more-heading-md more-heading'>Credits</h1>
                     <ul>
                         <li>SVG Logos - <a href='https://worldvectorlogo.com/' target='_blank' rel='noreferrer'>https://worldvectorlogo.com/</a></li>

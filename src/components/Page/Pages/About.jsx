@@ -30,7 +30,7 @@ function About(props) {
                 {/* TODO: Add highlighting and emphasis to certain words. */}
                 <div className='w-2/3 mt-20 mb-20 md:animate-slideX4'>
                     <p className='text-left text-lg md:text-2xl w-full font-main'>
-                    <span className='text-3xl text-highlight'>Hello!</span> My name is Joe and I am a <span className='text-2xl text-highlight italic'>Full Stack Web Developer</span> who loves to create beautiful and functional websites. My love for the internet and electronics started with my first computer and only grew from that point onward.
+                    <span className='text-3xl text-highlight'>Hello!</span> My name is Joe and I am a <span className='text-2xl text-highlight'>Full Stack Web Developer</span> who loves to create beautiful and functional websites. My love for the internet and electronics started with my first computer and only grew from that point onward.
                     <br /><br />
                     Seeing the web grow and change over the years has inspired me to make my own contribution! I am passionate about creating amazing UX and accessible websites and hope to leave the internet more inclusive than I found it.
                     <br /><br />
