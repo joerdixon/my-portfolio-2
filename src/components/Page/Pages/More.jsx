@@ -23,12 +23,12 @@ function More() {
                 <img src={more} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>More</h2>
             </div>
-            <div className='w-full flex flex-col justify-evenly overflow-y-auto md:pr-32 md:pl-32 md:pt-96 pl-12 pr-12'>
+            <div className='w-full flex flex-col justify-evenly overflow-y-auto overflow-x-hidden md:pr-32 md:pl-32 md:pt-96 pl-12 pr-12'>
                 <div className='more-section md:more-section-l'>
                     {/* Heading */}
-                    <h1 className='md:more-heading-md more-heading'>Recent Games</h1>
+                    <h1 className='md:more-heading-md more-heading md:animate-slideXL3'>Recent Games</h1>
                     {/* Content */}
-                    <div className='text-xl'>
+                    <div className='text-xl md:animate-slideXL4'>
                         <p>I like to play video games when I'm not working.</p>
                         <p>Here are some of the game's I have been playing recently:</p>
                         <br />
@@ -47,21 +47,21 @@ function More() {
                     <p>Spotify API goes here.</p>
                 </div> */}
                 <div className='more-section md:more-section-r'>
-                    <h1 className='md:more-heading-md more-heading'>Cool Websites</h1>
-                    <div>
-                    <p>I find awesome websites all the time.</p>
-                    <p>Here's a list of some of them:</p>
-                    <br />
-                    <ul>
-                        <li><a href="https://bruno-simon.com/" target='_blank' rel='noreferrer'>bruno-simon.com</a> - Coolest portfolio I've ever seen. (Try it on mobile!)</li>
-                        <li><a href="https://blobmixer.14islands.com/" target='_blank' rel='noreferrer'>blobmixer</a> - Great study for three.js</li>
-                        <li><a href="https://mrdoob.com/" target='_blank' rel='noreferrer'>mr. doob</a> - Variety of cool apps with a variety of technologies.  </li>
-                    </ul>
+                    <h1 className='md:more-heading-md more-heading md:animate-slideX3'>Cool Websites</h1>
+                    <div className='md:animate-slideX4'>
+                        <p>I find awesome websites all the time.</p>
+                        <p>Here's a list of some of them:</p>
+                        <br />
+                        <ul>
+                            <li><a href="https://bruno-simon.com/" target='_blank' rel='noreferrer'>bruno-simon.com</a> - Coolest portfolio I've ever seen. (Try it on mobile!)</li>
+                            <li><a href="https://blobmixer.14islands.com/" target='_blank' rel='noreferrer'>blobmixer</a> - Great study for three.js</li>
+                            <li><a href="https://mrdoob.com/" target='_blank' rel='noreferrer'>mr. doob</a> - Variety of cool apps with a variety of technologies.  </li>
+                        </ul>
                     </div>
                 </div>
                 <div className='more-section md:more-section-l'>
-                    <h1 className='md:more-heading-md more-heading'>Credits</h1>
-                    <ul>
+                    <h1 className='md:more-heading-md more-heading md:animate-slideXL3'>Credits</h1>
+                    <ul className='md:animate-slideXL4'>
                         <li>SVG Logos - <a href='https://worldvectorlogo.com/' target='_blank' rel='noreferrer'>https://worldvectorlogo.com/</a></li>
                         <li>SVG Icons - <a href='https://icons8.com/' target='_blank' rel='noreferrer'>https://icons8.com/</a></li>
                     </ul>
