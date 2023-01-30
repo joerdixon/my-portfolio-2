@@ -21,10 +21,9 @@ function Contact() {
             <div className='w-full h-[800px] flex flex-col justify-evenly items-center sm:text-2xl text-xl overflow-x-hidden'>
                 {/* Populates all of my contact links */}
                 <div className='text-left flex flex-col justify-top md:animate-slideX2 overflow-x-hidden'>  
-                    <p className='m-4'>email: <a className='' href='mailto:joseph35dixon@gmail.com' target='_blank' rel="noreferrer">joseph35dixon@gmail.com</a></p>
-                    <p className='m-4'>discord: joerdixon#2022</p>
-                    <p className='m-4'>location: Seattle, WA</p>
-                    <p></p>
+                    <p className='m-4'>Email: <a className='' href='mailto:joseph35dixon@gmail.com' target='_blank' rel="noreferrer">joseph35dixon@gmail.com</a></p>
+                    <p className='m-4'>Discord: joerdixon#2022</p>
+                    <p className='m-4'>Location: Seattle, WA</p>
                 </div>
                 <div className='md:animate-slideX3 overflow-x-hidden'>
                     <Links />

@@ -42,6 +42,7 @@ module.exports = {
         'slideXL5': 'slideXL 1.1s ease-out',
       },
       keyframes: {
+        // Slide in from the right
         slideX: {
           '0%': {
             transform: 'translateX(80%)',
@@ -55,6 +56,7 @@ module.exports = {
             opacity: '100%'
           }
         },
+        // Slide in from the left
         slideXL: {
           '0%': {
             transform: 'translateX(-80%)',
