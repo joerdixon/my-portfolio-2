@@ -2,18 +2,11 @@ import React from 'react';
 import more from '../../../assets/icons/star.svg'
 
 // Things to put in more:
-// Current Games
 // Spotify API card
 // Favorite color
 // Picture of Bella
-// List of some of my favorite websites
 // Some cool animation with three to show off.
-// Last updated timestamp
 // Buy me a coffee link.
-
-// TODO: Credits to be added to the more section.
-// https://worldvectorlogo.com/
-// Futurama Bender icon by Icons8
 
 function More() {
     return (

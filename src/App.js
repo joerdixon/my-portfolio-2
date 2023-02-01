@@ -6,7 +6,6 @@ import './styles.css'
 
 // TODO: Add lightmode
 // TODO: Add loading screen while images load.
-// TODO: ! Super annoying micro-scroll on page side (only on one monitor?).
 // TODO: Add subtle particle effect to the background
 // TODO: Revisit typography again to make sure it looks right, better yet, ask claire or someone else.
 
