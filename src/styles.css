@@ -170,7 +170,7 @@ a {
         border-radius: 20px;
         /* Flex Settings */
         display: grid;
-        gap: 2rem;
+        gap: 3rem;
     }
 
     .project-container-md {
@@ -198,8 +198,6 @@ a {
     .project-card {
         text-align: right;
         width: 90%;
-        margin: 0 auto;
-        padding: 20px;
         box-shadow: 7px 7px 12px black;
         background-color: var(--alt-bg);
     }
@@ -249,7 +247,7 @@ a {
     }
 
     .project-icon {
-        width: 125px;
+        width: 75px;
     }
 
 
