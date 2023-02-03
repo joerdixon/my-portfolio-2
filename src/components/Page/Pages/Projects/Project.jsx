@@ -17,64 +17,86 @@ import gllogo from '../../../../assets/logos/gridlocke1.png'
 // The projects array contains project objects which are then each mapped onto a component which is added to the page.
 const projects = [
     {
-        projectTitle: "Gridlocke",
-        projectImg: gllogo,
-        projectDesc: "A grid-based card game with lots of replayability and suprisingly deep strategy.",
-        liveLink: "https://gridlocke.net/",
+        title: "Gridlocke",
+        img: gllogo,
+        subtitle: "Use your tiles wisely...",
+        desc: "A grid-based card game with lots of replayability and suprisingly deep strategy.",
+        link: "https://gridlocke.net/",
     },
     {
-        projectTitle: "Mortal Kingdoms",
-        projectImg: mklogo,
-        projectDesc: "A wiki style website dedicated to my Dungeons and Dragons DM and his amazing worldbuilding.",
-        liveLink: "https://joerdixon.github.io/the-mortal-kingdoms/",
+        title: "Mortal Kingdoms",
+        img: mklogo,
+        subtitle: "Use your tiles wisely...",
+        desc: "A wiki style website dedicated to my Dungeons and Dragons DM and his amazing worldbuilding.",
+        link: "https://joerdixon.github.io/the-mortal-kingdoms/",
     },
     {
-        projectTitle: "Trade Wizard",
-        projectImg: wizmoji,
-        projectDesc: "A card trading application that allows users to search, add and remove cards to work out a deal.",
-        liveLink: "https://sullisters.github.io/Trade-Wizard/",
+        title: "Trade Wizard",
+        img: wizmoji,
+        subtitle: "Use your tiles wisely...",
+        desc: "A card trading application that allows users to search, add and remove cards to work out a deal.",
+        link: "https://sullisters.github.io/Trade-Wizard/",
     },
     {
-        projectTitle: "Code Conflict",
-        projectImg: loader,
-        projectDesc: "A rpg-style turn based battle game where you control web developers.",
-        liveLink: "https://code-conflict.herokuapp.com/",
+        title: "Code Conflict",
+        img: loader,
+        subtitle: "Use your tiles wisely...",
+        desc: "A rpg-style turn based battle game where you control web developers.",
+        link: "https://code-conflict.herokuapp.com/",
     },
     {
-        projectTitle: "Portfolio v1",
-        projectImg: loader,
-        projectDesc: "My old portfolio, made exclusively with HTML and CSS",
-        liveLink: "https://joerdixon.github.io/my-portfolio/",
+        title: "Portfolio v1",
+        img: loader,
+        subtitle: "Use your tiles wisely...",
+        desc: "My old portfolio, made exclusively with HTML and CSS",
+        link: "https://joerdixon.github.io/my-portfolio/",
     },
     {
-        projectTitle: "Coming Soon",
-        projectImg: loader,
-        projectDesc: "Project Loading...",
-        liveLink: "#",
+        title: "Coming Soon",
+        img: loader,
+        subtitle: "Use your tiles wisely...",
+        desc: "Project Loading...",
+        link: "#",
     },
     {
-        projectTitle: "Coming Soon",
-        projectImg: loader,
-        projectDesc: "Project Loading...",
-        liveLink: "#",
+        title: "Coming Soon",
+        img: loader,
+        subtitle: "Use your tiles wisely...",
+        desc: "Project Loading...",
+        link: "#",
     },
     {
-        projectTitle: "Coming Soon",
-        projectImg: loader,
-        projectDesc: "Project Loading...",
-        liveLink: "#",
+        title: "Coming Soon",
+        img: loader,
+        subtitle: "Use your tiles wisely...",
+        desc: "Project Loading...",
+        link: "#",
     },
 ]
 
 function Project() {
     // For each project, map its properties onto html and add it to projectCards array.
+    // TODO: Drop down for description on project cards.
     const projectCards = projects.map((proj, index) => {
         return (
-            <a href={proj.liveLink} target='_blank' rel='noreferrer' className="project-card md:project-card-md md:hover:project-card-hover md:animate-slideX3">
-                <img className='project-icon' src={proj.projectImg} alt="Project Preview" />
-                <div className="project-desc md:project-desc-md">
-                    <h1 className="font-heading">{proj.projectTitle}</h1>
-                    <p>{proj.projectDesc}</p>
+            // The whole card will be a link
+            <a href={proj.link} target='_blank' rel='noreferrer' className="project-card md:project-card-md md:hover:project-card-hover md:animate-slideX3">
+                <div>
+                    {/* Icon, Name, and One-liner */}
+                    <div>
+                        <img className='project-icon' src={proj.img} alt="Project Preview" />
+                        <h1 className="font-heading">{proj.title}</h1>
+                        <p>{proj.subtitle}</p>
+                    </div>
+                    {/* Stack Used */}
+                    <div>
+                    </div>
+                    {/* Project Description */}
+                    <div>
+                        <p>{proj.desc}</p>
+                    </div>
+                    <div className="project-desc md:project-desc-md">
+                    </div>
                 </div>
             </a>
         )
