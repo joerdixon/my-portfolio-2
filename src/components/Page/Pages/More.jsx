@@ -1,4 +1,5 @@
 import React from 'react';
+import Test from './Test'
 import more from '../../../assets/icons/star.svg'
 
 // Things to put in more:
@@ -59,6 +60,7 @@ function More() {
                         <li>SVG Icons - <a href='https://icons8.com/' target='_blank' rel='noreferrer'>https://icons8.com/</a></li>
                     </ul>
                 </div>
+                <Test />
             </div>
         </div>
     )
