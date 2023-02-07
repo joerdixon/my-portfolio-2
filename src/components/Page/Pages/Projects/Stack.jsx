@@ -3,7 +3,16 @@ import React from 'react';
 function Stack({stack}) {
 
 return(
-<h1>Functional Stack</h1>
+    <div>
+        <h1>stack:</h1>
+        {stack.map((tech, index) => {
+            return (
+                <div key={index}>
+                    {tech}
+                </div>
+            )
+        })}
+    </div>
 )
 };
 
