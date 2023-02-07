@@ -1,5 +1,6 @@
 // Import React
 import React from "react";
+import Stack from "./Stack";
 // Icons/Logos
 import loader from '../../../../assets/icons/loader.svg'
 import mklogo from '../../../../assets/logos/mklogo.png';
@@ -100,7 +101,7 @@ function Project() {
                     <p>{proj.subtitle}</p>
                     {/* Stack Used */}
                     <section>
-                        stack: 
+                        <Stack stack={proj.stack} />
                     </section>
                     {/* Project Description */}
                     <section>
