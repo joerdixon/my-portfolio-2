@@ -20,15 +20,13 @@ const projects = [
     {
         title: "Gridlocke",
         img: gllogo,
-        subtitle: "Use your tiles wisely...",
-        stack: ["React", "Tailwind", "Express", "Socket.io", "SQL", "Node"],
+        stack: ["React", "Tailwind", "Express", "Socket.io", "SQL"],
         desc: "A grid-based card game with lots of replayability and suprisingly deep strategy.",
         link: "https://gridlocke.net/",
     },
     {
         title: "Mortal Kingdoms",
         img: mklogo,
-        subtitle: "Use your tiles wisely...",
         stack: ["React", "Tailwind", "Express", "SQL"],
         desc: "A wiki style website dedicated to my Dungeons and Dragons DM and his amazing worldbuilding.",
         link: "https://joerdixon.github.io/the-mortal-kingdoms/",
@@ -36,7 +34,6 @@ const projects = [
     {
         title: "Trade Wizard",
         img: wizmoji,
-        subtitle: "Use your tiles wisely...",
         stack: ["HTML", "CSS", "JavaScript", "Bulma"],
         desc: "A card trading application that allows users to search, add and remove cards to work out a deal.",
         link: "https://sullisters.github.io/Trade-Wizard/",
@@ -44,7 +41,6 @@ const projects = [
     {
         title: "Code Conflict",
         img: loader,
-        subtitle: "Use your tiles wisely...",
         stack: ["HTML", "CSS", "JavaScript", "Socket.io"],
         desc: "A rpg-style turn based battle game where you control web developers.",
         link: "https://code-conflict.herokuapp.com/",
@@ -52,7 +48,6 @@ const projects = [
     {
         title: "Portfolio v1",
         img: loader,
-        subtitle: "Use your tiles wisely...",
         stack: ["HTML", "CSS"],
         desc: "My old portfolio, made exclusively with HTML and CSS",
         link: "https://joerdixon.github.io/my-portfolio/",
@@ -60,7 +55,6 @@ const projects = [
     {
         title: "Coming Soon",
         img: loader,
-        subtitle: "Use your tiles wisely...",
         stack: ["...", "..."],
         desc: "Project Loading...",
         link: "#",
@@ -68,7 +62,6 @@ const projects = [
     {
         title: "Coming Soon",
         img: loader,
-        subtitle: "Use your tiles wisely...",
         stack: ["...", "..."],
         desc: "Project Loading...",
         link: "#",
@@ -76,7 +69,6 @@ const projects = [
     {
         title: "Coming Soon",
         img: loader,
-        subtitle: "Use your tiles wisely...",
         stack: ["...", "..."],
         desc: "Project Loading...",
         link: "#",
@@ -98,7 +90,6 @@ function Project() {
                             <h1 className="font-heading">{proj.title}</h1>
                         </div>
                     </section>
-                    <p>{proj.subtitle}</p>
                     {/* Stack Used */}
                     <section>
                         <Stack stack={proj.stack} />
