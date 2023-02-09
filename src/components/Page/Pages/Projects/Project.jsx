@@ -82,23 +82,21 @@ function Project() {
         return (
             // The whole card will be a link
             <a href={proj.link} target='_blank' rel='noreferrer' className="project-card md:project-card-md md:hover:project-card-hover md:animate-slideX3">
-                <div className="flex flex-col justify-between items-center h-full">
+                <div className="flex flex-col justify-between h-full">
                     {/* Icon, Name, and One-liner */}
-                    <section className="flex justify-start">
-                        <img className='project-icon' src={proj.img} alt="Project Preview" />
-                        <div className="flex flex-col items-center justify-evenly">
-                            <h1 className="font-heading">{proj.title}</h1>
+                    <section className="flex justify-start pl-4 border-white">
+                        <img className='w-[80px]' src={proj.img} alt="Project Preview" />
+                        <div className="flex flex-col items-center justify-evenly pl-10">
+                            <h1 className="font-heading text-xl">{proj.title}</h1>
                         </div>
+                    </section>
+                    {/* Project Description */}
+                    <section className="project-desc md:project-desc-md">
+                        <p>{proj.desc}</p>
                     </section>
                     {/* Stack Used */}
                     <section>
                         <Stack stack={proj.stack} />
-                    </section>
-                    {/* Project Description */}
-                    <section>
-                        <p>{proj.desc}</p>
-                    </section>
-                    <section className="project-desc md:project-desc-md">
                     </section>
                 </div>
             </a>

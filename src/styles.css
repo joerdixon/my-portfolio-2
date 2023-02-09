@@ -232,6 +232,7 @@ a {
         /* Layout */
         width: 50%;
         height: 60%;
+        padding: 0 1rem;
         /* Flex Settings */
         display: flex;
         justify-content: space-between;
@@ -243,13 +244,8 @@ a {
     }
 
     .project-desc p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
-
-    .project-icon {
-        width: 75px;
-    }
-
 
     /*================================ SKILLS ================================*/
 
