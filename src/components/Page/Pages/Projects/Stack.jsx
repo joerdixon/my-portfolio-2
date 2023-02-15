@@ -4,7 +4,7 @@ function Stack({ stack }) {
 
     return (
         <div>
-            <h1>Stack:</h1>
+            <h1 className='pb-4'>Stack:</h1>
             <div className='flex justify-evenly items-center'>
                 {stack.map((tech, index) => {
                     return (
