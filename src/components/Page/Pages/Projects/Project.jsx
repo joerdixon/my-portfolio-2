@@ -23,7 +23,7 @@ const projects = [
         stack: ["React", "Tailwind", "Express", "Socket.io", "SQL"],
         desc: "A grid-based card game with lots of replayability and suprisingly deep strategy.",
         link: "https://gridlocke.net/",
-        repolink: "",
+        repolink: "https://github.com/neft-tk/fatal-forge",
     },
     {
         title: "Mortal Kingdoms",
@@ -31,7 +31,7 @@ const projects = [
         stack: ["React", "Tailwind", "Express", "SQL"],
         desc: "A wiki style website dedicated to my Dungeons and Dragons DM and his amazing worldbuilding.",
         link: "https://joerdixon.github.io/the-mortal-kingdoms/",
-        repolink: "",
+        repolink: "https://github.com/joerdixon/mortalkingdoms",
     },
     {
         title: "Trade Wizard",
@@ -39,7 +39,7 @@ const projects = [
         stack: ["HTML", "CSS", "JavaScript", "Bulma"],
         desc: "A card trading application that allows users to search, add and remove cards to work out a deal.",
         link: "https://sullisters.github.io/Trade-Wizard/",
-        repolink: "",
+        repolink: "https://github.com/Sullisters/Trade-Wizard",
     },
     {
         title: "Code Conflict",
@@ -47,7 +47,7 @@ const projects = [
         stack: ["HTML", "CSS", "JavaScript", "Socket.io"],
         desc: "A rpg-style turn based battle game where you control web developers.",
         link: "https://code-conflict.herokuapp.com/",
-        repolink: "",
+        repolink: "https://github.com/neft-tk/Code-Conflict",
     },
     {
         title: "Portfolio v1",
@@ -55,7 +55,7 @@ const projects = [
         stack: ["HTML", "CSS"],
         desc: "My old portfolio, made exclusively with HTML and CSS",
         link: "https://joerdixon.github.io/my-portfolio/",
-        repolink: "",
+        repolink: "https://github.com/joerdixon/my-portfolio",
     },
     {
         title: "Coming Soon",
