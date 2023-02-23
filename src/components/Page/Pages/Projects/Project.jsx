@@ -99,13 +99,13 @@ function Project() {
                             <h1 className="font-heading text-xl w-60">{proj.title}</h1>
                         </div>
                         {/* Github Repo Link */}
-                        <a href={proj.repolink} className='flex'><img src={ghlogo} alt="" /></a>
+                        <a href={proj.repolink} className='flex' target='_blank'><img src={ghlogo} alt="" className="w-[25px]" /></a>
                     </section>
                     {/* Project Description */}
                     {/* Stack Used */}
-                    <section className="p-4 flex flex-col justify-between">
+                    <section className="p-4 flex flex-col justify-between h-80">
                         <section className="project-desc md:project-desc-md">
-                            <p>{proj.desc}</p>
+                            <p className="text-xl">{proj.desc}</p>
                         </section>
                         <Stack stack={proj.stack} />
                     </section>
