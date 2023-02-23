@@ -7,7 +7,7 @@ import mklogo from '../../../../assets/logos/mklogo.png';
 import wizmoji from '../../../../assets/logos/wizardemoji.png'
 import gllogo from '../../../../assets/logos/gridlocke1.png'
 import ghlogo from "../../../../assets/logos/github.svg"
-        
+
 // TODO: Add slide-in animation on scroll.
 // TODO: ! Add the following to the project cards: Tech Stack, Dev Phase (Building, Scaling, Live), GitHub Repo
 // TODO: Correct project card proportions and add responsiveness.
@@ -91,21 +91,22 @@ function Project() {
         return (
             // The whole card will be a link
             <a href={proj.link} target='_blank' rel='noreferrer' className="project-card md:project-card-md md:hover:project-card-hover md:animate-slideX3">
-                <div className="flex flex-col justify-evenly h-full w-full">
+                <div className="flex flex-col justify-between h-full w-full">
                     {/* Icon, Name, and One-liner */}
-                    <section className="flex justify-start align-middle pl-4 border-b w-full">
+                    <section className="flex justify-between pl-8 pr-8 border-b w-full">
                         <img className='w-[45px]' src={proj.img} alt="Project Preview" />
-                        <div className="flex items-center justify-between pl-10">
-                            <h1 className="font-heading text-xl">{proj.title}</h1>
-                            <a href={proj.repolink}><img src={ghlogo} alt="" /></a>
+                        <div className="flex items-center justify-evenly">
+                            <h1 className="font-heading text-xl w-60">{proj.title}</h1>
                         </div>
+                        {/* Github Repo Link */}
+                        <a href={proj.repolink} className='flex'><img src={ghlogo} alt="" /></a>
                     </section>
                     {/* Project Description */}
-                    <section className="project-desc md:project-desc-md">
-                        <p>{proj.desc}</p>
-                    </section>
                     {/* Stack Used */}
-                    <section className="p-4">
+                    <section className="p-4 flex flex-col justify-between">
+                        <section className="project-desc md:project-desc-md">
+                            <p>{proj.desc}</p>
+                        </section>
                         <Stack stack={proj.stack} />
                     </section>
                 </div>
