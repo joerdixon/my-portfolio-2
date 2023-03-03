@@ -93,7 +93,7 @@ function Project() {
             <a href={proj.link} target='_blank' rel='noreferrer' className="project-card md:project-card-md md:hover:project-card-hover md:animate-slideX3">
                 <div className="flex flex-col justify-between h-full w-full">
                     {/* Icon, Name, and One-liner */}
-                    <section className="flex justify-between pl-8 pr-8 border-b w-full">
+                    <section className="flex justify-between pl-8 pr-8 border-b h-20 w-full">
                         <img className='w-[45px]' src={proj.img} alt="Project Preview" />
                         <div className="flex items-center justify-evenly">
                             <h1 className="font-heading text-xl w-60">{proj.title}</h1>
