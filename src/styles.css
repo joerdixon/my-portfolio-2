@@ -238,6 +238,27 @@ a {
         grid-template-columns: auto 1fr auto;
     }
 
+    /* Stack */
+
+    .stack-item {
+
+    }
+
+    .stack-item:hover, .tooltip-text {
+        visibility: visible;
+        transform: translateY(-2%);
+    }
+
+    /* Tooltips */
+
+    .tooltip-text {
+        visibility: hidden;
+        display: inline;
+        position: absolute;
+        z-index: 2;
+        top: -10px;
+    }
+
     /*================================ SKILLS ================================*/
 
     .skill-container {

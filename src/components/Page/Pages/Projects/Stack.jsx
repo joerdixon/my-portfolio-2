@@ -42,6 +42,8 @@ function Stack({ stack }) {
                     let stackIcon;
                     let stackAlt;
 
+                    // SVG Icons that are currently used in the project cards.
+
                     switch (tech) {
                         case "React":
                             stackIcon = react;
@@ -67,15 +69,24 @@ function Stack({ stack }) {
                             stackIcon = socket;
                             stackAlt = "Socket.io"
                             break;
-                        case "MySQL":
+                        case "SQL":
                             stackIcon = mysql;
                             stackAlt = "MySQL"
+                            break;
+                        case "HTML":
+                            stackIcon = html;
+                            stackAlt = "HTML"
+                            break;
+                        case "Bulma":
+                            stackIcon = bulma;
+                            stackAlt = "Bulma"
                             break;
                     }
 
                     return (
-                        <div key={index} className='w-6'>
-                            <img src={stackIcon} alt="" />
+                        <div key={index}>
+                            <img className='stack-item w-6' src={stackIcon} alt={stackAlt} />
+                            <span className='tooltip-text'>Test</span>
                         </div>
                     )
                 })}
