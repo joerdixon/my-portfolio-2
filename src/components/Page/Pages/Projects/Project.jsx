@@ -3,7 +3,7 @@ import React from "react";
 import Stack from "./Stack";
 // Icons/Logos
 import loader from '../../../../assets/icons/loader.svg'
-import mklogo from '../../../../assets/logos/mklogo.png';
+import mklogo from '../../../../assets/logos/mklogo.svg';
 import wizmoji from '../../../../assets/logos/wizardemoji.png'
 import gllogo from '../../../../assets/logos/gridlocke1.png'
 import ghlogo from "../../../../assets/logos/github.svg"
@@ -52,7 +52,7 @@ const projects = [
         repolink: "https://github.com/neft-tk/Code-Conflict",
     },
     {
-        title: "Portfolio v1",
+        title: "Portfolio V1",
         img: loader,
         stack: ["HTML", "CSS"],
         desc: "My old portfolio, made exclusively with HTML and CSS",
@@ -129,7 +129,7 @@ function Project() {
 
     // We will return a component which contains this array of project cards.
     return (
-        <div className=''>
+        <div>
             <div className='project-container md:project-container-md'>
                 {projectCards}
             </div>
