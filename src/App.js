@@ -8,6 +8,9 @@ import './styles.css'
 // TODO: Add loading screen while images load.
 // TODO: Add subtle particle effect to the background
 // TODO: Revisit typography again to make sure it looks right, better yet, ask claire or someone else.
+// TODO: Standardize text sizes (Hero, Heading, Text)
+// TODO: Standardize color usage (60, 30, 10)
+
 
 function App() {
 

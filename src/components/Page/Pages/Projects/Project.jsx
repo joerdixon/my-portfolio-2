@@ -16,6 +16,7 @@ import ghlogo from "../../../../assets/logos/github.svg"
 // TODO: Fix card responsivness.
 
 
+
 // The projects array contains project objects which are then each mapped onto a component which is added to the page.
 const projects = [
     {
