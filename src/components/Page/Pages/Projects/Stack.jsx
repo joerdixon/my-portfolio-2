@@ -1,15 +1,17 @@
 import React from 'react';
 
+// TODO: Map an icon instead of just the name.
+// TODO: Name tooltip on hover.
+
 function Stack({ stack }) {
 
     return (
         <div>
-            <h1 className='pb-4'>Stack:</h1>
             <div className='flex justify-evenly items-center'>
                 {stack.map((tech, index) => {
                     return (
-                        <div key={index} className='w-[5rem] border rounded-2xl text-sm'>
-                            {tech}
+                        <div key={index} className='border rounded-2xl text-sm'>
+                            {tech[0]}
                         </div>
                     )
                 })}
