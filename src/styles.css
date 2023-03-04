@@ -170,7 +170,7 @@ a {
         border-radius: 20px;
         /* Flex Settings */
         display: grid;
-        gap: 3rem;
+        gap: 2.5rem;
     }
 
     .project-container-md {
@@ -203,8 +203,7 @@ a {
     }
 
     .project-card-md {
-        width: 40%;
-        height: 30vh;
+        width: 46%;
         /* Flex Settings */
         display: flex;
         justify-content: space-around;

@@ -92,23 +92,28 @@ function Project() {
         return (
             // The whole card will be a link
             <a href={proj.link} target='_blank' rel='noreferrer' className="project-card md:project-card-md md:hover:project-card-hover md:animate-slideX3">
-                <div className="flex flex-col justify-between h-full w-full">
-                    {/* Icon, Name, and One-liner */}
+                <div className="flex flex-col justify-between h-auto w-full">
+                    {/* Image */}
                     <section className="flex justify-between pl-8 pr-8 border-b h-20 w-full">
                         <img className='w-[45px]' src={proj.img} alt="Project Preview" />
+                    </section>
+                    {/* Name, Phase, Stack */}
+                    <section className="p-4 flex flex-col justify-between h-80">
                         <div className="flex items-center justify-evenly">
                             <h1 className="font-heading text-xl w-60">{proj.title}</h1>
                         </div>
-                        {/* Github Repo Link */}
-                        <a href={proj.repolink} className='flex' target='_blank'><img src={ghlogo} alt="" className="w-[25px]" /></a>
+                        <Stack stack={proj.stack} />
                     </section>
-                    {/* Project Description */}
-                    {/* Stack Used */}
-                    <section className="p-4 flex flex-col justify-between h-80">
+                    {/* Description */}
+                    <section>
                         <section className="project-desc md:project-desc-md">
                             <p className="text-xl">{proj.desc}</p>
                         </section>
-                        <Stack stack={proj.stack} />
+                        {/* Github Repo Link */}
+                        <a href={proj.repolink} className='flex' target='_blank'><img src={ghlogo} alt="" className="w-[25px]" /></a>
+                    </section>
+                    {/* View */}
+                    <section>
                     </section>
                 </div>
             </a>
