@@ -94,13 +94,13 @@ function Project() {
             <a href={proj.link} target='_blank' rel='noreferrer' className="project-card md:project-card-md md:hover:project-card-hover md:animate-slideX3">
                 <div className="flex flex-col justify-between h-auto w-full">
                     {/* Image */}
-                    <section className="flex justify-center pl-8 pr-8 border-b w-full">
+                    <section className="flex justify-center pl-8 pr-8 border-b-2 w-full">
                         <img className='w-32 pt-4 pb-4' src={proj.img} alt="Project Preview" />
                     </section>
                     {/* Name, Phase, Stack */}
-                    <section className="title-bar border-b">
+                    <section className="title-bar border-b-2">
                         {/* Title */}
-                        <div className="flex items-center justify-evenly p-4 border-r">
+                        <div className="flex items-center justify-evenly p-4 border-r-2">
                             <h1 className="font-heading text-xl ">{proj.title}</h1>
                         </div>
                         {/* Stack */}
@@ -108,13 +108,13 @@ function Project() {
                             <Stack stack={proj.stack} />
                         </div>
                         {/* Repo Link */}
-                        <div className="border-l p-4">
+                        <div className="border-l-2 p-4">
                             <a href={proj.repolink} className='flex' target='_blank'><img src={ghlogo} alt="" className="w-[25px]" /></a>
                         </div>
                     </section>
                     {/* Description */}
                     <section>
-                        <section className="project-desc md:project-desc-md">
+                        <section className="project-desc xl:project-desc-md">
                             <p className="text-xl">{proj.desc}</p>
                         </section>
                     </section>

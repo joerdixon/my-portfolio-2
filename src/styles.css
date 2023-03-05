@@ -229,13 +229,15 @@ a {
 
     .project-desc-md {
         /* Layout */
-        height: 60%;
-        padding: .5rem 1rem;
-        text-align: left;
         /* Flex Settings */
         display: flex;
         justify-content: start;
         flex-direction: column;
+    }
+
+    .project-desc {
+        padding: 20px;
+        text-align: left;
     }
 
     .title-bar {
