@@ -86,6 +86,7 @@ function Stack({ stack }) {
 
                     return (
                         <div key={index}>
+                            {/* Tooltip wraps the svg */}
                             <Tooltip className='bg-[#333] text-white p-2 rounded-md' content={stackAlt} placement='top'>
                                 <img className='w-6 aspect-square' src={stackIcon} alt={stackAlt} />
                             </Tooltip>
