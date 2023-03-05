@@ -52,7 +52,7 @@ function Stack({ stack }) {
                             break;
                         case "JavaScript":
                             stackIcon = js;
-                            stackAlt = "Javascript"
+                            stackAlt = "JavaScript"
                             break;
                         case "CSS":
                             stackIcon = css;
@@ -86,7 +86,7 @@ function Stack({ stack }) {
 
                     return (
                         <div key={index}>
-                            <Tooltip className='bg-[#222] text-white p-2 rounded-md' content={stackAlt} placement='top'>
+                            <Tooltip className='bg-[#333] text-white p-2 rounded-md' content={stackAlt} placement='top'>
                                 <img className='w-6 aspect-square' src={stackIcon} alt={stackAlt} />
                             </Tooltip>
                         </div>
