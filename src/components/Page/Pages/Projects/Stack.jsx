@@ -1,4 +1,5 @@
 import React from 'react';
+import { Tooltip } from '@material-tailwind/react';
 
 // SVG Import
 import skills from '../../../../assets/icons/skills.svg'
@@ -85,8 +86,9 @@ function Stack({ stack }) {
 
                     return (
                         <div key={index}>
-                            <img className='stack-item w-6' src={stackIcon} alt={stackAlt} />
-                            <span className='tooltip-text'>Test</span>
+                            <Tooltip className='bg-[#222] text-white p-2 rounded-md' content={stackAlt} placement='top'>
+                                <img className='w-6 aspect-square' src={stackIcon} alt={stackAlt} />
+                            </Tooltip>
                         </div>
                     )
                 })}
