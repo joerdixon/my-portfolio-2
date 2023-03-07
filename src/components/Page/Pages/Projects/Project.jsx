@@ -9,7 +9,7 @@ import gllogo from '../../../../assets/logos/gridlocke1.png'
 import ghlogo from "../../../../assets/logos/github.svg"
 
 // TODO: Add slide-in animation on scroll.
-// TODO: ! Add the following to the project cards: Tech Stack, Dev Phase (Building, Scaling, Live), GitHub Repo
+// TODO: ! Add the following to the project cards: Dev Phase (Building, Scaling, Live).
 // TODO: Correct project card proportions and add responsiveness.
 // TODO: ! Add my next best projects to flesh out project section.
 // TODO: Add better favicons for other projects
@@ -60,12 +60,12 @@ const projects = [
         repolink: "https://github.com/joerdixon/my-portfolio",
     },
     {
-        title: "Coming Soon",
+        title: "The Planar Atlas",
         img: loader,
-        stack: [],
-        desc: "Project Loading...",
-        link: "#",
-        repolink: "",
+        stack: ["HTML", "CSS", "JavaScript"],
+        desc: "A tool made for my DnD campaign which allows you to chart a course with The Planar Atlas.",
+        link: "https://joerdixon.github.io/the-planar-atlas/",
+        repolink: "https://github.com/joerdixon/the-planar-atlas",
     },
     {
         title: "Coming Soon",
