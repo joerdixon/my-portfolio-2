@@ -55,7 +55,7 @@ const projects = [
         title: "Portfolio V1",
         img: loader,
         stack: ["HTML", "CSS"],
-        desc: "My old portfolio, made exclusively with HTML and CSS",
+        desc: "My old portfolio, more brochure-y, made exclusively with HTML and CSS",
         link: "https://joerdixon.github.io/my-portfolio/",
         repolink: "https://github.com/joerdixon/my-portfolio",
     },
@@ -67,13 +67,14 @@ const projects = [
         link: "https://joerdixon.github.io/the-planar-atlas/",
         repolink: "https://github.com/joerdixon/the-planar-atlas",
     },
+    // Add icons for this tech.
     {
-        title: "Coming Soon",
+        title: "Crime DV",
         img: loader,
-        stack: [],
-        desc: "Project Loading...",
-        link: "#",
-        repolink: "",
+        stack: ["React", "D3", "Leaflet", "Tableau"],
+        desc: "A Data Visualization project about rising crime in Seattle. Done at UW Datathon 2023",
+        link: "https://elegant-alpaca-09fa58.netlify.app/",
+        repolink: "https://github.com/joerdixon/datathon-presentation",
     },
     {
         title: "Coming Soon",

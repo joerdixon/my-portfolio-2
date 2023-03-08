@@ -29,9 +29,7 @@ import java from "../../../../assets/skills/java.svg"
 import gitbash from "../../../../assets/skills/git-bash.svg"
 import figma from "../../../../assets/skills/figma.svg"
 
-
-// TODO: Map an icon instead of just the name.
-// TODO: Name tooltip on hover.
+// TODO: Add icons for stacks not yet caught in the switch statement.
 
 function Stack({ stack }) {
 
