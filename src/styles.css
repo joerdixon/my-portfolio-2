@@ -169,8 +169,6 @@ a {
         background-color: var(--background-color);
         border-radius: 20px;
         /* Flex Settings */
-        /* display: grid;
-        gap: 2.5rem; */
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
@@ -238,6 +236,8 @@ a {
     .project-desc {
         padding: 20px;
         text-align: left;
+        height: 12vh;
+        overflow: auto;
     }
 
     .title-bar {

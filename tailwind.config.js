@@ -70,6 +70,9 @@ module.exports = {
             opacity: '100%'
           }
         }
+      },
+      screens: {
+        'lg': '1100px'
       }
     },
   },
