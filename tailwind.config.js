@@ -72,7 +72,7 @@ module.exports = {
         }
       },
       screens: {
-        'lg': '1100px'
+        // 'xl': '1410px'
       }
     },
   },

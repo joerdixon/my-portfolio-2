@@ -93,7 +93,7 @@ function Project() {
     const projectCards = projects.map((proj, index) => {
         return (
             // The whole card will be a link
-            <a href={proj.link} target='_blank' rel='noreferrer' className="project-card lg:project-card-md md:hover:project-card-hover md:animate-slideX3">
+            <a href={proj.link} target='_blank' rel='noreferrer' className="project-card xl:project-card-md md:hover:project-card-hover md:animate-slideX3">
                 <div className="flex flex-col justify-between h-auto w-full">
                     {/* Image */}
                     <section className="flex justify-center pl-8 pr-8 border-b-2 border-stone-700 w-full">
@@ -116,7 +116,7 @@ function Project() {
                     </section>
                     {/* Description */}
                     <section>
-                        <section className="project-desc lg:project-desc-md">
+                        <section className="project-desc xl:project-desc-md">
                             <p className="text-xl">{proj.desc}</p>
                         </section>
                     </section>
@@ -131,7 +131,7 @@ function Project() {
     // We will return a component which contains this array of project cards.
     return (
         <div>
-            <div className='project-container lg:project-container-md'>
+            <div className='project-container md:project-container-md'>
                 {projectCards}
             </div>
         </div>

@@ -9,7 +9,7 @@
   --main-text: #eee;
   --alt-text: #bbb;
   --highlight: #FFAAA5;
-  --highlight-hover: salmon;
+  --highlight-hover: #ffc2bf;
   /* Other */
   --border-color: #555;
   --main-type-color: #ddd;
@@ -609,9 +609,9 @@ video {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1024px) {
   .container {
-    max-width: 1100px;
+    max-width: 1024px;
   }
 }
 
@@ -736,7 +736,6 @@ video {
   padding: 20px;
   text-align: left;
   height: 12vh;
-  overflow: auto;
 }
 
 .title-bar {
@@ -1328,7 +1327,7 @@ div span {
 
 .hover\:resume-hover:hover {
   background-color: var(--highlight-hover);
-  color: var(--background-color)
+  border-radius: 5px;
 }
 
 .hover\:-translate-y-1:hover {
@@ -1337,9 +1336,9 @@ div span {
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:scale-105:hover {
-  --tw-scale-x: 1.05;
-  --tw-scale-y: 1.05;
+.hover\:scale-\[1\.02\]:hover {
+  --tw-scale-x: 1.02;
+  --tw-scale-y: 1.02;
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -1386,6 +1385,23 @@ div span {
 
   .md\:mb-10 {
     margin-bottom: 2.5rem;
+  }
+
+  .md\:project-container-md {
+    /* Layout */
+    height: 92vh;
+    margin: 0 auto;
+    padding: 3vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* Deco */
+    background-color: var(--background-color);
+    border-radius: 20px;
+    /* Flex Settings */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   .md\:block {
@@ -1741,25 +1757,8 @@ div span {
   }
 }
 
-@media (min-width: 1100px) {
-  .lg\:project-container-md {
-    /* Layout */
-    height: 92vh;
-    margin: 0 auto;
-    padding: 3vw;
-    overflow-y: auto;
-    overflow-x: hidden;
-    /* Deco */
-    background-color: var(--background-color);
-    border-radius: 20px;
-    /* Flex Settings */
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .lg\:project-card-md {
+@media (min-width: 1280px) {
+  .xl\:project-card-md {
     width: 46%;
     /* Flex Settings */
     display: flex;
@@ -1774,11 +1773,12 @@ div span {
     transition: all .2s ease-in-out;
   }
 
-  .lg\:project-desc-md {
+  .xl\:project-desc-md {
     /* Layout */
     /* Flex Settings */
     display: flex;
     justify-content: start;
     flex-direction: column;
+    overflow: auto;
   }
 }

@@ -8,7 +8,7 @@
     --main-text: #eee;
     --alt-text: #bbb;
     --highlight: #FFAAA5;
-    --highlight-hover: salmon;
+    --highlight-hover: #ffc2bf;
     /* Other */
     --border-color: #555;
     --main-type-color: #ddd;
@@ -81,7 +81,7 @@ a {
 
     .resume-hover {
         background-color: var(--highlight-hover);
-        color: var(--background-color)
+        border-radius: 5px;
     }
 
 
@@ -231,13 +231,13 @@ a {
         display: flex;
         justify-content: start;
         flex-direction: column;
+        overflow: auto;
     }
 
     .project-desc {
         padding: 20px;
         text-align: left;
         height: 12vh;
-        overflow: auto;
     }
 
     .title-bar {

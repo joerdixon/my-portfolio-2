@@ -23,7 +23,7 @@ function About(props) {
                         <h2 className='md:text-3xl text-2xl font-heading md:animate-slideXL3'>Full Stack Web Developer</h2>
                     </div>
                     <div className='w-2/3 md:w-1/4 flex justify-around md:animate-slideX3'>
-                        {/* TODO: Add hover effect on headshot. */}
+                        {/* TODO: Add hover effect on headshot, portrait pops out of frame. */}
                         <img className='w-full rounded-full my-0 mx-auto' src={headshot} alt="Joe Dixon" />
                     </div>
                 </div>
