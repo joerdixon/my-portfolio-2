@@ -93,7 +93,7 @@ function Project() {
     const projectCards = projects.map((proj, index) => {
         return (
             // The whole card will be a link
-            <a href={proj.link} target='_blank' rel='noreferrer' className="project-card xl:project-card-md md:hover:project-card-hover md:animate-slideX3">
+            <a href={proj.link} target='_blank' rel='noreferrer' className="project-card xl:project-card-md hover:project-card-hover xl:animate-slideX3">
                 <div className="flex flex-col justify-between h-auto w-full">
                     {/* Image */}
                     <section className="flex justify-center pl-8 pr-8 border-b-2 border-stone-700 w-full">
@@ -111,7 +111,7 @@ function Project() {
                         </div>
                         {/* Repo Link */}
                         <div className="border-l-2 border-stone-700 p-4">
-                            <a href={proj.repolink} className='flex' target='_blank'><img src={ghlogo} alt="" className="w-[25px]" /></a>
+                            <a href={proj.repolink} className='flex' rel='noreferrer' target='_blank'><img src={ghlogo} alt="" className="w-[25px]" /></a>
                         </div>
                     </section>
                     {/* Description */}

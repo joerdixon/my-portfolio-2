@@ -203,6 +203,8 @@ a {
         box-shadow: 7px 7px 12px black;
         background-color: var(--alt-bg);
         margin-top: 30px;
+        /* Transitions */
+        transition: all .2s ease-in-out;
     }
 
     .project-card-md {
@@ -216,8 +218,6 @@ a {
         box-shadow: 7px 7px 12px black;
         background-color: var(--alt-bg);
         border-radius: .5rem;
-        /* Transitions */
-        transition: all .2s ease-in-out;
     }
 
     .project-card-hover {

@@ -4,7 +4,6 @@ import ghsvg from '../../../../assets/logos/github.svg'
 import lisvg from '../../../../assets/logos/linkedin.svg'
 import lcsvg from '../../../../assets/logos/leetcode.svg'
 import sosvg from '../../../../assets/logos/stackoverflow.svg'
-import dcsvg from '../../../../assets/logos/discord.svg'
 
 // TODO: Add discord
 // TODO: Add slack.
