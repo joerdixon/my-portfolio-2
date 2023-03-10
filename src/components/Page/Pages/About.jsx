@@ -11,10 +11,10 @@ import aboutme from '../../../assets/icons/about.svg'
 function About(props) {
     return (
         <div className='flex flex-col justify-top items-center md:w-auto'>
-            <div className='sectionheading md:sectionheading-md'>
+            <header className='sectionheading md:sectionheading-md'>
                 <img src={aboutme} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>About Me</h2>
-            </div>
+            </header>
             <div className='flex flex-col justify-between items-center overflow-y-auto overflow-x-hidden'>
                 <div className='flex flex-col-reverse md:flex-row justify-evenly items-center mt-20'>
                     <div className='flex flex-col justify-evenly items-center md:items-start h-full'>

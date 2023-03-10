@@ -86,7 +86,7 @@ function Nav({ view, setView }) {
   return (
     <>
       {/* Desktop Nav */}
-      <div className=' h-1/3 hidden md:flex flex-col justify-between w-full' >
+      <nav className=' h-1/3 hidden md:flex flex-col justify-between w-full' >
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("about") }}>
           <img className="nav-icon" src={aboutsvg} alt="about icon" />
           <p className='navlabel'>About Me</p>
@@ -107,9 +107,9 @@ function Nav({ view, setView }) {
           <img className="nav-icon w-8" src={moresvg} alt="star icon" />
           <p>More</p>
         </div> */}
-      </div>
+      </nav>
       {/* Mobile Nav */}
-      <div className="md:hidden mb-10">
+      <nav className="md:hidden mb-10">
         <Menu styles={styles} width={'100vw'} right isOpen={menuOpen} onStateChange={({ menuOpen }) => handleStateChange(menuOpen)}>
           <div className='h-1/2 flex flex-col justify-between w-full' >
             <div className="mobile-link" onClick={() => { handleMobileNav("about") }}>
@@ -144,7 +144,7 @@ function Nav({ view, setView }) {
             </ul>
           </div>
         </Menu>
-      </div>
+      </nav>
     </>
   )
 }

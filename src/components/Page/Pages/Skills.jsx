@@ -37,10 +37,10 @@ import figma from "../../../assets/skills/figma.svg"
 function Skills(props) {
     return (
         <div className='md:w-auto flex flex-col justify-top items-center'>
-            <div className='sectionheading md:sectionheading-md'>
+            <header className='sectionheading md:sectionheading-md'>
                 <img src={skills} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>Skills</h2>
-            </div>
+            </header>
             <div className='w-full h-full flex justify-evenly flex-wrap'>
                 <div className='skill-container'>
                     {/* Front End Skills */}

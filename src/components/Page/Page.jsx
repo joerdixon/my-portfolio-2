@@ -29,6 +29,10 @@ function Page(props) {
             return (
                 <More />
             )
+            default: 
+            return (
+                <About />
+            )
     }
 }
 

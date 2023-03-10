@@ -14,13 +14,13 @@ import gmsvg from '../../assets/icons/mail.svg'
 function Header(props) {
 
     return (
-        <div className='flex my-0 w-5/6 h-16 md:h-auto md:flex-col justify-between md:w-64 md:min-w-[16rem] md:header-border md:p-5 md:pt-10'>
+        <header className='flex my-0 w-5/6 h-16 md:h-auto md:flex-col justify-between md:w-64 md:min-w-[16rem] md:header-border md:p-5 md:pt-10'>
             {/* Nameplate*/}
-            <div className="flex justify-evenly items-center md:mb-10 md:w-full">
+            <section className="flex justify-evenly items-center md:mb-10 md:w-full">
                 {/* Add status ping to picture */}
                 <img className="rounded-full w-1/6 hidden md:block" src={headshot} alt="Joe Dixon" />
                 <h1 className='text-center text-xl font-display font-semibold tracking-wide ml-4'>Joe Dixon</h1>
-            </div>
+            </section>
             {/* Navbar */}
             <Navigation view={props.view} setView={props.setView}/>
             {/* Resume Download */}
@@ -35,7 +35,7 @@ function Header(props) {
                 {/* GitHub */}
                 <a className="transition-transform-colors hover:bg-gh-grey hover:-translate-y-1 duration-500 rounded-full" href="https://github.com/joerdixon" target='_blank' rel="noreferrer" name="Link to Joe's GitHub Profile"><img className="contactlink" src={ghsvg} alt="GitHub logo" /></a>
             </ul>
-        </div>
+        </header>
     )
 }
 

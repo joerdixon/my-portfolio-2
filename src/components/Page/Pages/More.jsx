@@ -13,10 +13,10 @@ function More() {
     return (
         <div className='flex flex-col justify-top items-center w-full'>
             {/* Page Heading */}
-            <div className='sectionheading md:sectionheading-md'>
+            <header className='sectionheading md:sectionheading-md'>
                 <img src={more} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>More</h2>
-            </div>
+            </header>
             <div className='w-full flex flex-col justify-evenly overflow-y-auto overflow-x-hidden md:pr-32 md:pl-32 md:pt-96 pl-12 pr-12'>
                 <div className='more-section md:more-section-l'>
                     {/* Heading */}

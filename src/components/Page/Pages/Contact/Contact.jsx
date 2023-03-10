@@ -11,10 +11,10 @@ function Contact() {
     return (
         <div className='md:w-full flex flex-col overflow-x-hidden'>
             {/* Section Heading */}
-            <div className='sectionheading md:sectionheading-md'>
+            <header className='sectionheading md:sectionheading-md'>
                 <img src={contact} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>Contact</h2>
-            </div>
+            </header>
             {/* Page Content */}
             <div className='flex flex-col items-center overflow-hidden'>
             <h1 className='text-center mt-12 sm:text-6xl text-5xl font-heading md:animate-slideXL'>Get in touch</h1>
