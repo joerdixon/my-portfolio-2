@@ -28,6 +28,8 @@ import jest from "../../../../assets/skills/jest.svg"
 import java from "../../../../assets/skills/java.svg"
 import gitbash from "../../../../assets/skills/git-bash.svg"
 import figma from "../../../../assets/skills/figma.svg"
+import d3 from "../../../../assets/skills/d3.svg"
+import leaflet from "../../../../assets/skills/leaflet.svg"
 
 // TODO: Add icons for stacks not yet caught in the switch statement.
 
@@ -80,6 +82,17 @@ function Stack({ stack }) {
                             stackIcon = bulma;
                             stackAlt = "Bulma"
                             break;
+                        case "d3":
+                            stackIcon = d3;
+                            stackAlt = "d3.js"
+                            break;
+                        case "Leaflet":
+                            stackIcon = leaflet;
+                            stackAlt = "Leaflet.js"
+                            break;
+                        default:
+                            stackIcon = skills;
+                            stackAlt = "Skills"
                     }
 
                     return (

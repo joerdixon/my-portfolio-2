@@ -16,14 +16,12 @@ import ghlogo from "../../../../assets/logos/github.svg"
 // TODO: Fix card responsivness.
 // TODO: Fix card sizing (card sizes vary based on the length of the description)
 
-
-
 // The projects array contains project objects which are then each mapped onto a component which is added to the page.
 const projects = [
     {
         title: "Gridlocke",
         img: gllogo,
-        stack: ["React", "Tailwind", "Express", "Socket.io", "SQL"],
+        stack: ["React", "Express", "Socket.io", "SQL"],
         desc: "A grid-based card game with lots of replayability and suprisingly deep strategy.",
         link: "https://gridlocke.net/",
         repolink: "https://github.com/neft-tk/fatal-forge",
@@ -39,7 +37,7 @@ const projects = [
     {
         title: "Trade Wizard",
         img: wizmoji,
-        stack: ["HTML", "CSS", "JavaScript", "Bulma"],
+        stack: ["HTML", "JavaScript", "Bulma"],
         desc: "A card trading application that allows users to search, add and remove cards to work out a deal.",
         link: "https://sullisters.github.io/Trade-Wizard/",
         repolink: "https://github.com/Sullisters/Trade-Wizard",
@@ -72,7 +70,7 @@ const projects = [
     {
         title: "Crime DV",
         img: loader,
-        stack: ["React", "D3", "Leaflet", "Tableau"],
+        stack: ["React", "d3", "Leaflet", "Tableau"],
         desc: "A Data Visualization project about rising crime in Seattle. Done at UW Datathon 2023",
         link: "https://elegant-alpaca-09fa58.netlify.app/",
         repolink: "https://github.com/joerdixon/datathon-presentation",
