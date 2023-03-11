@@ -30,6 +30,7 @@ import gitbash from "../../../../assets/skills/git-bash.svg"
 import figma from "../../../../assets/skills/figma.svg"
 import d3 from "../../../../assets/skills/d3.svg"
 import leaflet from "../../../../assets/skills/leaflet.svg"
+import tableau from "../../../../assets/skills/tableau.svg"
 
 // TODO: Add icons for stacks not yet caught in the switch statement.
 
@@ -89,6 +90,10 @@ function Stack({ stack }) {
                         case "Leaflet":
                             stackIcon = leaflet;
                             stackAlt = "Leaflet.js"
+                            break;
+                        case "Tableau":
+                            stackIcon = tableau;
+                            stackAlt = "Tableau"
                             break;
                         default:
                             stackIcon = skills;
