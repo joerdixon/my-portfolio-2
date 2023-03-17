@@ -31,6 +31,8 @@ module.exports = {
       },
       // Test these being a touch faster.
       animation: {
+        // TODO: Find better strategy for animations, seems like a lot of code for a few animations.
+        // TODO: Add more animations, specifically hovers
         // Right Side Slide-in
         'slideX': 'slideX .3s ease-out',
         'slideX2': 'slideX .5s ease-out',

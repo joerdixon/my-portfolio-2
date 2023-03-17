@@ -40,7 +40,7 @@ function Links() {
     // For each link, return a link card.
     const linkCards = links.map((link, index) => {
         // TODO: Revisit link card design   
-        // TODO: Figure out why links are not changing color on hover.
+        // TODO: Figure out why links are not changing border color on hover.
         return (
             <a className={`sm:w-[375px] w-[200px] border m-4 rounded hover:scale-[1.02] hover:border-[${link.color}] transition-all`} href={link.url} target='_blank' rel="noreferrer">
                 <div className='flex items-center justify-between p-4'>
