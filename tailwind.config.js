@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: {
       // Colors
+      // TODO: Standardize 3 colors, iterate themes from there.
+      // TODO: Cut one font
+      // TODO: Standardize border radius
       colors: {
         // Background
         'main-bg': '#111',
