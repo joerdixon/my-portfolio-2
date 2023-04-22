@@ -76,7 +76,8 @@ const projects = [
         repolink: "https://github.com/joerdixon/datathon-presentation",
     },
     {
-        title: "Coming Soon",
+        // TODO: Add a favicon for this project.
+        title: "Ryecon Chemical",
         img: loader,
         stack: [],
         desc: "Project Loading...",
