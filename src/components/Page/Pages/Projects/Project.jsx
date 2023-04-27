@@ -77,10 +77,11 @@ const projects = [
     },
     {
         // TODO: Add a favicon for this project.
+        // TODO: Add a catch for wordpress in the stack component.
         title: "Ryecon Chemical",
         img: loader,
-        stack: [],
-        desc: "Project Loading...",
+        stack: ["wordpress"],
+        desc: "Small business website for Ryecon Chemical, a chemical supply company.",
         link: "#",
         repolink: "",
     },
