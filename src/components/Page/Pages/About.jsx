@@ -41,7 +41,7 @@ function About(props) {
                     <br />
                     <br />
                     {/* Last Updated Section */}
-                    <p className='italic'>Last Updated: 1/31/2023</p>
+                    <p className='italic'>Last Updated: 5/21/2023</p>
                 </div>
             </div>
         </div>
