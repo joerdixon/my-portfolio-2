@@ -7,6 +7,7 @@ import mklogo from '../../../../assets/logos/mklogo.svg';
 import wizmoji from '../../../../assets/logos/wizardemoji.png'
 import gllogo from '../../../../assets/logos/gridlocke1.png'
 import ghlogo from "../../../../assets/logos/github.svg"
+import ryeconlogo from "../../../../assets/logos/ryeconlogo.png"
 
 // TODO: Add slide-in animation on scroll.
 // TODO: ! Add the following to the project cards: Dev Phase (Building, Scaling, Live).
@@ -79,8 +80,8 @@ const projects = [
         // TODO: Add a favicon for this project.
         // TODO: Add a catch for wordpress in the stack component.
         title: "Ryecon Chemical",
-        img: loader,
-        stack: ["Elementor"],
+        img: ryeconlogo,    
+        stack: ["Wordpress", "Elementor"],
         desc: "Small business website for Ryecon Chemical, a chemical supply company.",
         link: "https://ryeconchem.com",
         repolink: "",

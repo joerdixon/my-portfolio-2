@@ -19,6 +19,7 @@ import d3 from "../../../../assets/skills/d3.svg"
 import leaflet from "../../../../assets/skills/leaflet.svg"
 import tableau from "../../../../assets/skills/tableau.svg"
 import elementor from "../../../../assets/skills/elementor.svg"
+import wordpress from "../../../../assets/skills/wordpress.svg"
 
 // TODO: Add icons for stacks not yet caught in the switch statement.
 
@@ -86,6 +87,10 @@ function Stack({ stack }) {
                         case "Elementor":
                             stackIcon = elementor;
                             stackAlt = "Elementor"
+                            break;
+                        case "Wordpress":
+                            stackIcon = wordpress;
+                            stackAlt = "Wordpress"
                             break;
                         default:
                             stackIcon = skills;
