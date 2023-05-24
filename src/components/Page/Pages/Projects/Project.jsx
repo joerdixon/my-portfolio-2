@@ -80,9 +80,9 @@ const projects = [
         // TODO: Add a catch for wordpress in the stack component.
         title: "Ryecon Chemical",
         img: loader,
-        stack: ["wordpress"],
+        stack: ["Elementor"],
         desc: "Small business website for Ryecon Chemical, a chemical supply company.",
-        link: "#",
+        link: "https://ryeconchem.com",
         repolink: "",
     },
 ]

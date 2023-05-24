@@ -18,6 +18,7 @@ import socket from "../../../../assets/skills/socket.svg"
 import d3 from "../../../../assets/skills/d3.svg"
 import leaflet from "../../../../assets/skills/leaflet.svg"
 import tableau from "../../../../assets/skills/tableau.svg"
+import elementor from "../../../../assets/skills/elementor.svg"
 
 // TODO: Add icons for stacks not yet caught in the switch statement.
 
@@ -81,6 +82,10 @@ function Stack({ stack }) {
                         case "Tableau":
                             stackIcon = tableau;
                             stackAlt = "Tableau"
+                            break;
+                        case "Elementor":
+                            stackIcon = elementor;
+                            stackAlt = "Elementor"
                             break;
                         default:
                             stackIcon = skills;
