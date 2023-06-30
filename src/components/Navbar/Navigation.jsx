@@ -103,10 +103,10 @@ function Nav({ view, setView }) {
           <img className="nav-icon" src={contactsvg} alt="connect icon" />
           <p>Contact</p>
         </div>
-        {/* <div className="navlink hover:navhover" onClick={() => { handleMobileNav("more") }}>
+        <div className="navlink hover:navhover" onClick={() => { handleMobileNav("more") }}>
           <img className="nav-icon w-8" src={moresvg} alt="star icon" />
           <p>More</p>
-        </div> */}
+        </div>
       </nav>
       {/* Mobile Nav */}
       <nav className="md:hidden mb-10">
@@ -128,10 +128,10 @@ function Nav({ view, setView }) {
               <img src={contactsvg} alt="connect icon" />
               <p>Contact</p>
             </div>
-            {/* <div className="mobile-link" onClick={() => { handleMobileNav("more") }}>
+            <div className="mobile-link" onClick={() => { handleMobileNav("more") }}>
               <img className="w-8" src={moresvg} alt="star icon" />
               <p>More</p>
-            </div> */}
+            </div>
           </div>
           <div className="w-full">
             <ul className='mobile-social flex justify-evenly items-center h-1/3'>
