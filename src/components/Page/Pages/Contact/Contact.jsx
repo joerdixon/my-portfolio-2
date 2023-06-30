@@ -17,8 +17,8 @@ function Contact() {
             </header>
             {/* Page Content */}
             <div className='flex flex-col justify-evenly items-center overflow-hidden'>
-                <h1 className='text-center mt-12 mb-12 sm:text-6xl text-5xl font-heading md:animate-slideXL'>Get in touch</h1>
-                <div className='w-full xl:h-[400px] lg:flex justify-center sm:text-2xl text-xl overflow-x-hidden'>
+                <h1 className='text-center my-12 sm:text-6xl text-5xl font-heading md:animate-slideXL'>Get in touch</h1>
+                <div className='w-full lg:w-[1000px] xl:h-[400px] lg:flex justify-evenly sm:text-2xl text-xl overflow-x-hidden my-12'>
                     {/* Populates all of my contact links */}
                     <div className='md:animate-slideXL2 overflow-x-hidden'>
                         <Links />
