@@ -16,19 +16,19 @@ function Contact() {
                 <h2 className='md:animate-slideX2'>Contact</h2>
             </header>
             {/* Page Content */}
-            <div className='flex flex-col items-center overflow-hidden'>
-            <h1 className='text-center mt-12 sm:text-6xl text-5xl font-heading md:animate-slideXL'>Get in touch</h1>
-            <div className='w-full h-[800px] flex flex-col justify-evenly items-center sm:text-2xl text-xl overflow-x-hidden'>
-                {/* Populates all of my contact links */}
-                <div className='text-left flex flex-col justify-top md:animate-slideX2 overflow-x-hidden'>  
-                    <p className='m-4'>Email: <a className='' href='mailto:joseph35dixon@gmail.com' target='_blank' rel="noreferrer">joseph35dixon@gmail.com</a></p>
-                    <p className='m-4'>Discord: joerdixon#2022</p>
-                    <p className='m-4'>Location: Seattle, WA</p>
+            <div className='flex flex-col justify-evenly items-center overflow-hidden'>
+                <h1 className='text-center mt-12 mb-12 sm:text-6xl text-5xl font-heading md:animate-slideXL'>Get in touch</h1>
+                <div className='w-full xl:h-[400px] lg:flex justify-center sm:text-2xl text-xl overflow-x-hidden'>
+                    {/* Populates all of my contact links */}
+                    <div className='md:animate-slideXL2 overflow-x-hidden'>
+                        <Links />
+                    </div>
+                    <div className='lg:text-left text-center flex flex-col justify-evenly md:animate-slideX3 overflow-x-hidden'>
+                        <p className='m-4'>Email: <a className='' href='mailto:joseph35dixon@gmail.com' target='_blank' rel="noreferrer">joseph35dixon@gmail.com</a></p>
+                        <p className='m-4'>Discord: joerdixon#2022</p>
+                        <p className='m-4'>Location: Seattle, WA</p>
+                    </div>
                 </div>
-                <div className='md:animate-slideX3 overflow-x-hidden'>
-                    <Links />
-                </div>
-            </div>
             </div>
         </div>
     )

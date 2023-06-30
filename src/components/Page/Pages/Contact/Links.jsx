@@ -53,7 +53,7 @@ function Links() {
 
     // Return the list of link cards.
     return (
-        <div className='flex flex-col justify-center items-center overflow-x-hidden'>
+        <div className='flex flex-col h-full justify-center items-center overflow-x-hidden'>
             {linkCards}
         </div>
     );

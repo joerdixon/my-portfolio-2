@@ -14,6 +14,7 @@ import gmsvg from '../../assets/icons/mail.svg'
 import moresvg from '../../assets/icons/star.svg'
 
 // TODO: Better hover effects and active styles
+// TODO: Add active styles in navbar for page being viewed.
 
 // Burger Menu Styling
 var styles = {
