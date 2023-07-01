@@ -3,6 +3,7 @@ import Links from './Links'
 import contact from '../../../../assets/icons/contact.svg'
 
 // TODO: Add more links.
+// TODO: Fix section spacing on mobile.
 
 // The Contact section is the one-stop page for my personal presence on the internet. 
 // There are more obscure links here in addition to the ones in the footer.
