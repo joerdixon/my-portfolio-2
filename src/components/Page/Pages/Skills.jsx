@@ -31,6 +31,7 @@ import figma from "../../../assets/skills/figma.svg"
 // TODO: Fix Icon Sizing
 // TODO: Add hover effects that reveals tech name.
 // TODO: Carousels for skill groups that are scrollable and passively rotating.
+// TODO: Revamp the entire section to be more visually appealing.
 
 
 // The Skills section defines which technologies I am proficient in.
