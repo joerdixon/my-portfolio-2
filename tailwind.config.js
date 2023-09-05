@@ -14,7 +14,8 @@ module.exports = {
         // Text
         'main-text': '#eee',
         'alt-text': '#EAEAEA',
-        'highlight': '#FFAAA5',
+        // Pistachio Green Accent
+        'highlight': '#89cff0',
         // Logo Colors
         'li-blue': "#0A66C2",
         'gh-grey': "#444",

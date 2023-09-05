@@ -7,13 +7,13 @@
     /* Text */
     --main-text: #eee;
     --alt-text: #bbb;
-    --highlight: #FFAAA5;
+    --highlight: #aedb9f;
     --highlight-hover: #ffc2bf;
     /* Other */
     --border-color: #555;
     --main-type-color: #ddd;
     --secondary-type-color: #bbb;
-    --pop-type-color: #FFAAA5;
+    --pop-type-color: #aedb9f;
     /* Sizes */
     --p-size: .8rem;
     /* Fonts */
